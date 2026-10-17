@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-10-17",
+    "note": "Demo seed — simulated X discussion cards. Structure ready for real X API: replace items via agent scanner.",
+    "scanner": {
+      "status": "placeholder",
+      "plannedEndpoint": "POST /api/ingest/x-signals",
+      "fields": [
+        "id",
+        "handle",
+        "displayName",
+        "text",
+        "url",
+        "useCaseIds",
+        "toolIds",
+        "engagement",
+        "capturedAt"
+      ]
+    },
+    "site": "Agents Use Cases",
+    "baseUrl": "https://agentsusecases.ai",
+    "schemaVersion": "1.0.0",
+    "contentType": "application/json",
+    "license": "demo-seed",
+    "endpoint": "/api/x-signals.json",
+    "description": "X discussion signals (demo seed until scanner live)."
+  },
+  "signals": [
+    {
+      "id": "x-001",
+      "handle": "@vibecoder_jay",
+      "displayName": "Jay · ships weekly",
+      "text": "Switched research stack to Exa + Tavily for my agent. Perplexity stays for me-human browsing. Split is working.",
+      "url": "https://x.com/example/status/1",
+      "useCaseIds": [
+        "research"
+      ],
+      "toolIds": [
+        "exa",
+        "tavily",
+        "perplexity"
+      ],
+      "engagement": {
+        "likes": 842,
+        "reposts": 91
+      },
+      "capturedAt": "2026-10-16T08:20:00Z"
+    },
+    {
+      "id": "x-002",
+      "handle": "@agentops_mia",
+      "displayName": "Mia builds agents",
+      "text": "MCP finally clicked: one protocol, many tools. Composio for SaaS OAuth, Browserbase when I need real clicks.",
+      "url": "https://x.com/example/status/2",
+      "useCaseIds": [
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "modelcontextprotocol",
+        "composio",
+        "browserbase"
+      ],
+      "engagement": {
+        "likes": 1204,
+        "reposts": 156
+      },
+      "capturedAt": "2026-10-15T14:05:00Z"
+    },
+    {
+      "id": "x-003",
+      "handle": "@indie_pixel",
+      "displayName": "Pixel · game tools",
+      "text": "Cursor for the game tooling repo, Claude Code for overnight refactors. Windsurf when I want Cascade in the IDE.",
+      "url": "https://x.com/example/status/3",
+      "useCaseIds": [
+        "coding-editors",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "cursor",
+        "claude-code",
+        "windsurf"
+      ],
+      "engagement": {
+        "likes": 633,
+        "reposts": 48
+      },
+      "capturedAt": "2026-10-14T19:40:00Z"
+    },
+    {
+      "id": "x-004",
+      "handle": "@launch_clips",
+      "displayName": "Clips for builders",
+      "text": "Demo video pipeline: Kling for hero shot, Runway for edits, Sora when I need that OpenAI look. Costly but converts.",
+      "url": "https://x.com/example/status/4",
+      "useCaseIds": [
+        "ai-video"
+      ],
+      "toolIds": [
+        "kling",
+        "runway",
+        "sora"
+      ],
+      "engagement": {
+        "likes": 511,
+        "reposts": 72
+      },
+      "capturedAt": "2026-10-13T11:12:00Z"
+    },
+    {
+      "id": "x-005",
+      "handle": "@docs_not_drama",
+      "displayName": "Docs > Drama",
+      "text": "Typefully drafts my builder threads, Grammarly cleans the landing page, Notion AI keeps the docs wiki alive.",
+      "url": "https://x.com/example/status/5",
+      "useCaseIds": [
+        "ai-writing"
+      ],
+      "toolIds": [
+        "typefully",
+        "grammarly",
+        "notion-ai"
+      ],
+      "engagement": {
+        "likes": 298,
+        "reposts": 31
+      },
+      "capturedAt": "2026-10-12T07:55:00Z"
+    }
+  ]
+}

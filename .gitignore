@@ -1,0 +1,17 @@
+# Local preview screenshots
+preview-*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Env / secrets (none required for static v1, but keep habit)
+.env
+.env.*
+!.env.example
+
+# Vercel local
+.vercel

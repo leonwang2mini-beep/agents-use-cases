@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Use case · Agents Use Cases</title>
+  <meta name="description" id="meta-desc" content="Editorial AI tool rankings by use case, with a one-line why. Featured placements are paid and labeled separately." />
+  <link rel="canonical" id="canonical" href="https://agentsusecases.ai/use-case.html" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Agents Use Cases" />
+  <meta property="og:title" id="og-title" content="Use case · Agents Use Cases" />
+  <meta property="og:description" id="og-desc" content="Editorial AI tool rankings by use case, with a one-line why." />
+  <meta property="og:url" id="og-url" content="https://agentsusecases.ai/use-case.html" />
+  <meta property="og:image" content="https://agentsusecases.ai/favicon.svg" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/json" href="api/rankings.json" title="Rankings JSON" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/ld+json" id="jsonld-usecase">{}</script>
+</head>
+<body data-page="use-case" data-data-base="data">
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">A</span>
+        Agents Use Cases
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#use-cases">Use cases</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="btn btn-primary" href="submit.html">Feature your tool</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap" id="use-case-root">
+    <div class="page-hero">
+      <div class="breadcrumb"><a href="index.html">Home</a> / <a href="index.html#use-cases">Use cases</a> / <span id="uc-crumb">…</span></div>
+      <h1 id="uc-title">Loading…</h1>
+      <p id="uc-summary" class="uc-why-lead"></p>
+      <p id="uc-audience" style="margin-top:0.5rem;font-size:0.9rem"></p>
+      <p class="uc-why-box" id="uc-why-box">
+        <strong>How to use this page:</strong> Editorial ranks below are unpaid picks with a one-line why.
+        Featured blocks (if any) are paid and labeled — they do not change Top 1/2/3.
+      </p>
+    </div>
+
+    <section class="section" style="padding-top:0">
+      <div class="panel-label">
+        <span class="section-label">Sponsored</span>
+        <span class="badge badge-featured">Featured</span>
+      </div>
+      <p style="margin:0 0 0.85rem;color:var(--text-dim);font-size:0.85rem">
+        Paid placements below are separate from editorial rankings.
+      </p>
+      <div class="rank-list" id="uc-featured">
+        <p class="loading">Loading…</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="panel-label">
+        <span class="section-label">Editorial ranking</span>
+        <span class="badge badge-editorial">Not for sale</span>
+      </div>
+      <div class="rank-list" id="uc-editorial">
+        <p class="loading">Loading…</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Signals</div>
+          <h2>From X · this use case</h2>
+        </div>
+      </div>
+      <div class="grid-signals" id="uc-signals">
+        <p class="loading">Loading…</p>
+      </div>
+    </section>
+
+    <nav class="section uc-more" aria-label="More use cases">
+      <div class="section-label">More use cases</div>
+      <div class="uc-more-links" id="uc-more-links"></div>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>Agents Use Cases · <a href="about.html">About rankings</a> · <a href="llms.txt">llms.txt</a></div>
+      <div class="footer-agents" style="margin:0;padding:0;border:0">api/rankings.json</div>
+    </div>
+    <div class="wrap newsletter">
+      <div class="newsletter-copy">
+        <strong>Newsletter</strong>
+        <p>Resend wiring coming soon — form does not submit yet.</p>
+      </div>
+      <form class="newsletter-form" id="newsletter-form" novalidate>
+        <label class="sr-only" for="newsletter-email">Email</label>
+        <input type="email" id="newsletter-email" name="email" placeholder="you@company.com" required autocomplete="email" />
+        <button type="submit" class="btn btn-primary">Notify me</button>
+      </form>
+      <p class="newsletter-note" id="newsletter-note" role="status" hidden></p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-10-17",
+    "note": "Paid Featured / Sponsored placements. Demo placements closed for soft launch — set active:true when a real sponsor is live."
+  },
+  "placements": [
+    {
+      "id": "feat-home-1",
+      "toolId": "sponsor-demo-tool",
+      "useCaseId": null,
+      "slot": "homepage",
+      "label": "Featured",
+      "why": "DEMO (inactive): was seed sponsor for homepage.",
+      "active": false,
+      "starts": "2026-10-01",
+      "ends": "2026-11-01"
+    },
+    {
+      "id": "feat-mcp-1",
+      "toolId": "sponsor-demo-tool",
+      "useCaseId": "mcp-agent-tooling",
+      "slot": "use-case",
+      "label": "Sponsored",
+      "why": "DEMO (inactive): was seed sponsor for MCP page.",
+      "active": false,
+      "starts": "2026-10-01",
+      "ends": "2026-11-01"
+    },
+    {
+      "id": "feat-agents-1",
+      "toolId": "sponsor-demo-tool",
+      "useCaseId": "coding-agents",
+      "slot": "use-case",
+      "label": "Featured",
+      "why": "DEMO (inactive): was seed sponsor for coding agents page.",
+      "active": false,
+      "starts": "2026-10-01",
+      "ends": "2026-11-01"
+    }
+  ]
+}

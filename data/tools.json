@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-10-17",
+    "note": "Demo seed data — public well-known tools for first version"
+  },
+  "tools": [
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "tagline": "Answer engine with live web citations",
+      "url": "https://www.perplexity.ai",
+      "pricing": "Freemium",
+      "categories": [
+        "research"
+      ],
+      "useCases": [
+        "research"
+      ],
+      "added": "2025-11-02",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "exa",
+      "name": "Exa",
+      "tagline": "Neural search API built for AI agents",
+      "url": "https://exa.ai",
+      "pricing": "Freemium",
+      "categories": [
+        "research",
+        "agent-tooling"
+      ],
+      "useCases": [
+        "research",
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-01-14",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "tavily",
+      "name": "Tavily",
+      "tagline": "Search API purpose-built for LLM agents",
+      "url": "https://tavily.com",
+      "pricing": "Freemium",
+      "categories": [
+        "research",
+        "agent-tooling"
+      ],
+      "useCases": [
+        "research",
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-03-08",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "tagline": "AI-native code editor for builders",
+      "url": "https://cursor.com",
+      "pricing": "Freemium",
+      "categories": [
+        "coding-editors"
+      ],
+      "useCases": [
+        "coding-editors"
+      ],
+      "added": "2025-06-01",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "tagline": "Cascade agent inside a full IDE",
+      "url": "https://windsurf.com",
+      "pricing": "Freemium",
+      "categories": [
+        "coding-editors",
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-editors",
+        "coding-agents"
+      ],
+      "added": "2025-09-20",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "tagline": "Fast collaborative editor with AI assistant",
+      "url": "https://zed.dev",
+      "pricing": "Free",
+      "categories": [
+        "coding-editors"
+      ],
+      "useCases": [
+        "coding-editors"
+      ],
+      "added": "2026-02-11",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "tagline": "Anthropic's terminal coding agent",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "pricing": "Paid",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents"
+      ],
+      "added": "2026-02-28",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "devtools-aider",
+      "name": "Aider",
+      "tagline": "Pair programming in your terminal with any LLM",
+      "url": "https://aider.chat",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents"
+      ],
+      "added": "2025-08-15",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "tagline": "Autonomous software engineering agent",
+      "url": "https://devin.ai",
+      "pricing": "Paid",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents"
+      ],
+      "added": "2025-12-01",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "tagline": "Gen-3 / Gen-4 video generation for creators",
+      "url": "https://runwayml.com",
+      "pricing": "Freemium",
+      "categories": [
+        "ai-video"
+      ],
+      "useCases": [
+        "ai-video"
+      ],
+      "added": "2025-07-10",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "kling",
+      "name": "Kling AI",
+      "tagline": "Long-form cinematic video generation",
+      "url": "https://klingai.com",
+      "pricing": "Freemium",
+      "categories": [
+        "ai-video"
+      ],
+      "useCases": [
+        "ai-video"
+      ],
+      "added": "2026-01-05",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "tagline": "Fast text-to-video with Ray2 models",
+      "url": "https://lumalabs.ai/dream-machine",
+      "pricing": "Freemium",
+      "categories": [
+        "ai-video"
+      ],
+      "useCases": [
+        "ai-video"
+      ],
+      "added": "2025-10-22",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "modelcontextprotocol",
+      "name": "Model Context Protocol",
+      "tagline": "Open standard for connecting tools to agents",
+      "url": "https://modelcontextprotocol.io",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling"
+      ],
+      "added": "2025-11-25",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "composio",
+      "name": "Composio",
+      "tagline": "Managed tool integrations for agents",
+      "url": "https://composio.dev",
+      "pricing": "Freemium",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-04-02",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "browserbase",
+      "name": "Browserbase",
+      "tagline": "Headless browsers as a service for agents",
+      "url": "https://www.browserbase.com",
+      "pricing": "Freemium",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-05-18",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "tagline": "Writing and docs inside the builder workspace",
+      "url": "https://www.notion.so/product/ai",
+      "pricing": "Paid",
+      "categories": [
+        "ai-writing"
+      ],
+      "useCases": [
+        "ai-writing"
+      ],
+      "added": "2025-05-01",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "tagline": "Polish product copy and docs fast",
+      "url": "https://www.grammarly.com",
+      "pricing": "Freemium",
+      "categories": [
+        "ai-writing"
+      ],
+      "useCases": [
+        "ai-writing"
+      ],
+      "added": "2025-04-12",
+      "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "typefully",
+      "name": "Typefully",
+      "tagline": "Draft and ship threads for builder audiences",
+      "url": "https://typefully.com",
+      "pricing": "Freemium",
+      "categories": [
+        "ai-writing"
+      ],
+      "useCases": [
+        "ai-writing"
+      ],
+      "added": "2026-06-01",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "v0",
+      "name": "v0",
+      "tagline": "Generate UI from prompts, ship React fast",
+      "url": "https://v0.dev",
+      "pricing": "Freemium",
+      "categories": [
+        "coding-editors",
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-editors"
+      ],
+      "added": "2026-09-28",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "bolt-new",
+      "name": "Bolt.new",
+      "tagline": "Full-stack apps from a prompt in the browser",
+      "url": "https://bolt.new",
+      "pricing": "Freemium",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents"
+      ],
+      "added": "2026-10-05",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "replit-agent",
+      "name": "Replit Agent",
+      "tagline": "Cloud agent that builds and deploys apps",
+      "url": "https://replit.com",
+      "pricing": "Freemium",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents"
+      ],
+      "added": "2026-10-08",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "tagline": "OpenAI's text-to-video model",
+      "url": "https://openai.com/sora",
+      "pricing": "Paid",
+      "categories": [
+        "ai-video"
+      ],
+      "useCases": [
+        "ai-video"
+      ],
+      "added": "2026-10-10",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "parallel",
+      "name": "Parallel",
+      "tagline": "Web research agents for deep investigations",
+      "url": "https://parallel.ai",
+      "pricing": "Freemium",
+      "categories": [
+        "research"
+      ],
+      "useCases": [
+        "research"
+      ],
+      "added": "2026-10-12",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "sponsor-demo-tool",
+      "name": "[DEMO] AgentStack Pro",
+      "tagline": "Inactive demo seed — not a real product or live sponsor",
+      "url": "https://example.com/agentstack-pro",
+      "pricing": "Paid",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "added": "2026-10-01",
+      "isNew": false,
+      "source": "featured"
+    }
+  ]
+}

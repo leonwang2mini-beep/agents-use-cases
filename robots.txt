@@ -1,0 +1,9 @@
+# Agents Use Cases — https://agentsusecases.ai
+User-agent: *
+Allow: /
+
+# Prefer machine-readable JSON for agents / LLM crawlers
+Allow: /api/
+Allow: /llms.txt
+
+Sitemap: https://agentsusecases.ai/sitemap.xml

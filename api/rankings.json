@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-10-17",
+    "site": "Agents Use Cases",
+    "baseUrl": "https://agentsusecases.ai",
+    "schemaVersion": "1.0.0",
+    "contentType": "application/json",
+    "endpoint": "/api/rankings.json",
+    "description": "Resolved rankings: editorial[] and featured[] are always separate. Prefer this file for agents.",
+    "note": "Machine-readable rankings. Editorial and Featured are separate arrays. Demo featured placements are currently inactive.",
+    "pages": {
+      "home": "https://agentsusecases.ai/",
+      "useCasePattern": "https://agentsusecases.ai/use-case.html?id={useCaseId}",
+      "toolPattern": "https://agentsusecases.ai/tool.html?id={toolId}"
+    },
+    "homepageFeatured": []
+  },
+  "rankings": [
+    {
+      "useCaseId": "research",
+      "title": "Best research tools",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "perplexity",
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai",
+          "pricing": "Freemium",
+          "why": "Best default for fast, cited answers without leaving the browser.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "exa",
+          "name": "Exa",
+          "url": "https://exa.ai",
+          "pricing": "Freemium",
+          "why": "Neural search that returns pages agents can actually use.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "tavily",
+          "name": "Tavily",
+          "url": "https://tavily.com",
+          "pricing": "Freemium",
+          "why": "Drop-in search API when your agent needs structured results.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=research",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=research"
+    },
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "pricing": "Freemium",
+          "why": "Still the sweet spot for AI-native editing and multi-file changes.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "windsurf",
+          "name": "Windsurf",
+          "url": "https://windsurf.com",
+          "pricing": "Freemium",
+          "why": "Cascade agent feels like a teammate inside a full IDE.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "zed",
+          "name": "Zed",
+          "url": "https://zed.dev",
+          "pricing": "Free",
+          "why": "Blazing fast when you want AI without the bloat.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=coding-editors",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=coding-editors"
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "claude-code",
+          "name": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "pricing": "Paid",
+          "why": "Strongest terminal agent for real repos and long sessions.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "devtools-aider",
+          "name": "Aider",
+          "url": "https://aider.chat",
+          "pricing": "Free",
+          "why": "Open, model-agnostic, and great for git-aware pair coding.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "devin",
+          "name": "Devin",
+          "url": "https://devin.ai",
+          "pricing": "Paid",
+          "why": "Closest to autonomous end-to-end engineering — when budget allows.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=coding-agents",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=coding-agents"
+    },
+    {
+      "useCaseId": "ai-video",
+      "title": "Best AI video tools",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "runway",
+          "name": "Runway",
+          "url": "https://runwayml.com",
+          "pricing": "Freemium",
+          "why": "Most polished creator workflow from prompt to edit.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "kling",
+          "name": "Kling AI",
+          "url": "https://klingai.com",
+          "pricing": "Freemium",
+          "why": "Strong motion and longer clips for cinematic demos.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "luma-dream-machine",
+          "name": "Luma Dream Machine",
+          "url": "https://lumalabs.ai/dream-machine",
+          "pricing": "Freemium",
+          "why": "Fast iterations when you need volume over perfection.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=ai-video",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=ai-video"
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "modelcontextprotocol",
+          "name": "Model Context Protocol",
+          "url": "https://modelcontextprotocol.io",
+          "pricing": "Free",
+          "why": "The open standard — start here before picking vendors.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "composio",
+          "name": "Composio",
+          "url": "https://composio.dev",
+          "pricing": "Freemium",
+          "why": "Hundreds of managed integrations so you skip OAuth hell.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "browserbase",
+          "name": "Browserbase",
+          "url": "https://www.browserbase.com",
+          "pricing": "Freemium",
+          "why": "Reliable headless browsers when agents need to click the web.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=mcp-agent-tooling",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=mcp-agent-tooling"
+    },
+    {
+      "useCaseId": "ai-writing",
+      "title": "Best AI writing for builders",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "notion-ai",
+          "name": "Notion AI",
+          "url": "https://www.notion.so/product/ai",
+          "pricing": "Paid",
+          "why": "Best when your docs already live in Notion.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "typefully",
+          "name": "Typefully",
+          "url": "https://typefully.com",
+          "pricing": "Freemium",
+          "why": "Purpose-built for shipping builder threads on X.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "grammarly",
+          "name": "Grammarly",
+          "url": "https://www.grammarly.com",
+          "pricing": "Freemium",
+          "why": "Quick polish for READMEs, emails, and landing pages.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=ai-writing",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=ai-writing"
+    }
+  ],
+  "homepageFeatured": []
+}

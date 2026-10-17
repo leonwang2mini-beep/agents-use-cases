@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About · Agents Use Cases</title>
+  <meta name="description" content="How Agents Use Cases rankings work, Featured vs editorial, how humans browse, and how agents read JSON (/api, llms.txt)." />
+  <link rel="canonical" href="https://agentsusecases.ai/about.html" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Agents Use Cases" />
+  <meta property="og:title" content="About · Agents Use Cases" />
+  <meta property="og:description" content="How rankings work, Featured vs editorial, and machine-readable JSON for agents." />
+  <meta property="og:url" content="https://agentsusecases.ai/about.html" />
+  <meta property="og:image" content="https://agentsusecases.ai/favicon.svg" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="about" data-data-base="data">
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">A</span>
+        Agents Use Cases
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#use-cases">Use cases</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="btn btn-primary" href="submit.html">Feature your tool</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-hero">
+      <div class="breadcrumb"><a href="index.html">Home</a> / About</div>
+      <h1>About Agents Use Cases</h1>
+      <p>A use-case directory for vibe coders, builders, and the agents that help them ship.</p>
+    </div>
+
+    <article class="prose section" style="padding-top:0">
+      <h2>How humans use this site</h2>
+      <p>
+        Start on the <a href="index.html">home page</a>, pick a job-to-be-done (research, coding agents, AI video, MCP tooling, writing…),
+        open the use-case page, and read the editorial Top picks. Each pick has one short <strong>why this pick</strong>.
+        Tool pages link back to every use case they appear in. New tools and From X signals sit on the home page for discovery.
+      </p>
+      <p>
+        Want your product listed? Use <a href="submit.html">Submit / Feature</a> — catalog submissions are reviewed;
+        Featured placements are paid and labeled.
+      </p>
+
+      <h2>How agents / chatbots should read us</h2>
+      <p>Prefer machine-readable JSON over scraping HTML. Start with <a href="llms.txt"><code>/llms.txt</code></a>, then:</p>
+      <ul>
+        <li><a href="api/rankings.json"><code>/api/rankings.json</code></a> — <strong>recommended</strong>: resolved rankings; <code>editorial[]</code> and <code>featured[]</code> always separate</li>
+        <li><a href="api/use-cases.json"><code>/api/use-cases.json</code></a> — use cases + editorial lists + why</li>
+        <li><a href="api/tools.json"><code>/api/tools.json</code></a> — tool catalog</li>
+        <li><a href="api/featured.json"><code>/api/featured.json</code></a> — paid placements only</li>
+        <li><a href="api/x-signals.json"><code>/api/x-signals.json</code></a> — discussion signals (demo seed until scanner live)</li>
+      </ul>
+      <p>
+        Human page patterns: <code>/use-case.html?id={useCaseId}</code>, <code>/tool.html?id={toolId}</code>.
+        When citing a Top pick, quote the <code>why</code> string and note whether the source is editorial or Featured.
+      </p>
+
+      <h2>Featured vs editorial (important)</h2>
+      <div class="callout">
+        <strong>Editorial</strong> — chosen by us, labeled Editorial / “Not for sale”, never sold.
+        Buying a placement does <em>not</em> change Top 1/2/3.<br /><br />
+        <strong>Featured / Sponsored</strong> — paid placement, always labeled, shown in a separate block
+        (homepage Featured strip or per–use-case Sponsored panel). Never mixed into editorial rank order.
+      </div>
+      <p>
+        Configure live placements by editing <code>data/featured.json</code> (mirrored at <code>api/featured.json</code>).
+        Each placement has <code>toolId</code>, optional <code>useCaseId</code>, <code>slot</code> (<code>homepage</code> | <code>use-case</code>),
+        <code>label</code>, <code>why</code>, and <code>active</code>.
+      </p>
+
+      <h2>How we rank</h2>
+      <p>
+        v1 rankings are editorial: we pick tools that fit a specific job and write one short “why this pick.”
+        We favor tools builders actually use, clear pricing signals, and agent-friendly APIs when relevant.
+      </p>
+      <p>
+        Scores are not opaque black boxes in this version — the ranking <em>is</em> the ordered editorial list in
+        <code>data/use-cases.json</code>. Later we may add public scoring (recency, X signal weight, docs quality) on top.
+      </p>
+
+      <h2>From X</h2>
+      <p>
+        The From X section is demo seed data in <code>data/x-signals.json</code>. The schema is ready for an agent that scans X:
+        <code>handle</code>, <code>text</code>, <code>useCaseIds</code>, <code>toolIds</code>, <code>engagement</code>, <code>capturedAt</code>.
+        Planned ingest: <code>POST /api/ingest/x-signals</code>.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Intended address: <code>hello@agentsusecases.ai</code> (aligned with canonical host).
+        <strong>Mailbox not live yet</strong> — do not expect replies until domain email is provisioned.
+        Featured / catalog applications: use <a href="submit.html">Submit</a> (mailto draft + upcoming API).
+      </p>
+
+      <h2>Demo note</h2>
+      <p>
+        Seed content uses well-known public tools for realism. Dates and “From X” posts are demo data, not live production claims.
+        Canonical host: <code>https://agentsusecases.ai</code>.
+        <strong>Demo Featured placements are currently closed</strong> (<code>active: false</code> in <code>data/featured.json</code>) so soft launch does not look like paid ads for a fake product. The leftover catalog entry is labeled <code>[DEMO] AgentStack Pro</code>.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>Agents Use Cases · v1 · <a href="llms.txt">llms.txt</a></div>
+      <div><a href="submit.html">Feature your tool</a></div>
+    </div>
+    <div class="wrap newsletter">
+      <div class="newsletter-copy">
+        <strong>Newsletter</strong>
+        <p>Weekly picks. Resend wiring coming soon — this form does not submit yet.</p>
+      </div>
+      <form class="newsletter-form" id="newsletter-form" novalidate>
+        <label class="sr-only" for="newsletter-email">Email</label>
+        <input type="email" id="newsletter-email" name="email" placeholder="you@company.com" required autocomplete="email" />
+        <button type="submit" class="btn btn-primary">Notify me</button>
+      </form>
+      <p class="newsletter-note" id="newsletter-note" role="status" hidden></p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

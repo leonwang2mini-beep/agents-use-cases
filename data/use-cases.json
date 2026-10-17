@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-10-17",
+    "note": "Demo seed data"
+  },
+  "useCases": [
+    {
+      "id": "research",
+      "title": "Best research tools",
+      "slug": "research",
+      "icon": "🔍",
+      "summary": "Web search and deep research for builders and agents.",
+      "audience": "Builders researching markets, docs, and competitors — plus agents that need reliable search.",
+      "editorial": [
+        {
+          "toolId": "perplexity",
+          "rank": 1,
+          "why": "Best default for fast, cited answers without leaving the browser."
+        },
+        {
+          "toolId": "exa",
+          "rank": 2,
+          "why": "Neural search that returns pages agents can actually use."
+        },
+        {
+          "toolId": "tavily",
+          "rank": 3,
+          "why": "Drop-in search API when your agent needs structured results."
+        }
+      ]
+    },
+    {
+      "id": "coding-editors",
+      "title": "Best AI coding editors",
+      "slug": "coding-editors",
+      "icon": "⌨️",
+      "summary": "Editors where vibe coding actually ships.",
+      "audience": "Vibe coders and solo builders who live in the editor.",
+      "editorial": [
+        {
+          "toolId": "cursor",
+          "rank": 1,
+          "why": "Still the sweet spot for AI-native editing and multi-file changes."
+        },
+        {
+          "toolId": "windsurf",
+          "rank": 2,
+          "why": "Cascade agent feels like a teammate inside a full IDE."
+        },
+        {
+          "toolId": "zed",
+          "rank": 3,
+          "why": "Blazing fast when you want AI without the bloat."
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "title": "Best coding agents",
+      "slug": "coding-agents",
+      "icon": "🤖",
+      "summary": "Agents that write, test, and iterate on code for you.",
+      "audience": "Builders who want agents to take a ticket from prompt to PR.",
+      "editorial": [
+        {
+          "toolId": "claude-code",
+          "rank": 1,
+          "why": "Strongest terminal agent for real repos and long sessions."
+        },
+        {
+          "toolId": "devtools-aider",
+          "rank": 2,
+          "why": "Open, model-agnostic, and great for git-aware pair coding."
+        },
+        {
+          "toolId": "devin",
+          "rank": 3,
+          "why": "Closest to autonomous end-to-end engineering — when budget allows."
+        }
+      ]
+    },
+    {
+      "id": "ai-video",
+      "title": "Best AI video tools",
+      "slug": "ai-video",
+      "icon": "🎬",
+      "summary": "Text-to-video and editing tools for demos and content.",
+      "audience": "Builders shipping product demos, launch videos, and social clips.",
+      "editorial": [
+        {
+          "toolId": "runway",
+          "rank": 1,
+          "why": "Most polished creator workflow from prompt to edit."
+        },
+        {
+          "toolId": "kling",
+          "rank": 2,
+          "why": "Strong motion and longer clips for cinematic demos."
+        },
+        {
+          "toolId": "luma-dream-machine",
+          "rank": 3,
+          "why": "Fast iterations when you need volume over perfection."
+        }
+      ]
+    },
+    {
+      "id": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "slug": "mcp-agent-tooling",
+      "icon": "🔌",
+      "summary": "Connect agents to tools, browsers, and APIs.",
+      "audience": "Agent builders wiring real-world actions into their stack.",
+      "editorial": [
+        {
+          "toolId": "modelcontextprotocol",
+          "rank": 1,
+          "why": "The open standard — start here before picking vendors."
+        },
+        {
+          "toolId": "composio",
+          "rank": 2,
+          "why": "Hundreds of managed integrations so you skip OAuth hell."
+        },
+        {
+          "toolId": "browserbase",
+          "rank": 3,
+          "why": "Reliable headless browsers when agents need to click the web."
+        }
+      ]
+    },
+    {
+      "id": "ai-writing",
+      "title": "Best AI writing for builders",
+      "slug": "ai-writing",
+      "icon": "✍️",
+      "summary": "Writing tools that help ship docs, threads, and product copy.",
+      "audience": "Builders who need clear writing without a content team.",
+      "editorial": [
+        {
+          "toolId": "notion-ai",
+          "rank": 1,
+          "why": "Best when your docs already live in Notion."
+        },
+        {
+          "toolId": "typefully",
+          "rank": 2,
+          "why": "Purpose-built for shipping builder threads on X."
+        },
+        {
+          "toolId": "grammarly",
+          "rank": 3,
+          "why": "Quick polish for READMEs, emails, and landing pages."
+        }
+      ]
+    }
+  ]
+}

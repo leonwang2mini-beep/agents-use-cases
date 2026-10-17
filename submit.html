@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Submit / Feature · Agents Use Cases</title>
+  <meta name="description" content="Apply for a Featured placement or submit a new AI tool to Agents Use Cases." />
+  <link rel="canonical" href="https://agentsusecases.ai/submit.html" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Agents Use Cases" />
+  <meta property="og:title" content="Submit / Feature · Agents Use Cases" />
+  <meta property="og:description" content="Apply for a Featured placement or submit a new AI tool." />
+  <meta property="og:url" content="https://agentsusecases.ai/submit.html" />
+  <meta property="og:image" content="https://agentsusecases.ai/favicon.svg" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="submit" data-data-base="data">
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">A</span>
+        Agents Use Cases
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#use-cases">Use cases</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="btn btn-primary" href="submit.html">Feature your tool</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-hero">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Submit</div>
+      <h1>Feature or submit a tool</h1>
+      <p>
+        <strong style="color:var(--text)">Featured</strong> = paid placement, always labeled Sponsored/Featured.
+        Editorial rankings are not for sale. New tool submissions are reviewed for catalog fit.
+      </p>
+    </div>
+
+    <div class="form-card">
+      <div class="callout" style="margin-bottom:1.25rem">
+          <strong>Mailbox not live yet.</strong>
+          Target inbox: <code>hello@agentsusecases.ai</code> (matches our canonical domain).
+          Domain mailbox is not provisioned yet — mailto drafts may bounce until DNS/email is set up.
+          Until then, use this form to validate your pitch; we will wire <code>POST /api/submissions</code> next.
+      </div>
+      <form id="submit-form" novalidate>
+        <div class="form-group">
+          <label for="submit-type">What are you applying for?</label>
+          <select id="submit-type" name="submit-type" required>
+            <option value="">Select…</option>
+            <option value="featured">Featured / Sponsored placement (paid)</option>
+            <option value="new-tool">Submit a new tool (catalog review)</option>
+          </select>
+          <div class="form-error" id="err-submit-type"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="tool-name">Tool name</label>
+          <input type="text" id="tool-name" name="tool-name" required placeholder="e.g. Your Tool Name" />
+          <div class="form-error" id="err-tool-name"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="tool-url">Website URL</label>
+          <input type="url" id="tool-url" name="tool-url" required placeholder="https://" />
+          <div class="form-error" id="err-tool-url"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-email">Contact email</label>
+          <input type="email" id="contact-email" name="contact-email" required placeholder="you@company.com" />
+          <div class="form-error" id="err-contact-email"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="use-case-select">Primary use case</label>
+          <select id="use-case-select" name="use-case" required>
+            <option value="">Select…</option>
+          </select>
+          <div class="form-error" id="err-use-case-select"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="pitch">Pitch / why builders care</label>
+          <textarea id="pitch" name="pitch" required placeholder="One short paragraph. For Featured, say which slot you want (homepage or a use-case page)."></textarea>
+          <div class="form-error" id="err-pitch"></div>
+        </div>
+
+        <div class="form-group">
+          <label class="checkbox-row">
+            <input type="checkbox" id="agree" name="agree" />
+            <span>I understand Featured is a paid placement and will be labeled separately from editorial picks.</span>
+          </label>
+          <div class="form-error" id="err-agree"></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Validate &amp; open mail draft</button>
+        <div class="form-notice" id="submit-notice" role="status"></div>
+        <p class="hint" style="margin-top:1rem;color:var(--text-dim);font-size:0.8rem">
+          Domain email <code>hello@agentsusecases.ai</code> is the intended contact (mailbox not live yet). Coming soon: <code>POST /api/submissions</code>. This form does not fake a successful server submit.
+        </p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="about.html">Featured vs editorial</a> · Agents Use Cases · <a href="llms.txt">llms.txt</a>
+    </div>
+    <div class="wrap newsletter">
+      <div class="newsletter-copy">
+        <strong>Newsletter</strong>
+        <p>Resend wiring coming soon — form does not submit yet.</p>
+      </div>
+      <form class="newsletter-form" id="newsletter-form" novalidate>
+        <label class="sr-only" for="newsletter-email">Email</label>
+        <input type="email" id="newsletter-email" name="email" placeholder="you@company.com" required autocomplete="email" />
+        <button type="submit" class="btn btn-primary">Notify me</button>
+      </form>
+      <p class="newsletter-note" id="newsletter-note" role="status" hidden></p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

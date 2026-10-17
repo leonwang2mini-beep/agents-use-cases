@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agents Use Cases — AI tools ranked by use case</title>
+  <meta name="description" content="For vibe coders, builders, and their agents. AI tools ranked by use case — with a one-line why, new tools, and clearly labeled Featured placements." />
+  <link rel="canonical" href="https://agentsusecases.ai/" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Agents Use Cases" />
+  <meta property="og:title" content="Agents Use Cases — AI tools ranked by use case" />
+  <meta property="og:description" content="Editorial Top picks by job-to-be-done. Featured is paid and always labeled. Agents: read /api/rankings.json." />
+  <meta property="og:url" content="https://agentsusecases.ai/" />
+  <meta property="og:image" content="https://agentsusecases.ai/favicon.svg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Agents Use Cases — AI tools ranked by use case" />
+  <meta name="twitter:description" content="For vibe coders, builders, and their agents. Ranked by use case with a one-line why." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/json" href="api/rankings.json" title="Rankings JSON" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="application/ld+json" id="jsonld-home">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Agents Use Cases",
+    "url": "https://agentsusecases.ai/",
+    "description": "AI tools ranked by use case for vibe coders, builders, and their agents.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://agentsusecases.ai/use-case.html?id={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body data-page="home" data-data-base="data">
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">A</span>
+        Agents Use Cases
+      </a>
+      <ul class="nav-links">
+        <li><a href="#use-cases">Use cases</a></li>
+        <li><a href="#new">New</a></li>
+        <li><a href="#from-x">From X</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="btn btn-primary" href="submit.html">Feature your tool</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div class="hero-badge">For vibe coders · builders · agents</div>
+      <h1>AI tools ranked by <span>use case</span></h1>
+      <p class="hero-lead">
+        Stop guessing which tool fits. Each pick comes with one short “why this pick.”
+        Featured spots are paid and always labeled — never mixed into editorial rankings.
+        Built for humans and the agents that help them ship.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#use-cases">Browse use cases</a>
+        <a class="btn" href="api/rankings.json">Agents: read JSON ↗</a>
+        <a class="btn" href="llms.txt">llms.txt</a>
+      </div>
+    </section>
+
+    <section class="wrap section" id="use-cases">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Use cases</div>
+          <h2>What are you trying to do?</h2>
+          <p>Editorial Top picks per job — open a use case for the ranked list and one-line why on each tool.</p>
+        </div>
+      </div>
+      <div class="grid-use-cases" id="use-cases-grid">
+        <p class="loading">Loading use cases…</p>
+      </div>
+    </section>
+
+    <section class="wrap section" id="featured">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Monetization</div>
+          <h2>Featured <span class="badge badge-featured">Sponsored</span></h2>
+          <p>Paid placements. Always marked. Never sold as editorial rank.</p>
+        </div>
+        <a class="btn" href="submit.html">Apply</a>
+      </div>
+      <div class="grid-tools" id="featured-grid">
+        <p class="loading">Loading featured…</p>
+      </div>
+    </section>
+
+    <section class="wrap section" id="new">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Fresh</div>
+          <h2>New tools</h2>
+          <p>Recently added to the catalog (demo seed dates).</p>
+        </div>
+      </div>
+      <div class="grid-tools" id="new-tools-grid">
+        <p class="loading">Loading new tools…</p>
+      </div>
+    </section>
+
+    <section class="wrap section" id="from-x">
+      <div class="section-head">
+        <div>
+          <div class="section-label">Signals</div>
+          <h2>From X</h2>
+          <p>Demo discussion cards. Structure ready for a real X scanner agent.</p>
+        </div>
+      </div>
+      <div class="grid-signals" id="signals-grid">
+        <p class="loading">Loading signals…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <strong style="color:var(--text)">Agents Use Cases</strong><br />
+        Demo seed data · v1 static site
+      </div>
+      <div>
+        <a href="about.html">How rankings work</a> ·
+        <a href="submit.html">Submit / Feature</a> ·
+        <a href="api/use-cases.json">api/use-cases.json</a> ·
+        <a href="llms.txt">llms.txt</a>
+      </div>
+    </div>
+    <div class="wrap newsletter" id="newsletter">
+      <div class="newsletter-copy">
+        <strong>Newsletter</strong>
+        <p>Weekly use-case picks + new tools. Resend wiring coming soon — this form does not submit yet.</p>
+      </div>
+      <form class="newsletter-form" id="newsletter-form" novalidate>
+        <label class="sr-only" for="newsletter-email">Email</label>
+        <input type="email" id="newsletter-email" name="email" placeholder="you@company.com" required autocomplete="email" />
+        <button type="submit" class="btn btn-primary">Notify me</button>
+      </form>
+      <p class="newsletter-note" id="newsletter-note" role="status" hidden></p>
+    </div>
+    <div class="wrap footer-agents">
+      Agents: fetch /api/rankings.json · /api/use-cases.json · /api/tools.json · /api/featured.json · /api/x-signals.json · /llms.txt
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
