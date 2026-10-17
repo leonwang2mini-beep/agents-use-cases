@@ -2,23 +2,7 @@
   "meta": {
     "version": "1.0.0",
     "updated": "2026-10-17",
-    "note": "Demo seed data",
-    "site": "Agents Use Cases",
-    "baseUrl": "https://agentsusecases.ai",
-    "schemaVersion": "1.0.0",
-    "contentType": "application/json",
-    "license": "demo-seed",
-    "endpoint": "/api/use-cases.json",
-    "description": "Use cases with editorial ranked toolIds and why strings.",
-    "fields": {
-      "useCases[].id": "stable slug id",
-      "useCases[].title": "human title",
-      "useCases[].summary": "one-line description",
-      "useCases[].audience": "who this is for",
-      "useCases[].editorial[].toolId": "ref tools.json",
-      "useCases[].editorial[].rank": "1-based editorial rank",
-      "useCases[].editorial[].why": "one-line editorial reason"
-    }
+    "note": "Editorial use cases with one-line why per pick"
   },
   "useCases": [
     {
@@ -168,6 +152,206 @@
           "toolId": "grammarly",
           "rank": 3,
           "why": "Quick polish for READMEs, emails, and landing pages."
+        }
+      ]
+    },
+    {
+      "id": "code-review-agents",
+      "title": "Best agents for code review",
+      "slug": "code-review-agents",
+      "icon": "🔎",
+      "summary": "Catch bugs, style issues, and risky diffs before you merge.",
+      "audience": "Builders who want agents to review PRs like a careful teammate.",
+      "editorial": [
+        {
+          "toolId": "cursor",
+          "rank": 1,
+          "why": "Inline review in the editor where the diff already lives."
+        },
+        {
+          "toolId": "claude-code",
+          "rank": 2,
+          "why": "Strong on multi-file context and repo-aware critique."
+        },
+        {
+          "toolId": "claude",
+          "rank": 3,
+          "why": "Paste a diff or PR summary for careful, readable feedback."
+        }
+      ]
+    },
+    {
+      "id": "scrape-to-brief",
+      "title": "Best scrape-to-brief workflows",
+      "slug": "scrape-to-brief",
+      "icon": "📄",
+      "summary": "Pull pages into clean text, then turn them into a usable brief.",
+      "audience": "Builders and agents researching competitors, docs, and markets.",
+      "editorial": [
+        {
+          "toolId": "firecrawl",
+          "rank": 1,
+          "why": "Best default when you need agent-ready markdown from messy sites."
+        },
+        {
+          "toolId": "browserbase",
+          "rank": 2,
+          "why": "Use when the page needs a real browser before you can extract."
+        },
+        {
+          "toolId": "chatgpt",
+          "rank": 3,
+          "why": "Fast at turning scraped notes into a structured brief."
+        }
+      ]
+    },
+    {
+      "id": "meeting-notes-to-tasks",
+      "title": "Best meeting notes → tasks",
+      "slug": "meeting-notes-to-tasks",
+      "icon": "✅",
+      "summary": "Turn calls into action items without rewriting everything by hand.",
+      "audience": "Solo builders and small teams drowning in standups and customer calls.",
+      "editorial": [
+        {
+          "toolId": "fireflies",
+          "rank": 1,
+          "why": "Reliable transcripts plus action items straight from the call."
+        },
+        {
+          "toolId": "notion-ai",
+          "rank": 2,
+          "why": "Best when tasks should land next to the rest of your docs."
+        },
+        {
+          "toolId": "claude",
+          "rank": 3,
+          "why": "Great at cleaning messy notes into owners, due dates, and next steps."
+        }
+      ]
+    },
+    {
+      "id": "seo-draft",
+      "title": "Best AI SEO draft tools",
+      "slug": "seo-draft",
+      "icon": "📈",
+      "summary": "Draft landing pages and long-tail posts that still sound human.",
+      "audience": "Builders shipping content for organic discovery without a content team.",
+      "editorial": [
+        {
+          "toolId": "chatgpt",
+          "rank": 1,
+          "why": "Fast outlines and drafts when you already know the keyword intent."
+        },
+        {
+          "toolId": "claude",
+          "rank": 2,
+          "why": "Stronger long-form tone control and fewer generic SEO clichés."
+        },
+        {
+          "toolId": "perplexity",
+          "rank": 3,
+          "why": "Cite live sources while you map angles and competing pages."
+        }
+      ]
+    },
+    {
+      "id": "game-npc-prototyping",
+      "title": "Best tools for game NPC prototyping",
+      "slug": "game-npc-prototyping",
+      "icon": "🕹️",
+      "summary": "Prototype conversational NPCs and character brains before full production.",
+      "audience": "Indie game builders and vibe coders prototyping dialogue systems.",
+      "editorial": [
+        {
+          "toolId": "inworld",
+          "rank": 1,
+          "why": "Purpose-built character brains with personality and memory hooks."
+        },
+        {
+          "toolId": "chatgpt",
+          "rank": 2,
+          "why": "Quickest way to try dialogue loops before wiring a game engine."
+        },
+        {
+          "toolId": "claude",
+          "rank": 3,
+          "why": "Good for longer character bibles and consistent voice guides."
+        }
+      ]
+    },
+    {
+      "id": "discord-bot-ops",
+      "title": "Best Discord bot ops with agents",
+      "slug": "discord-bot-ops",
+      "icon": "💬",
+      "summary": "Build, wire, and operate Discord bots with agents and integrations.",
+      "audience": "Community builders and vibe coders running Discord as product infrastructure.",
+      "editorial": [
+        {
+          "toolId": "composio",
+          "rank": 1,
+          "why": "Skip OAuth glue — connect Discord actions into your agent stack."
+        },
+        {
+          "toolId": "cursor",
+          "rank": 2,
+          "why": "Best place to ship bot code and iterate on handlers fast."
+        },
+        {
+          "toolId": "claude-code",
+          "rank": 3,
+          "why": "Handy for longer bot refactors and test passes in the terminal."
+        }
+      ]
+    },
+    {
+      "id": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "slug": "pr-changelog",
+      "icon": "📝",
+      "summary": "Turn merged PRs into release notes humans actually want to read.",
+      "audience": "Builders who ship often and hate writing changelogs from scratch.",
+      "editorial": [
+        {
+          "toolId": "claude-code",
+          "rank": 1,
+          "why": "Reads the repo and git history, then drafts release-ready notes."
+        },
+        {
+          "toolId": "cursor",
+          "rank": 2,
+          "why": "Great for editing changelog drafts beside the actual PR diff."
+        },
+        {
+          "toolId": "chatgpt",
+          "rank": 3,
+          "why": "Paste commit messages and get a clean user-facing summary fast."
+        }
+      ]
+    },
+    {
+      "id": "browser-qa",
+      "title": "Best browser QA for agents",
+      "slug": "browser-qa",
+      "icon": "🧪",
+      "summary": "Automate click-paths and catch UI regressions before users do.",
+      "audience": "Builders who want agents to smoke-test flows in a real browser.",
+      "editorial": [
+        {
+          "toolId": "playwright",
+          "rank": 1,
+          "why": "Industry default for stable e2e tests agents can generate and run."
+        },
+        {
+          "toolId": "browserbase",
+          "rank": 2,
+          "why": "Hosted browsers when your agent needs cloud sessions, not local Chrome."
+        },
+        {
+          "toolId": "cursor",
+          "rank": 3,
+          "why": "Write and fix Playwright specs in the same place you ship the app."
         }
       ]
     }

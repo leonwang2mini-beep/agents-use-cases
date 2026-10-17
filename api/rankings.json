@@ -232,6 +232,294 @@
       "featured": [],
       "page": "/use-case.html?id=ai-writing",
       "canonicalHint": "https://agentsusecases.ai/use-case.html?id=ai-writing"
+    },
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "pricing": "Freemium",
+          "why": "Inline review in the editor where the diff already lives.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "claude-code",
+          "name": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "pricing": "Paid",
+          "why": "Strong on multi-file context and repo-aware critique.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "claude",
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "pricing": "Freemium",
+          "why": "Paste a diff or PR summary for careful, readable feedback.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=code-review-agents",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=code-review-agents"
+    },
+    {
+      "useCaseId": "scrape-to-brief",
+      "title": "Best scrape-to-brief workflows",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "firecrawl",
+          "name": "Firecrawl",
+          "url": "https://www.firecrawl.dev",
+          "pricing": "Freemium",
+          "why": "Best default when you need agent-ready markdown from messy sites.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "browserbase",
+          "name": "Browserbase",
+          "url": "https://www.browserbase.com",
+          "pricing": "Freemium",
+          "why": "Use when the page needs a real browser before you can extract.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "chatgpt",
+          "name": "ChatGPT",
+          "url": "https://chatgpt.com",
+          "pricing": "Freemium",
+          "why": "Fast at turning scraped notes into a structured brief.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=scrape-to-brief",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=scrape-to-brief"
+    },
+    {
+      "useCaseId": "meeting-notes-to-tasks",
+      "title": "Best meeting notes → tasks",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "fireflies",
+          "name": "Fireflies.ai",
+          "url": "https://fireflies.ai",
+          "pricing": "Freemium",
+          "why": "Reliable transcripts plus action items straight from the call.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "notion-ai",
+          "name": "Notion AI",
+          "url": "https://www.notion.so/product/ai",
+          "pricing": "Paid",
+          "why": "Best when tasks should land next to the rest of your docs.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "claude",
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "pricing": "Freemium",
+          "why": "Great at cleaning messy notes into owners, due dates, and next steps.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=meeting-notes-to-tasks",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=meeting-notes-to-tasks"
+    },
+    {
+      "useCaseId": "seo-draft",
+      "title": "Best AI SEO draft tools",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "chatgpt",
+          "name": "ChatGPT",
+          "url": "https://chatgpt.com",
+          "pricing": "Freemium",
+          "why": "Fast outlines and drafts when you already know the keyword intent.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "claude",
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "pricing": "Freemium",
+          "why": "Stronger long-form tone control and fewer generic SEO clichés.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "perplexity",
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai",
+          "pricing": "Freemium",
+          "why": "Cite live sources while you map angles and competing pages.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=seo-draft",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=seo-draft"
+    },
+    {
+      "useCaseId": "game-npc-prototyping",
+      "title": "Best tools for game NPC prototyping",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "inworld",
+          "name": "Inworld",
+          "url": "https://www.inworld.ai",
+          "pricing": "Freemium",
+          "why": "Purpose-built character brains with personality and memory hooks.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "chatgpt",
+          "name": "ChatGPT",
+          "url": "https://chatgpt.com",
+          "pricing": "Freemium",
+          "why": "Quickest way to try dialogue loops before wiring a game engine.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "claude",
+          "name": "Claude",
+          "url": "https://claude.ai",
+          "pricing": "Freemium",
+          "why": "Good for longer character bibles and consistent voice guides.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=game-npc-prototyping",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=game-npc-prototyping"
+    },
+    {
+      "useCaseId": "discord-bot-ops",
+      "title": "Best Discord bot ops with agents",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "composio",
+          "name": "Composio",
+          "url": "https://composio.dev",
+          "pricing": "Freemium",
+          "why": "Skip OAuth glue — connect Discord actions into your agent stack.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "pricing": "Freemium",
+          "why": "Best place to ship bot code and iterate on handlers fast.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "claude-code",
+          "name": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "pricing": "Paid",
+          "why": "Handy for longer bot refactors and test passes in the terminal.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=discord-bot-ops",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=discord-bot-ops"
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "claude-code",
+          "name": "Claude Code",
+          "url": "https://docs.anthropic.com/en/docs/claude-code",
+          "pricing": "Paid",
+          "why": "Reads the repo and git history, then drafts release-ready notes.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "pricing": "Freemium",
+          "why": "Great for editing changelog drafts beside the actual PR diff.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "chatgpt",
+          "name": "ChatGPT",
+          "url": "https://chatgpt.com",
+          "pricing": "Freemium",
+          "why": "Paste commit messages and get a clean user-facing summary fast.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=pr-changelog",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=pr-changelog"
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "editorial": [
+        {
+          "rank": 1,
+          "toolId": "playwright",
+          "name": "Playwright",
+          "url": "https://playwright.dev",
+          "pricing": "Free",
+          "why": "Industry default for stable e2e tests agents can generate and run.",
+          "source": "editorial"
+        },
+        {
+          "rank": 2,
+          "toolId": "browserbase",
+          "name": "Browserbase",
+          "url": "https://www.browserbase.com",
+          "pricing": "Freemium",
+          "why": "Hosted browsers when your agent needs cloud sessions, not local Chrome.",
+          "source": "editorial"
+        },
+        {
+          "rank": 3,
+          "toolId": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "pricing": "Freemium",
+          "why": "Write and fix Playwright specs in the same place you ship the app.",
+          "source": "editorial"
+        }
+      ],
+      "featured": [],
+      "page": "/use-case.html?id=browser-qa",
+      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=browser-qa"
     }
   ],
   "homepageFeatured": []

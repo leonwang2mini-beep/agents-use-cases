@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0.0",
     "updated": "2026-10-17",
-    "note": "Demo seed data — public well-known tools for first version"
+    "note": "Seed catalog — public well-known tools; expand carefully"
   },
   "tools": [
     {
@@ -15,7 +15,8 @@
         "research"
       ],
       "useCases": [
-        "research"
+        "research",
+        "seo-draft"
       ],
       "added": "2025-11-02",
       "isNew": false,
@@ -67,7 +68,11 @@
         "coding-editors"
       ],
       "useCases": [
-        "coding-editors"
+        "coding-editors",
+        "code-review-agents",
+        "discord-bot-ops",
+        "pr-changelog",
+        "browser-qa"
       ],
       "added": "2025-06-01",
       "isNew": false,
@@ -117,7 +122,10 @@
         "coding-agents"
       ],
       "useCases": [
-        "coding-agents"
+        "coding-agents",
+        "code-review-agents",
+        "discord-bot-ops",
+        "pr-changelog"
       ],
       "added": "2026-02-28",
       "isNew": false,
@@ -229,7 +237,8 @@
         "mcp-agent-tooling"
       ],
       "useCases": [
-        "mcp-agent-tooling"
+        "mcp-agent-tooling",
+        "discord-bot-ops"
       ],
       "added": "2026-04-02",
       "isNew": false,
@@ -245,7 +254,9 @@
         "mcp-agent-tooling"
       ],
       "useCases": [
-        "mcp-agent-tooling"
+        "mcp-agent-tooling",
+        "scrape-to-brief",
+        "browser-qa"
       ],
       "added": "2026-05-18",
       "isNew": false,
@@ -261,7 +272,8 @@
         "ai-writing"
       ],
       "useCases": [
-        "ai-writing"
+        "ai-writing",
+        "meeting-notes-to-tasks"
       ],
       "added": "2025-05-01",
       "isNew": false,
@@ -396,6 +408,119 @@
       "added": "2026-10-01",
       "isNew": false,
       "source": "featured"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "tagline": "OpenAI chat for drafts, briefs, and everyday agent workflows",
+      "url": "https://chatgpt.com",
+      "pricing": "Freemium",
+      "categories": [
+        "ai-writing",
+        "research"
+      ],
+      "useCases": [
+        "seo-draft",
+        "scrape-to-brief",
+        "meeting-notes-to-tasks",
+        "pr-changelog",
+        "ai-writing",
+        "game-npc-prototyping"
+      ],
+      "added": "2026-10-17",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "tagline": "Anthropic chat for long docs, careful edits, and code review",
+      "url": "https://claude.ai",
+      "pricing": "Freemium",
+      "categories": [
+        "ai-writing",
+        "coding-agents"
+      ],
+      "useCases": [
+        "code-review-agents",
+        "seo-draft",
+        "pr-changelog",
+        "meeting-notes-to-tasks",
+        "ai-writing",
+        "game-npc-prototyping"
+      ],
+      "added": "2026-10-17",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "tagline": "Turn websites into clean markdown for agents",
+      "url": "https://www.firecrawl.dev",
+      "pricing": "Freemium",
+      "categories": [
+        "research",
+        "agent-tooling"
+      ],
+      "useCases": [
+        "scrape-to-brief",
+        "research",
+        "seo-draft"
+      ],
+      "added": "2026-10-17",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies.ai",
+      "tagline": "Meeting transcripts and action items for builder teams",
+      "url": "https://fireflies.ai",
+      "pricing": "Freemium",
+      "categories": [
+        "productivity"
+      ],
+      "useCases": [
+        "meeting-notes-to-tasks"
+      ],
+      "added": "2026-10-17",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "tagline": "Reliable browser automation and end-to-end tests",
+      "url": "https://playwright.dev",
+      "pricing": "Free",
+      "categories": [
+        "agent-tooling",
+        "qa"
+      ],
+      "useCases": [
+        "browser-qa",
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-10-17",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "inworld",
+      "name": "Inworld",
+      "tagline": "AI characters and NPC brains for games and prototypes",
+      "url": "https://www.inworld.ai",
+      "pricing": "Freemium",
+      "categories": [
+        "games"
+      ],
+      "useCases": [
+        "game-npc-prototyping"
+      ],
+      "added": "2026-10-17",
+      "isNew": true,
+      "source": "editorial"
     }
   ]
 }

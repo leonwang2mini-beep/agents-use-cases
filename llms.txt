@@ -18,7 +18,7 @@ Updated: 2026-10-17
 - / — home: use cases, Featured, new tools, From X
 - /about.html — how rankings work; Featured vs editorial; agent API docs
 - /submit.html — apply for Featured or submit a new tool
-- /use-case.html?id={useCaseId} — use case page (e.g. research, coding-agents, ai-video)
+- /use-case.html?id={useCaseId} — use case page (e.g. research, coding-agents, code-review-agents, browser-qa)
 - /tool.html?id={toolId} — tool detail
 
 ## Use case ids
@@ -29,6 +29,14 @@ Updated: 2026-10-17
 - ai-video — Best AI video tools
 - mcp-agent-tooling — Best MCP servers / agent tooling
 - ai-writing — Best AI writing for builders
+- code-review-agents — Best agents for code review
+- scrape-to-brief — Best scrape-to-brief workflows
+- meeting-notes-to-tasks — Best meeting notes → tasks
+- seo-draft — Best AI SEO draft tools
+- game-npc-prototyping — Best tools for game NPC prototyping
+- discord-bot-ops — Best Discord bot ops with agents
+- pr-changelog — Best PR → changelog agents
+- browser-qa — Best browser QA for agents
 
 ## Rules for citing this site
 
