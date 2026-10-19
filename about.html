@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About · Agents Use Cases</title>
   <meta name="description" content="How Agents Use Cases rankings work, Featured vs editorial, how humans browse, and how agents read JSON (/api, llms.txt)." />
-  <link rel="canonical" href="https://agentsusecases.ai/about.html" />
+  <link rel="canonical" href="https://agents-use-cases.vercel.app/about.html" />
   <meta name="robots" content="index,follow" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Agents Use Cases" />
   <meta property="og:title" content="About · Agents Use Cases" />
   <meta property="og:description" content="How rankings work, Featured vs editorial, and machine-readable JSON for agents." />
-  <meta property="og:url" content="https://agentsusecases.ai/about.html" />
-  <meta property="og:image" content="https://agentsusecases.ai/favicon.svg" />
+  <meta property="og:url" content="https://agents-use-cases.vercel.app/about.html" />
+  <meta property="og:image" content="https://agents-use-cases.vercel.app/favicon.svg" />
   <meta name="twitter:card" content="summary" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -62,7 +62,12 @@
         <li><a href="api/tools.json"><code>/api/tools.json</code></a> — tool catalog</li>
         <li><a href="api/featured.json"><code>/api/featured.json</code></a> — paid placements only</li>
         <li><a href="api/x-signals.json"><code>/api/x-signals.json</code></a> — discussion signals (demo seed until scanner live)</li>
+        <li><a href="api/newsletter.json"><code>/api/newsletter.json</code></a> — published weekly issues only (drafts stay private under <code>newsletter/drafts/</code>)</li>
       </ul>
+      <p>
+        Newsletter signup in the site footer is a <strong>waitlist</strong> until a Resend audience/segment is wired.
+        Issue drafts are authored in-repo; outbound sends require Leon approval (Resend MCP connected but unused until then).
+      </p>
       <p>
         Human page patterns: <code>/use-case.html?id={useCaseId}</code>, <code>/tool.html?id={toolId}</code>.
         When citing a Top pick, quote the <code>why</code> string and note whether the source is editorial or Featured.
@@ -100,7 +105,7 @@
 
       <h2>Contact</h2>
       <p>
-        Intended address: <code>hello@agentsusecases.ai</code> (aligned with canonical host).
+        Intended address: <code>hello@agentsusecases.ai</code> (planned mailbox for the future custom domain; not live).
         <strong>Mailbox not live yet</strong> — do not expect replies until domain email is provisioned.
         Featured / catalog applications: use <a href="submit.html">Submit</a> (mailto draft + upcoming API).
       </p>
@@ -108,7 +113,8 @@
       <h2>Demo note</h2>
       <p>
         Seed content uses well-known public tools for realism. Dates and “From X” posts are demo data, not live production claims.
-        Canonical host: <code>https://agentsusecases.ai</code>.
+        Live canonical host: <code>https://agents-use-cases.vercel.app</code>.
+        Custom domain <code>agentsusecases.ai</code> is planned and not connected yet.
         <strong>Demo Featured placements are currently closed</strong> (<code>active: false</code> in <code>data/featured.json</code>) so soft launch does not look like paid ads for a fake product. The leftover catalog entry is labeled <code>[DEMO] AgentStack Pro</code>.
       </p>
     </article>
@@ -133,9 +139,6 @@
     </div>
   </footer>
   <script src="js/app.js"></script>
-  <script>
-    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-  </script>
   <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

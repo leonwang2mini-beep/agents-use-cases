@@ -22,9 +22,9 @@ Do not open `index.html` via `file://` — fetch() needs HTTP.
 | `favicon.svg` | Site icon |
 | `api/*.json` | Stable agent JSON (prefer `/api/rankings.json`) |
 
-Canonical host: `https://agentsusecases.ai`
+Canonical host: `https://agents-use-cases.vercel.app`
 
-**Deploy:** replace domain in canonical/OG/sitemap/llms/`api` meta if using `*.vercel.app` until DNS is ready.
+**Deploy:** live canonicals use `https://agents-use-cases.vercel.app` until custom domain `agentsusecases.ai` DNS is connected.
 
 ## Data
 

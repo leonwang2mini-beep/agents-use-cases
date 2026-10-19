@@ -1,18 +1,18 @@
 {
   "meta": {
-    "version": "1.0.0",
-    "updated": "2026-10-17",
+    "version": "1.0.1",
+    "updated": "2026-10-19",
     "site": "Agents Use Cases",
-    "baseUrl": "https://agentsusecases.ai",
+    "baseUrl": "https://agents-use-cases.vercel.app",
     "schemaVersion": "1.0.0",
     "contentType": "application/json",
     "endpoint": "/api/rankings.json",
     "description": "Resolved rankings: editorial[] and featured[] are always separate. Prefer this file for agents.",
     "note": "Machine-readable rankings. Editorial and Featured are separate arrays. Demo featured placements are currently inactive.",
     "pages": {
-      "home": "https://agentsusecases.ai/",
-      "useCasePattern": "https://agentsusecases.ai/use-case.html?id={useCaseId}",
-      "toolPattern": "https://agentsusecases.ai/tool.html?id={toolId}"
+      "home": "https://agents-use-cases.vercel.app/",
+      "useCasePattern": "https://agents-use-cases.vercel.app/use-case.html?id={useCaseId}",
+      "toolPattern": "https://agents-use-cases.vercel.app/tool.html?id={toolId}"
     },
     "homepageFeatured": []
   },
@@ -51,7 +51,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=research",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=research"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=research"
     },
     {
       "useCaseId": "coding-editors",
@@ -87,7 +87,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=coding-editors",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=coding-editors"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=coding-editors"
     },
     {
       "useCaseId": "coding-agents",
@@ -104,26 +104,26 @@
         },
         {
           "rank": 2,
-          "toolId": "devtools-aider",
-          "name": "Aider",
-          "url": "https://aider.chat",
-          "pricing": "Free",
-          "why": "Open, model-agnostic, and great for git-aware pair coding.",
+          "toolId": "openai-codex",
+          "name": "OpenAI Codex",
+          "url": "https://developers.openai.com/codex/",
+          "pricing": "Freemium",
+          "why": "Best ChatGPT-plan coding agent — CLI, IDE, review, and cloud tasks in one harness.",
           "source": "editorial"
         },
         {
           "rank": 3,
-          "toolId": "devin",
-          "name": "Devin",
-          "url": "https://devin.ai",
-          "pricing": "Paid",
-          "why": "Closest to autonomous end-to-end engineering — when budget allows.",
+          "toolId": "opencode",
+          "name": "OpenCode",
+          "url": "https://opencode.ai",
+          "pricing": "Free",
+          "why": "Open-source agent with a serious 2.0 server/plugin rewrite and multi-surface apps.",
           "source": "editorial"
         }
       ],
       "featured": [],
       "page": "/use-case.html?id=coding-agents",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=coding-agents"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=coding-agents"
     },
     {
       "useCaseId": "ai-video",
@@ -159,7 +159,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=ai-video",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=ai-video"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=ai-video"
     },
     {
       "useCaseId": "mcp-agent-tooling",
@@ -195,7 +195,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=mcp-agent-tooling",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=mcp-agent-tooling"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=mcp-agent-tooling"
     },
     {
       "useCaseId": "ai-writing",
@@ -231,7 +231,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=ai-writing",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=ai-writing"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=ai-writing"
     },
     {
       "useCaseId": "code-review-agents",
@@ -267,7 +267,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=code-review-agents",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=code-review-agents"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=code-review-agents"
     },
     {
       "useCaseId": "scrape-to-brief",
@@ -303,7 +303,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=scrape-to-brief",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=scrape-to-brief"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=scrape-to-brief"
     },
     {
       "useCaseId": "meeting-notes-to-tasks",
@@ -339,7 +339,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=meeting-notes-to-tasks",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=meeting-notes-to-tasks"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=meeting-notes-to-tasks"
     },
     {
       "useCaseId": "seo-draft",
@@ -375,7 +375,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=seo-draft",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=seo-draft"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=seo-draft"
     },
     {
       "useCaseId": "game-npc-prototyping",
@@ -411,7 +411,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=game-npc-prototyping",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=game-npc-prototyping"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=game-npc-prototyping"
     },
     {
       "useCaseId": "discord-bot-ops",
@@ -447,7 +447,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=discord-bot-ops",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=discord-bot-ops"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=discord-bot-ops"
     },
     {
       "useCaseId": "pr-changelog",
@@ -483,7 +483,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=pr-changelog",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=pr-changelog"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=pr-changelog"
     },
     {
       "useCaseId": "browser-qa",
@@ -519,7 +519,7 @@
       ],
       "featured": [],
       "page": "/use-case.html?id=browser-qa",
-      "canonicalHint": "https://agentsusecases.ai/use-case.html?id=browser-qa"
+      "canonicalHint": "https://agents-use-cases.vercel.app/use-case.html?id=browser-qa"
     }
   ],
   "homepageFeatured": []

@@ -185,7 +185,7 @@
   }
 
 
-  const SITE_ORIGIN = "https://agentsusecases.ai";
+  const SITE_ORIGIN = "https://agents-use-cases.vercel.app";
 
   function setMeta(nameOrProp, content, isProp) {
     if (!content) return;

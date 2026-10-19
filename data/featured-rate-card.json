@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-10-19",
+    "status": "PROPOSAL",
+    "live": false,
+    "currency": "USD",
+    "billing": "monthly",
+    "note": "PROPOSAL / not live. Do not quote externally until Leon approves. Demo placements in data/featured.json stay active:false. Editorial Top picks are never for sale."
+  },
+  "terms": {
+    "labelRequired": true,
+    "labelCopy": "Featured or Sponsored — always separate from editorial rank",
+    "editorialNotForSale": true,
+    "minTermDays": 30,
+    "approval": "Leon must approve rate card and any external quote before use"
+  },
+  "slots": [
+    {
+      "id": "homepage",
+      "slot": "homepage",
+      "name": "Homepage Featured strip",
+      "proposedMonthlyUsd": 499,
+      "includes": ["One tool card in homepage Featured strip", "Paid placement badge", "why blurb up to 120 chars"],
+      "limits": { "maxConcurrent": 3 }
+    },
+    {
+      "id": "use-case",
+      "slot": "use-case",
+      "name": "Use-case Sponsored panel",
+      "proposedMonthlyUsd": 299,
+      "includes": ["One Sponsored card on a single use-case page", "Paid · not editorial badge", "why blurb up to 120 chars"],
+      "limits": { "maxConcurrentPerUseCase": 1 }
+    },
+    {
+      "id": "bundle-home-usecase",
+      "slot": "bundle",
+      "name": "Homepage + one use-case bundle",
+      "proposedMonthlyUsd": 699,
+      "includes": ["Homepage strip + one use-case panel", "Same toolId both slots"],
+      "limits": { "maxUseCasesInBundle": 1 }
+    }
+  ],
+  "discounts": {
+    "note": "PROPOSAL only — not offered until Leon approves",
+    "quarterlyPrepaid": "optional ~10% if prepaid 3 months (TBD)"
+  },
+  "contact": {
+    "apply": "/submit.html",
+    "mailto": "hello@agentsusecases.ai",
+    "mailboxLive": false
+  }
+}
