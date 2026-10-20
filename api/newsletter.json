@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-10-19",
+    "site": "Agents Use Cases",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "schemaVersion": "1.0.0",
+    "contentType": "application/json",
+    "endpoint": "/api/newsletter.json",
+    "description": "Published newsletter index for agents. Drafts are not listed here.",
+    "note": "issues[] only includes published sends. Draft JSON/Markdown lives in-repo under newsletter/drafts/ and is not public until published. Never treat draft files as live broadcasts. Signup form on the site is waitlist until Resend segment is wired. Outbound sends require Leon approval.",
+    "drafts": {
+      "location": "newsletter/drafts/",
+      "public": false,
+      "schema": "newsletter/schema.json",
+      "readme": "newsletter/README.md"
+    },
+    "pages": {
+      "home": "https://agents-use-cases.vercel.app/",
+      "about": "https://agents-use-cases.vercel.app/about.html",
+      "liveFallback": "https://agents-use-cases.vercel.app/"
+    }
+  },
+  "issues": []
+}

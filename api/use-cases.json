@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updated": "2026-10-17",
+    "updated": "2026-10-19",
     "note": "Editorial use cases with one-line why per pick"
   },
   "useCases": [
@@ -69,14 +69,14 @@
           "why": "Strongest terminal agent for real repos and long sessions."
         },
         {
-          "toolId": "devtools-aider",
+          "toolId": "openai-codex",
           "rank": 2,
-          "why": "Open, model-agnostic, and great for git-aware pair coding."
+          "why": "Best ChatGPT-plan coding agent — CLI, IDE, review, and cloud tasks in one harness."
         },
         {
-          "toolId": "devin",
+          "toolId": "opencode",
           "rank": 3,
-          "why": "Closest to autonomous end-to-end engineering — when budget allows."
+          "why": "Open-source agent with a serious 2.0 server/plugin rewrite and multi-surface apps."
         }
       ]
     },

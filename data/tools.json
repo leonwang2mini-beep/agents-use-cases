@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.0.0",
-    "updated": "2026-10-17",
+    "version": "1.0.1",
+    "updated": "2026-10-19",
     "note": "Seed catalog — public well-known tools; expand carefully"
   },
   "tools": [
@@ -519,6 +519,42 @@
         "game-npc-prototyping"
       ],
       "added": "2026-10-17",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "openai-codex",
+      "name": "OpenAI Codex",
+      "tagline": "Local coding agent from OpenAI — CLI, IDE, and cloud handoff",
+      "url": "https://developers.openai.com/codex/",
+      "pricing": "Freemium",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents",
+        "code-review-agents",
+        "pr-changelog"
+      ],
+      "added": "2026-10-19",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "tagline": "Open-source coding agent for terminal, IDE, and desktop (2.0 overhaul)",
+      "url": "https://opencode.ai",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents",
+        "coding-editors"
+      ],
+      "useCases": [
+        "coding-agents",
+        "coding-editors"
+      ],
+      "added": "2026-10-19",
       "isNew": true,
       "source": "editorial"
     }

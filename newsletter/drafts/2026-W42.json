@@ -1,0 +1,59 @@
+{
+  "id": "2026-W42",
+  "week": "Week of 2026-10-19",
+  "subject": "Coding agents Top 3 refresh + soft launch notes (W42)",
+  "preheader": "Claude Code, OpenAI Codex, OpenCode — Featured still closed; live site on vercel.app until agentsusecases.ai DNS is ready.",
+  "status": "draft",
+  "publishedAt": null,
+  "sections": [
+    {
+      "type": "intro",
+      "title": "Soft launch is live",
+      "body": "Agents Use Cases (use-case directory for vibe coders, builders, and agents) soft-launched this week. Live canonical host is https://agents-use-cases.vercel.app/. Custom domain agentsusecases.ai is planned and not live yet (public DNS NXDOMAIN).",
+      "urls": [
+        "https://agents-use-cases.vercel.app/"
+      ]
+    },
+    {
+      "type": "ranking",
+      "title": "Coding agents — editorial Top 3 refresh",
+      "body": "We refreshed Best coding agents this week (local catalog; push pending Leon approval):\n1. Claude Code — strongest terminal agent for real repos and long sessions.\n2. OpenAI Codex (new) — ChatGPT-plan coding agent with CLI, IDE, review, and cloud handoff.\n3. OpenCode (new) — open-source agent with a serious 2.0 server/plugin rewrite and multi-surface apps.\nEditorial ranks are unpaid and never sold. See /use-case.html?id=coding-agents on the live site.",
+      "toolIds": ["claude-code", "openai-codex", "opencode"],
+      "useCaseIds": ["coding-agents"],
+      "urls": [
+        "https://agents-use-cases.vercel.app/use-case.html?id=coding-agents"
+      ]
+    },
+    {
+      "type": "catalog",
+      "title": "New in catalog",
+      "body": "Added OpenAI Codex and OpenCode to the seed catalog (marked isNew). Full tool list: /api/tools.json. Prefer /api/rankings.json for resolved editorial + featured.",
+      "toolIds": ["openai-codex", "opencode"],
+      "urls": [
+        "https://agents-use-cases.vercel.app/api/tools.json",
+        "https://agents-use-cases.vercel.app/api/rankings.json"
+      ]
+    },
+    {
+      "type": "featured",
+      "title": "Featured placements — closed",
+      "body": "Demo Featured/Sponsored slots remain inactive (active:false). No live paid ads on soft launch. Rate card is a proposal only — Leon must approve before any external quote. Apply via /submit.html (mailto; domain mailbox not provisioned yet).",
+      "urls": [
+        "https://agents-use-cases.vercel.app/submit.html"
+      ]
+    },
+    {
+      "type": "ops",
+      "title": "For agents",
+      "body": "Machine-readable entry: /llms.txt and /api/newsletter.json (published issues only; this draft is not public). Quote editorial why strings; treat Featured badges as paid when any go live.",
+      "urls": [
+        "https://agents-use-cases.vercel.app/llms.txt",
+        "https://agents-use-cases.vercel.app/api/newsletter.json"
+      ]
+    }
+  ],
+  "cta": {
+    "label": "Browse coding agents",
+    "url": "https://agents-use-cases.vercel.app/use-case.html?id=coding-agents"
+  }
+}

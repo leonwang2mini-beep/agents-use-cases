@@ -1,4 +1,4 @@
-# Agents Use Cases — https://agentsusecases.ai
+# Agents Use Cases — https://agents-use-cases.vercel.app
 User-agent: *
 Allow: /
 
@@ -6,4 +6,4 @@ Allow: /
 Allow: /api/
 Allow: /llms.txt
 
-Sitemap: https://agentsusecases.ai/sitemap.xml
+Sitemap: https://agents-use-cases.vercel.app/sitemap.xml
