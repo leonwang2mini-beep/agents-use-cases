@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.0.1",
-    "updated": "2026-10-19",
+    "version": "1.0.4",
+    "updated": "2026-10-22",
     "note": "Seed catalog — public well-known tools; expand carefully"
   },
   "tools": [
@@ -555,6 +555,114 @@
         "coding-editors"
       ],
       "added": "2026-10-19",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "cli-anything",
+      "name": "CLI-Anything",
+      "tagline": "Turn GUI apps into agent-native CLIs (JSON output + skill hub)",
+      "url": "https://clianything.cc/",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents",
+        "browser-qa"
+      ],
+      "added": "2026-10-20",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "orca",
+      "name": "Orca",
+      "tagline": "Run a fleet of coding agents in parallel worktrees on your own subs",
+      "url": "https://orca.dev",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents",
+        "coding-editors"
+      ],
+      "useCases": [
+        "coding-agents",
+        "coding-editors",
+        "pr-changelog"
+      ],
+      "added": "2026-10-20",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "headroom",
+      "name": "Headroom",
+      "tagline": "Local context compression for agents — fewer tokens, same answers (library/proxy/MCP)",
+      "url": "https://www.headroomlabs.ai/",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "added": "2026-10-21",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "nitrostack",
+      "name": "NitroStack",
+      "tagline": "Full-stack MCP platform — open-source SDK, Studio, and managed hosting",
+      "url": "https://nitrostack.ai/",
+      "pricing": "Freemium",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-10-21",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "harness",
+      "name": "Harness",
+      "tagline": "Open-source command center for coding agents across every machine",
+      "url": "https://www.autonomous.ai/harness",
+      "pricing": "Freemium",
+      "categories": [
+        "coding-agents",
+        "coding-editors"
+      ],
+      "useCases": [
+        "coding-agents",
+        "coding-editors",
+        "pr-changelog"
+      ],
+      "added": "2026-10-22",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "moyai",
+      "name": "Moyai",
+      "tagline": "Self-hosted cloud coding agent via Slack/browser — PR + tests through LiteLLM",
+      "url": "https://docs.litellm.ai/docs/self_hosted_coding_agents/moyai",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents",
+        "pr-changelog"
+      ],
+      "added": "2026-10-22",
       "isNew": true,
       "source": "editorial"
     }
