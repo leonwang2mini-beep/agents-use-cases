@@ -1,24 +1,185 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updated": "2026-10-17",
-    "note": "Demo seed — simulated X discussion cards. Structure ready for real X API: replace items via agent scanner.",
+    "updated": "2026-10-22",
+    "note": "Mixed: demo seed cards + real X captures from daily ops scanner. Prefer real urls when present.",
     "scanner": {
       "status": "placeholder",
       "plannedEndpoint": "POST /api/ingest/x-signals",
-      "fields": ["id", "handle", "displayName", "text", "url", "useCaseIds", "toolIds", "engagement", "capturedAt"]
+      "fields": [
+        "id",
+        "handle",
+        "displayName",
+        "text",
+        "url",
+        "useCaseIds",
+        "toolIds",
+        "engagement",
+        "capturedAt"
+      ]
     }
   },
   "signals": [
+    {
+      "id": "x-real-harness-2026-10-04",
+      "handle": "@gittrend_io",
+      "displayName": "Github Trending",
+      "text": "A command center for running coding agents across all your machines. Run Claude Code, Codex, Cursor and more side by side. Link machines with a password, no SSH keys or port forwarding. On GitHub → autonomous-ai/openharness",
+      "url": "https://x.com/gittrend_io/status/2106589753697317133",
+      "useCaseIds": [
+        "coding-agents",
+        "coding-editors"
+      ],
+      "toolIds": [
+        "harness",
+        "claude-code",
+        "openai-codex",
+        "cursor"
+      ],
+      "engagement": {
+        "likes": 1,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-04T03:38:30Z"
+    },
+    {
+      "id": "x-real-moyai-2026-10-21",
+      "handle": "@benchsmoke",
+      "displayName": "BenchSmoke",
+      "text": "LiteLLM open-sourced Moyai, the cloud coding agent its own team runs. You bring a Modal account and a LiteLLM gateway, then pick the agent, like Codex, Claude Code or OpenCode. Its 79% savings figure is LiteLLM's internal estimate, not a matched benchmark. News, not a test.",
+      "url": "https://x.com/benchsmoke/status/2113000866177536180",
+      "useCaseIds": [
+        "coding-agents",
+        "pr-changelog"
+      ],
+      "toolIds": [
+        "moyai",
+        "openai-codex",
+        "claude-code",
+        "opencode"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-21T20:13:58Z"
+    },
+    {
+      "id": "x-real-moyai-devin-bill-2026-10-16",
+      "handle": "@TanveerDhool",
+      "displayName": "Malik Tanveer Dhool",
+      "text": "LiteLLM just open-sourced its escape from a $101,872 Devin bill. Moyai — a self-hosted cloud coding agent tasked from Slack — cost ~$21,700 for the same 31 days. ~79% less. The managed-agent markup is the real AI tax. Build or buy — what is your call?",
+      "url": "https://x.com/TanveerDhool/status/2110934200350072893",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "moyai",
+        "devin"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-16T03:21:47Z"
+    },
+    {
+      "id": "x-real-headroom-2026-10-20",
+      "handle": "@ai_radar_",
+      "displayName": "AI Radar",
+      "text": "Trending AI repo: headroomlabs-ai/headroom — compresses tool outputs and logs before they reach the LLM. ★76.5k, ~20% fewer tokens for coding agents; library, proxy or MCP server.",
+      "url": "https://x.com/ai_radar_/status/2112512931640529250",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "headroom",
+        "claude-code"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-20T11:55:06Z"
+    },
+    {
+      "id": "x-real-nitrostack-2026-10-17",
+      "handle": "@nitrostackai",
+      "displayName": "NitroStack",
+      "text": "NitroStack is LIVE on Product Hunt today! Build, test, and deploy MCP servers in one place, from first tool definition to production.",
+      "url": "https://x.com/nitrostackai/status/2111352780879188423",
+      "useCaseIds": [
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "nitrostack",
+        "modelcontextprotocol"
+      ],
+      "engagement": {
+        "likes": 24,
+        "reposts": 1
+      },
+      "capturedAt": "2026-10-17T07:05:04Z"
+    },
+    {
+      "id": "x-real-orca-2026-10-20",
+      "handle": "@VT_zero1",
+      "displayName": "VT",
+      "text": "Top AI repos: stablyai/orca — one app for running a team of coding agents (Claude Code, Codex) on your own subscriptions, desktop + mobile + remote.",
+      "url": "https://x.com/VT_zero1/status/2112317911381795143",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "orca",
+        "claude-code",
+        "openai-codex"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-19T23:00:09Z"
+    },
+    {
+      "id": "x-real-cli-anything-2026-10-19",
+      "handle": "@bibryam",
+      "displayName": "Bilgin Ibryam",
+      "text": "CLI-Anything is essentially a CLI generator that makes GUI-first applications accessible to AI agents — analyze source, generate CLI, integrate.",
+      "url": "https://x.com/bibryam/status/2112156811130552461",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "cli-anything",
+        "claude-code"
+      ],
+      "engagement": {
+        "likes": 89,
+        "reposts": 15
+      },
+      "capturedAt": "2026-10-19T12:20:00Z"
+    },
     {
       "id": "x-001",
       "handle": "@vibecoder_jay",
       "displayName": "Jay · ships weekly",
       "text": "Switched research stack to Exa + Tavily for my agent. Perplexity stays for me-human browsing. Split is working.",
       "url": "https://x.com/example/status/1",
-      "useCaseIds": ["research"],
-      "toolIds": ["exa", "tavily", "perplexity"],
-      "engagement": { "likes": 842, "reposts": 91 },
+      "useCaseIds": [
+        "research"
+      ],
+      "toolIds": [
+        "exa",
+        "tavily",
+        "perplexity"
+      ],
+      "engagement": {
+        "likes": 842,
+        "reposts": 91
+      },
       "capturedAt": "2026-10-16T08:20:00Z"
     },
     {
@@ -27,9 +188,18 @@
       "displayName": "Mia builds agents",
       "text": "MCP finally clicked: one protocol, many tools. Composio for SaaS OAuth, Browserbase when I need real clicks.",
       "url": "https://x.com/example/status/2",
-      "useCaseIds": ["mcp-agent-tooling"],
-      "toolIds": ["modelcontextprotocol", "composio", "browserbase"],
-      "engagement": { "likes": 1204, "reposts": 156 },
+      "useCaseIds": [
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "modelcontextprotocol",
+        "composio",
+        "browserbase"
+      ],
+      "engagement": {
+        "likes": 1204,
+        "reposts": 156
+      },
       "capturedAt": "2026-10-15T14:05:00Z"
     },
     {
@@ -38,9 +208,19 @@
       "displayName": "Pixel · game tools",
       "text": "Cursor for the game tooling repo, Claude Code for overnight refactors. Windsurf when I want Cascade in the IDE.",
       "url": "https://x.com/example/status/3",
-      "useCaseIds": ["coding-editors", "coding-agents"],
-      "toolIds": ["cursor", "claude-code", "windsurf"],
-      "engagement": { "likes": 633, "reposts": 48 },
+      "useCaseIds": [
+        "coding-editors",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "cursor",
+        "claude-code",
+        "windsurf"
+      ],
+      "engagement": {
+        "likes": 633,
+        "reposts": 48
+      },
       "capturedAt": "2026-10-14T19:40:00Z"
     },
     {
@@ -49,9 +229,18 @@
       "displayName": "Clips for builders",
       "text": "Demo video pipeline: Kling for hero shot, Runway for edits, Sora when I need that OpenAI look. Costly but converts.",
       "url": "https://x.com/example/status/4",
-      "useCaseIds": ["ai-video"],
-      "toolIds": ["kling", "runway", "sora"],
-      "engagement": { "likes": 511, "reposts": 72 },
+      "useCaseIds": [
+        "ai-video"
+      ],
+      "toolIds": [
+        "kling",
+        "runway",
+        "sora"
+      ],
+      "engagement": {
+        "likes": 511,
+        "reposts": 72
+      },
       "capturedAt": "2026-10-13T11:12:00Z"
     },
     {
@@ -60,9 +249,18 @@
       "displayName": "Docs > Drama",
       "text": "Typefully drafts my builder threads, Grammarly cleans the landing page, Notion AI keeps the docs wiki alive.",
       "url": "https://x.com/example/status/5",
-      "useCaseIds": ["ai-writing"],
-      "toolIds": ["typefully", "grammarly", "notion-ai"],
-      "engagement": { "likes": 298, "reposts": 31 },
+      "useCaseIds": [
+        "ai-writing"
+      ],
+      "toolIds": [
+        "typefully",
+        "grammarly",
+        "notion-ai"
+      ],
+      "engagement": {
+        "likes": 298,
+        "reposts": 31
+      },
       "capturedAt": "2026-10-12T07:55:00Z"
     }
   ]

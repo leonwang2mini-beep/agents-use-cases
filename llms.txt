@@ -3,7 +3,7 @@
 > Editorial Top picks include a one-line "why". Featured/Sponsored placements are paid and always labeled separately — never sold as editorial rank.
 
 Site: https://agents-use-cases.vercel.app
-Updated: 2026-10-19
+Updated: 2026-10-22
 
 ## Prefer JSON (do not scrape HTML for rankings)
 
