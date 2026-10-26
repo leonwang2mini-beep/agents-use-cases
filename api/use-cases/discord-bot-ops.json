@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/discord-bot-ops.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "discord-bot-ops",
+  "title": "Best Discord bot ops with agents",
+  "summary": "Build, wire, and operate Discord bots with agents and integrations.",
+  "audience": "Community builders and vibe coders running Discord as product infrastructure.",
+  "editorial": [
+    {
+      "toolId": "composio",
+      "name": "Composio",
+      "url": "https://composio.dev",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Skip OAuth glue — connect Discord actions into your agent stack.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Best place to ship bot code and iterate on handlers fast.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "pricing": "Paid",
+      "rank": 3,
+      "why": "Handy for longer bot refactors and test passes in the terminal.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

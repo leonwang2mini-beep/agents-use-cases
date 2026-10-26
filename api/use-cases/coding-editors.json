@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/coding-editors.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "coding-editors",
+  "title": "Best AI coding editors",
+  "summary": "Editors where vibe coding actually ships.",
+  "audience": "Vibe coders and solo builders who live in the editor.",
+  "editorial": [
+    {
+      "toolId": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Still the sweet spot for AI-native editing and multi-file changes.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "windsurf",
+      "name": "Windsurf",
+      "url": "https://windsurf.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Cascade agent feels like a teammate inside a full IDE.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "zed",
+      "name": "Zed",
+      "url": "https://zed.dev",
+      "pricing": "Free",
+      "rank": 3,
+      "why": "Blazing fast when you want AI without the bloat.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/coding-agents.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "coding-agents",
+  "title": "Best coding agents",
+  "summary": "Agents that write, test, and iterate on code — plus model-agnostic harnesses (Cusp), phone-first builders (FreeMilk), embeddable CLIs, command centers, multi-agent rooms, self-hosted runners, open-source control planes (HumanLayer), and MCP reverse-engineering (REA).",
+  "audience": "Builders who want agents to take a ticket from prompt to PR.",
+  "editorial": [
+    {
+      "toolId": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "pricing": "Paid",
+      "rank": 1,
+      "why": "Strongest terminal agent for real repos and long sessions.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "openai-codex",
+      "name": "OpenAI Codex",
+      "url": "https://developers.openai.com/codex/",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Best ChatGPT-plan coding agent — CLI, IDE, review, and cloud tasks in one harness.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "opencode",
+      "name": "OpenCode",
+      "url": "https://opencode.ai",
+      "pricing": "Free",
+      "rank": 3,
+      "why": "Open-source agent with a serious 2.0 server/plugin rewrite and multi-surface apps.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

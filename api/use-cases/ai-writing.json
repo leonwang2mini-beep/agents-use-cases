@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/ai-writing.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "ai-writing",
+  "title": "Best AI writing for builders",
+  "summary": "Writing tools that help ship docs, threads, and product copy.",
+  "audience": "Builders who need clear writing without a content team.",
+  "editorial": [
+    {
+      "toolId": "notion-ai",
+      "name": "Notion AI",
+      "url": "https://www.notion.so/product/ai",
+      "pricing": "Paid",
+      "rank": 1,
+      "why": "Best when your docs already live in Notion.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "typefully",
+      "name": "Typefully",
+      "url": "https://typefully.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Purpose-built for shipping builder threads on X.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "grammarly",
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Quick polish for READMEs, emails, and landing pages.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

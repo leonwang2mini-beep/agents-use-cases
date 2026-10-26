@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/meeting-notes-to-tasks.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "meeting-notes-to-tasks",
+  "title": "Best meeting notes → tasks",
+  "summary": "Turn calls into action items without rewriting everything by hand.",
+  "audience": "Solo builders and small teams drowning in standups and customer calls.",
+  "editorial": [
+    {
+      "toolId": "fireflies",
+      "name": "Fireflies.ai",
+      "url": "https://fireflies.ai",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Reliable transcripts plus action items straight from the call.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "notion-ai",
+      "name": "Notion AI",
+      "url": "https://www.notion.so/product/ai",
+      "pricing": "Paid",
+      "rank": 2,
+      "why": "Best when tasks should land next to the rest of your docs.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Great at cleaning messy notes into owners, due dates, and next steps.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}
