@@ -47,7 +47,7 @@
   },
   "contact": {
     "apply": "/submit.html",
-    "mailto": "hello@agentsusecases.ai",
+    "mailto": "hello@agents-use-cases.vercel.app",
     "mailboxLive": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "note": "Editorial use cases with one-line why per pick"
   },
   "useCases": [
@@ -60,7 +60,7 @@
       "title": "Best coding agents",
       "slug": "coding-agents",
       "icon": "🤖",
-      "summary": "Agents that write, test, and iterate on code — plus command centers and self-hosted cloud runners that keep working when you close the laptop.",
+      "summary": "Agents that write, test, and iterate on code — plus model-agnostic harnesses (Cusp), phone-first builders (FreeMilk), embeddable CLIs, command centers, multi-agent rooms, self-hosted runners, open-source control planes (HumanLayer), and MCP reverse-engineering (REA).",
       "audience": "Builders who want agents to take a ticket from prompt to PR.",
       "editorial": [
         {
@@ -110,7 +110,7 @@
       "title": "Best MCP servers / agent tooling",
       "slug": "mcp-agent-tooling",
       "icon": "🔌",
-      "summary": "Connect agents to tools, browsers, and APIs — MCP platforms, context layers, and harnesses.",
+      "summary": "Connect agents to tools, browsers, and APIs — MCP platforms, context layers, and harnesses; reverse-engineering MCP/CLI stacks like REA for binary/app inspection.",
       "audience": "Agent builders wiring real-world actions into their stack.",
       "editorial": [
         {

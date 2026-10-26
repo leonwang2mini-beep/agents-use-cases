@@ -17,7 +17,7 @@ Edit `data/featured.json`:
 
 ## 3. Sync agent mirror
 
-There is **no rebuild script**. Mirror by hand:
+Run `python3 scripts/build.py` (mirrors data → api, rebuilds rankings incl. homepageFeatured, and the static /best pages). Manual fallback:
 
 ```bash
 cp data/featured.json api/featured.json

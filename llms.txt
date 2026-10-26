@@ -3,23 +3,26 @@
 > Editorial Top picks include a one-line "why". Featured/Sponsored placements are paid and always labeled separately — never sold as editorial rank.
 
 Site: https://agents-use-cases.vercel.app
-Updated: 2026-10-22
+Updated: 2026-10-26
 
 ## Prefer JSON (do not scrape HTML for rankings)
 
 - /api/rankings.json — resolved editorial + featured (recommended entry point)
+- /api/use-cases/{useCaseId}.json — one use case, resolved editorial + featured (small, cache-friendly)
 - /api/use-cases.json — use cases + editorial lists + why
 - /api/tools.json — tool catalog
 - /api/featured.json — paid placements only (demo placements currently inactive / active:false)
 - /api/newsletter.json — published newsletter index (drafts are private in-repo; not listed until sent)
-- /api/x-signals.json — X discussion signals (demo seed until scanner live)
+- /api/x-signals.json — X discussion signals (mixed: real daily-ops captures + labeled demo seeds)
 
 ## Human pages
 
 - / — home: use cases, Featured, new tools, From X
 - /about.html — how rankings work; Featured vs editorial; agent API docs
 - /submit.html — apply for Featured or submit a new tool
-- /use-case.html?id={useCaseId} — use case page (e.g. research, coding-agents, code-review-agents, browser-qa)
+- /best/ — static index of all use cases (no JS needed)
+- /best/{useCaseId}.html — static, crawlable use case page (cite this URL)
+- /use-case.html?id={useCaseId} — interactive use case page (e.g. research, coding-agents, code-review-agents, browser-qa)
 - /tool.html?id={toolId} — tool detail
 
 ## Use case ids
@@ -44,7 +47,7 @@ Updated: 2026-10-22
 1. Treat editorial[] as unpaid editorial opinion.
 2. Treat featured[] / Featured badges as paid placements.
 3. Prefer quoting the "why" string for each pick.
-4. Cite the use-case page URL when recommending a Top pick.
+4. Cite the /best/{useCaseId}.html URL when recommending a Top pick.
 
 ## Sitemap & robots
 

@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "note": "Mixed: demo seed cards + real X captures from daily ops scanner. Prefer real urls when present.",
     "scanner": {
       "status": "placeholder",
@@ -20,6 +20,138 @@
     }
   },
   "signals": [
+    {
+      "id": "x-real-freemilk-neeeel-2026-10-25",
+      "handle": "@neeeel",
+      "displayName": "neel",
+      "text": "Introducing a free coding agent that runs locally on your iPhone - FreeMilk \n\n- Free daily allowance of coding models: DeepSeek V4.1 Flash, GPT 6 Luna, and GLM 5.3 Flash (will add more)\n\n- Reads and writes files on-device with local git support\n\n- GitHub integration to clone",
+      "url": "https://x.com/neeeel/status/2114425316135567634",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "freemilk"
+      ],
+      "engagement": {
+        "likes": 70,
+        "reposts": 7
+      },
+      "capturedAt": "2026-10-25T18:34:14Z"
+    },
+    {
+      "id": "x-real-rea-vartekxx-2026-10-25",
+      "handle": "@vartekxx",
+      "displayName": "vartekx",
+      "text": "REA creator just released REA agents\n\nyour coding agent can now investigate how an app works, down to its native binaries\n\nconnect REA to Claude Code, Codex or Cursor and your agent can:\n\n→ inspect apps without their source code\n→ trace features through modules and function",
+      "url": "https://x.com/vartekxx/status/2114479423034462358",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "rea"
+      ],
+      "engagement": {
+        "likes": 19,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-25T22:09:14Z"
+    },
+    {
+      "id": "x-real-cusp-gorigo-2026-10-25",
+      "handle": "@DiuRA15WSdE6zVp",
+      "displayName": "gorigo",
+      "text": "どのモデルでも使えるコーディングエージェント「Cusp 0.1」のプレビューが公開。GPTにはapply_patch、Claudeには文字列置換とモデルごとに慣れた編集方法を渡し、崩れたツール呼び出しも修復する。CLAUDE.mdやMCP設定もそのまま読む。",
+      "url": "https://x.com/DiuRA15WSdE6zVp/status/2114493948106608810",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "cusp"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-25T23:06:57Z"
+    },
+    {
+      "id": "x-real-humanlayer-dexhorthy-2026-10-23",
+      "handle": "@dexhorthy",
+      "displayName": "dex",
+      "text": "its time. (Open Sourcing HumanLayer)",
+      "url": "https://x.com/dexhorthy/status/2113750268043210767",
+      "useCaseIds": [
+        "coding-agents",
+        "pr-changelog"
+      ],
+      "toolIds": [
+        "humanlayer"
+      ],
+      "engagement": {
+        "likes": 536,
+        "reposts": 45
+      },
+      "capturedAt": "2026-10-23T21:51:50Z"
+    },
+    {
+      "id": "x-real-fx-infoq-2026-10-22",
+      "handle": "@InfoQ",
+      "displayName": "InfoQ",
+      "text": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/ by Daniel Curtis",
+      "url": "https://x.com/InfoQ/status/2113205646468567254",
+      "useCaseIds": [
+        "coding-agents",
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "fx"
+      ],
+      "engagement": {
+        "likes": 1,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-22T09:47:42Z"
+    },
+    {
+      "id": "x-real-fx-averageaibro-2026-10-15",
+      "handle": "@AverageAiBro",
+      "displayName": "Average AI Bro",
+      "text": "You want a coding agent inside a CI job or a sandbox, and the first step is installing a whole runtime, waiting on a heavy startup, and watching it take over the terminal. Then it ignores your shell aliases and PATH and fails on the first command.\n\nfx is an experimental,",
+      "url": "https://x.com/AverageAiBro/status/2110578662479405229",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "fx"
+      ],
+      "engagement": {
+        "likes": 6,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-15T03:49:00Z"
+    },
+    {
+      "id": "x-real-band-reignswords-2026-10-18",
+      "handle": "@ReignSwords",
+      "displayName": "ReignSwords",
+      "text": "I spent the morning kicking the tires on BAND for Developers — the desktop app that gives your AI coding agents a shared room to work in.\n\nLaunched 4 days ago (Oct 15) by Thenvoi AI. The pitch: you stop being the middleware between your agents.\n\nHere's how it actually works:\n\n1.",
+      "url": "https://x.com/ReignSwords/status/2111898545288888534",
+      "useCaseIds": [
+        "coding-agents",
+        "coding-editors"
+      ],
+      "toolIds": [
+        "band",
+        "claude-code",
+        "openai-codex"
+      ],
+      "engagement": {
+        "likes": 9,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-18T19:13:45Z"
+    },
     {
       "id": "x-real-harness-2026-10-04",
       "handle": "@gittrend_io",

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/browser-qa.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "browser-qa",
+  "title": "Best browser QA for agents",
+  "summary": "Automate click-paths and catch UI regressions before users do.",
+  "audience": "Builders who want agents to smoke-test flows in a real browser.",
+  "editorial": [
+    {
+      "toolId": "playwright",
+      "name": "Playwright",
+      "url": "https://playwright.dev",
+      "pricing": "Free",
+      "rank": 1,
+      "why": "Industry default for stable e2e tests agents can generate and run.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "browserbase",
+      "name": "Browserbase",
+      "url": "https://www.browserbase.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Hosted browsers when your agent needs cloud sessions, not local Chrome.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Write and fix Playwright specs in the same place you ship the app.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

@@ -28,7 +28,7 @@
 | Finance | needsAuth (prior note) |
 
 ## Still needs Leon
-1. **Domain** `agentsusecases.ai` — still NXDOMAIN and not purchased. Live SEO is temporarily on `https://agents-use-cases.vercel.app` (option B). Buy/attach later if the custom domain should become canonical again.
+1. **Domain** `agentsusecases.ai` — NXDOMAIN; buy/attach on Vercel or temporarily retarget SEO to vercel.app
 2. **Approve push** of local changes (today’s daily catalog + this weekly newsletter/Featured work)
 3. **Approve first newsletter send** when W42 (or later) is ready — do not broadcast yet
 4. **Approve rate card** before any external Featured quote

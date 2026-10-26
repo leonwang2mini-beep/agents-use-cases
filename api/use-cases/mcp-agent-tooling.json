@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/mcp-agent-tooling.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "mcp-agent-tooling",
+  "title": "Best MCP servers / agent tooling",
+  "summary": "Connect agents to tools, browsers, and APIs — MCP platforms, context layers, and harnesses; reverse-engineering MCP/CLI stacks like REA for binary/app inspection.",
+  "audience": "Agent builders wiring real-world actions into their stack.",
+  "editorial": [
+    {
+      "toolId": "modelcontextprotocol",
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io",
+      "pricing": "Free",
+      "rank": 1,
+      "why": "The open standard — start here before picking vendors.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "composio",
+      "name": "Composio",
+      "url": "https://composio.dev",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Hundreds of managed integrations so you skip OAuth hell.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "browserbase",
+      "name": "Browserbase",
+      "url": "https://www.browserbase.com",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Reliable headless browsers when agents need to click the web.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

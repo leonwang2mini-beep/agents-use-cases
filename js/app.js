@@ -528,15 +528,15 @@
       // Honest path: mailto + coming soon notice — do NOT fake success
       notice.innerHTML = `
         <strong>Form validated.</strong> Backend is not wired yet.<br>
-        Option A: open a mail draft to <code>hello@agentsusecases.ai</code>
+        Option A: open a mail draft to <code>hello@agents-use-cases.vercel.app</code>
         (<strong>mailbox not live yet</strong> — may bounce until DNS/email is ready) —
-        <a href="mailto:hello@agentsusecases.ai?subject=${subject}&body=${body}">mailto draft</a>.<br>
+        <a href="mailto:hello@agents-use-cases.vercel.app?subject=${subject}&body=${body}">mailto draft</a>.<br>
         Option B: wait for <code>POST /api/submissions</code> (coming soon).
         Nothing was submitted to a server.`;
       notice.classList.add("show");
 
       // Attempt mailto (user may cancel)
-      window.location.href = `mailto:hello@agentsusecases.ai?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:hello@agents-use-cases.vercel.app?subject=${subject}&body=${body}`;
     });
   }
 
