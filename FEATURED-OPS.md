@@ -17,24 +17,22 @@ Edit `data/featured.json`:
 
 ## 3. Sync agent mirror
 
-There is **no rebuild script**. Mirror by hand:
+Run `python3 scripts/build.py` (mirrors data → api, rebuilds rankings incl. homepageFeatured, and the static /best pages). Manual fallback:
 
 ```bash
 cp data/featured.json api/featured.json
 ```
 
-## 4. Sync rankings homepageFeatured (manual)
+## 4. Sync rankings homepageFeatured
 
-`api/rankings.json` is a resolved snapshot. Site UI loads `data/featured.json` via `js/app.js` and filters `active`, so homepage/use-case pages pick up the placement after step 2.
+`python3 scripts/build.py` rebuilds `api/rankings.json` from active placements (`meta.homepageFeatured` and each use case’s `featured[]`) and writes the crawlable `/best/` pages. Editorial ranks stay in `data/use-cases.json`. Site UI still loads `data/featured.json` via `js/app.js` and filters `active`.
 
-For agent consumers of `/api/rankings.json`:
+Manual fallback if you are not running the script:
 
 1. Open `api/rankings.json`.
-2. Set `meta.homepageFeatured` to an array of active homepage placements (or `[]` if none), matching the shape already used when featured were live historically — keep `editorial[]` and `featured[]` **separate** per use case.
+2. Set `meta.homepageFeatured` to an array of active homepage placements (or `[]` if none). Keep `editorial[]` and `featured[]` **separate** per use case.
 3. For each use-case block: put active `slot: use-case` placements for that `useCaseId` into that block’s `featured[]` (empty array if none).
 4. Bump `meta.updated` to today’s date.
-
-Do **not** invent a rebuild script unless one is added later under `scripts/`.
 
 ## 5. Ship
 

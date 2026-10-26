@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/seo-draft.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "seo-draft",
+  "title": "Best AI SEO draft tools",
+  "summary": "Draft landing pages and long-tail posts that still sound human.",
+  "audience": "Builders shipping content for organic discovery without a content team.",
+  "editorial": [
+    {
+      "toolId": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Fast outlines and drafts when you already know the keyword intent.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Stronger long-form tone control and fewer generic SEO clichés.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "perplexity",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Cite live sources while you map angles and competing pages.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

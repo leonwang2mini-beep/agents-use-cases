@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/pr-changelog.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "pr-changelog",
+  "title": "Best PR → changelog agents",
+  "summary": "Turn merged PRs into release notes humans actually want to read.",
+  "audience": "Builders who ship often and hate writing changelogs from scratch.",
+  "editorial": [
+    {
+      "toolId": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "pricing": "Paid",
+      "rank": 1,
+      "why": "Reads the repo and git history, then drafts release-ready notes.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Great for editing changelog drafts beside the actual PR diff.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Paste commit messages and get a clean user-facing summary fast.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

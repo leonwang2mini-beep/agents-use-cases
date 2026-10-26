@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/research.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "research",
+  "title": "Best research tools",
+  "summary": "Web search and deep research for builders and agents.",
+  "audience": "Builders researching markets, docs, and competitors — plus agents that need reliable search.",
+  "editorial": [
+    {
+      "toolId": "perplexity",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Best default for fast, cited answers without leaving the browser.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "exa",
+      "name": "Exa",
+      "url": "https://exa.ai",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Neural search that returns pages agents can actually use.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "tavily",
+      "name": "Tavily",
+      "url": "https://tavily.com",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Drop-in search API when your agent needs structured results.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

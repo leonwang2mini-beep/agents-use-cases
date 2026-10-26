@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/game-npc-prototyping.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "game-npc-prototyping",
+  "title": "Best tools for game NPC prototyping",
+  "summary": "Prototype conversational NPCs and character brains before full production.",
+  "audience": "Indie game builders and vibe coders prototyping dialogue systems.",
+  "editorial": [
+    {
+      "toolId": "inworld",
+      "name": "Inworld",
+      "url": "https://www.inworld.ai",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Purpose-built character brains with personality and memory hooks.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Quickest way to try dialogue loops before wiring a game engine.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Good for longer character bibles and consistent voice guides.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}
