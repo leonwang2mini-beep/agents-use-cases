@@ -65,3 +65,13 @@ vercel --prod
 ```
 
 Demo Featured placements are `active: false` until a real sponsor is live.
+
+## Build (static pages + agent JSON)
+
+```bash
+python3 scripts/build.py
+```
+
+Regenerates `api/*` mirrors from `data/`, `api/rankings.json` (incl. `homepageFeatured` from active placements),
+`api/use-cases/<id>.json`, crawlable `best/<id>.html` + `best/index.html`, and the `/best/` sitemap entries.
+Run it after any data edit, before pushing.

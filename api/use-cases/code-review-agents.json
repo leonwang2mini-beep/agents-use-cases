@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/code-review-agents.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "code-review-agents",
+  "title": "Best agents for code review",
+  "summary": "Catch bugs, style issues, and risky diffs before you merge.",
+  "audience": "Builders who want agents to review PRs like a careful teammate.",
+  "editorial": [
+    {
+      "toolId": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Inline review in the editor where the diff already lives.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "pricing": "Paid",
+      "rank": 2,
+      "why": "Strong on multi-file context and repo-aware critique.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Paste a diff or PR summary for careful, readable feedback.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

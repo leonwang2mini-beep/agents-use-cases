@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/ai-video.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "ai-video",
+  "title": "Best AI video tools",
+  "summary": "Text-to-video and editing tools for demos and content.",
+  "audience": "Builders shipping product demos, launch videos, and social clips.",
+  "editorial": [
+    {
+      "toolId": "runway",
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Most polished creator workflow from prompt to edit.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "kling",
+      "name": "Kling AI",
+      "url": "https://klingai.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Strong motion and longer clips for cinematic demos.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Fast iterations when you need volume over perfection.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}

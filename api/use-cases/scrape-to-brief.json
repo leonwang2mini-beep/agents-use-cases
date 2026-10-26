@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "updated": "2026-10-26",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/best/scrape-to-brief.html",
+    "note": "editorial[] is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "scrape-to-brief",
+  "title": "Best scrape-to-brief workflows",
+  "summary": "Pull pages into clean text, then turn them into a usable brief.",
+  "audience": "Builders and agents researching competitors, docs, and markets.",
+  "editorial": [
+    {
+      "toolId": "firecrawl",
+      "name": "Firecrawl",
+      "url": "https://www.firecrawl.dev",
+      "pricing": "Freemium",
+      "rank": 1,
+      "why": "Best default when you need agent-ready markdown from messy sites.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "browserbase",
+      "name": "Browserbase",
+      "url": "https://www.browserbase.com",
+      "pricing": "Freemium",
+      "rank": 2,
+      "why": "Use when the page needs a real browser before you can extract.",
+      "source": "editorial"
+    },
+    {
+      "toolId": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "pricing": "Freemium",
+      "rank": 3,
+      "why": "Fast at turning scraped notes into a structured brief.",
+      "source": "editorial"
+    }
+  ],
+  "featured": []
+}
