@@ -24,7 +24,7 @@ Do not open `index.html` via `file://` — fetch() needs HTTP.
 
 Canonical host: `https://agents-use-cases.vercel.app`
 
-**Deploy:** live canonicals use `https://agents-use-cases.vercel.app` until custom domain `agentsusecases.ai` DNS is connected.
+**Deploy:** replace domain in canonical/OG/sitemap/llms/`api` meta if using `*.vercel.app` until DNS is ready.
 
 ## Data
 

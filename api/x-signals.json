@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "note": "Mixed: demo seed cards + real X captures from daily ops scanner. Prefer real urls when present.",
     "scanner": {
       "status": "placeholder",
@@ -20,6 +20,103 @@
     }
   },
   "signals": [
+    {
+      "id": "x-real-leanrea-0xasten-2026-10-27",
+      "handle": "@0xasten",
+      "displayName": "Asten",
+      "text": "On the breakout board, leanrea (+304% this week) makes the opposite bet to rea: one small skill file that has the agent reverse-engineer with otool, nm and jadx instead of a server full of tools. Server or skill file, which would you run?",
+      "url": "https://x.com/0xasten/status/2114901572123873373",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "leanrea",
+        "rea"
+      ],
+      "engagement": {
+        "likes": 4,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-27T02:06:42Z"
+    },
+    {
+      "id": "x-real-earshot-readmeradar-2026-10-27",
+      "handle": "@ReadmeRadar",
+      "displayName": "Readme Radar",
+      "text": "Your coding agent can't hear. earshot (3,016★ in 12 days) gives it ears: CLI, Python API and MCP server that turn audio into evidence an agent can reason about. CPU only. The catch: most CLI calls spend 20-40 s loading models.",
+      "url": "https://x.com/ReadmeRadar/status/2115120655335125355",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "earshot"
+      ],
+      "engagement": {
+        "likes": 2,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-27T16:37:15Z"
+    },
+    {
+      "id": "x-real-context7-mohakbajaj5-2026-10-26",
+      "handle": "@MohakBajaj5",
+      "displayName": "Mohak Bajaj",
+      "text": "mcp servers i'd actually install for a coding agent: 1. context7 (current library docs) 2. chrome-devtools-mcp (console, network, perf traces) 3. github-mcp-server",
+      "url": "https://x.com/MohakBajaj5/status/2114673881273549068",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "context7",
+        "chrome-devtools-mcp"
+      ],
+      "engagement": {
+        "likes": 1,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-26T11:01:56Z"
+    },
+    {
+      "id": "x-real-codebase-memory-techleadcorner-2026-10-26",
+      "handle": "@techleadcorner",
+      "displayName": "Tech Lead Corner",
+      "text": "codebase-memory-mcp is an open source MCP server that turns your codebase into a queryable knowledge graph, so your AI coding agent can answer structural questions without reading files one by one.",
+      "url": "https://x.com/techleadcorner/status/2114553190540820760",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "codebase-memory-mcp"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-26T03:02:21Z"
+    },
+    {
+      "id": "x-real-opencode-mcp-david-x-ai-2026-10-25",
+      "handle": "@david_x_ai",
+      "displayName": "David Gutierrez | Eng",
+      "text": "Connecting an MCP server is installing software. Treat it that way. On Oct 19, Pillar Security disclosed a critical bug in opencode: on Windows and WSL, a remote MCP server could run code during OAuth sign-in.",
+      "url": "https://x.com/david_x_ai/status/2114500354662453750",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "toolIds": [
+        "opencode"
+      ],
+      "engagement": {
+        "likes": 16,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-25T23:32:24Z"
+    },
     {
       "id": "x-real-freemilk-neeeel-2026-10-25",
       "handle": "@neeeel",
@@ -293,107 +390,6 @@
         "reposts": 15
       },
       "capturedAt": "2026-10-19T12:20:00Z"
-    },
-    {
-      "id": "x-001",
-      "handle": "@vibecoder_jay",
-      "displayName": "Jay · ships weekly",
-      "text": "Switched research stack to Exa + Tavily for my agent. Perplexity stays for me-human browsing. Split is working.",
-      "url": "https://x.com/example/status/1",
-      "useCaseIds": [
-        "research"
-      ],
-      "toolIds": [
-        "exa",
-        "tavily",
-        "perplexity"
-      ],
-      "engagement": {
-        "likes": 842,
-        "reposts": 91
-      },
-      "capturedAt": "2026-10-16T08:20:00Z"
-    },
-    {
-      "id": "x-002",
-      "handle": "@agentops_mia",
-      "displayName": "Mia builds agents",
-      "text": "MCP finally clicked: one protocol, many tools. Composio for SaaS OAuth, Browserbase when I need real clicks.",
-      "url": "https://x.com/example/status/2",
-      "useCaseIds": [
-        "mcp-agent-tooling"
-      ],
-      "toolIds": [
-        "modelcontextprotocol",
-        "composio",
-        "browserbase"
-      ],
-      "engagement": {
-        "likes": 1204,
-        "reposts": 156
-      },
-      "capturedAt": "2026-10-15T14:05:00Z"
-    },
-    {
-      "id": "x-003",
-      "handle": "@indie_pixel",
-      "displayName": "Pixel · game tools",
-      "text": "Cursor for the game tooling repo, Claude Code for overnight refactors. Windsurf when I want Cascade in the IDE.",
-      "url": "https://x.com/example/status/3",
-      "useCaseIds": [
-        "coding-editors",
-        "coding-agents"
-      ],
-      "toolIds": [
-        "cursor",
-        "claude-code",
-        "windsurf"
-      ],
-      "engagement": {
-        "likes": 633,
-        "reposts": 48
-      },
-      "capturedAt": "2026-10-14T19:40:00Z"
-    },
-    {
-      "id": "x-004",
-      "handle": "@launch_clips",
-      "displayName": "Clips for builders",
-      "text": "Demo video pipeline: Kling for hero shot, Runway for edits, Sora when I need that OpenAI look. Costly but converts.",
-      "url": "https://x.com/example/status/4",
-      "useCaseIds": [
-        "ai-video"
-      ],
-      "toolIds": [
-        "kling",
-        "runway",
-        "sora"
-      ],
-      "engagement": {
-        "likes": 511,
-        "reposts": 72
-      },
-      "capturedAt": "2026-10-13T11:12:00Z"
-    },
-    {
-      "id": "x-005",
-      "handle": "@docs_not_drama",
-      "displayName": "Docs > Drama",
-      "text": "Typefully drafts my builder threads, Grammarly cleans the landing page, Notion AI keeps the docs wiki alive.",
-      "url": "https://x.com/example/status/5",
-      "useCaseIds": [
-        "ai-writing"
-      ],
-      "toolIds": [
-        "typefully",
-        "grammarly",
-        "notion-ai"
-      ],
-      "engagement": {
-        "likes": 298,
-        "reposts": 31
-      },
-      "capturedAt": "2026-10-12T07:55:00Z"
     }
   ]
 }

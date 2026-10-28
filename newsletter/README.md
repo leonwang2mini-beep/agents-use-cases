@@ -17,7 +17,7 @@ Weekly issue drafts live here. They become Resend broadcasts only after Leon app
 - Site footer signup is waitlist only until a Resend audience/segment is wired.
 - Drafts under `newsletter/drafts/` are **not public**. Agents should read `/api/newsletter.json` (published index only).
 - Prefer real catalog ids from `data/tools.json` and `data/use-cases.json` in `toolIds` / `useCaseIds`.
-- Live URL note: canonical host is `https://agents-use-cases.vercel.app/`. Custom domain `agentsusecases.ai` is planned and not live (NXDOMAIN) until Leon connects DNS.
+- Live URL note: production is currently `https://agents-use-cases.vercel.app/`; canonical `https://agents-use-cases.vercel.app` is not live (NXDOMAIN) until Leon connects DNS.
 
 ## Naming
 

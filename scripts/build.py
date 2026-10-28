@@ -109,7 +109,7 @@ for u, r in zip(ucs, rankings):
                                "url": e["url"], "description": e["why"]} for e in r["editorial"]]}
     crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
-        {"@type": "ListItem", "position": 2, "name": "Use cases", "item": BASE + "/best/"},
+        {"@type": "ListItem", "position": 2, "name": "Use cases", "item": BASE + "/best/index.html"},
         {"@type": "ListItem", "position": 3, "name": u["title"], "item": url}]}
     out = [HEAD.format(title=E(f"{u['title']} ({TODAY[:4]}) · Agents Use Cases"), desc=E(desc), url=url,
                        alt=f'<link rel="alternate" type="application/json" href="../api/use-cases/{uid}.json" title="{E(u["title"])} JSON" />',
@@ -150,8 +150,8 @@ for u, r in zip(ucs, rankings):
           "editorial": r["editorial"], "featured": r["featured"]})
 
 idx = [HEAD.format(title="All AI use cases · Agents Use Cases", desc="Every use case on Agents Use Cases with its editorial Top 3 and one-line why.",
-                   url=BASE + "/best/", alt='<link rel="alternate" type="application/json" href="../api/rankings.json" title="Rankings JSON" />',
-                   ld=json.dumps({"@context": "https://schema.org", "@type": "CollectionPage", "name": "All use cases", "url": BASE + "/best/"}))]
+                   url=BASE + "/best/index.html", alt='<link rel="alternate" type="application/json" href="../api/rankings.json" title="Rankings JSON" />',
+                   ld=json.dumps({"@context": "https://schema.org", "@type": "CollectionPage", "name": "All use cases", "url": BASE + "/best/index.html"}))]
 idx.append('    <div class="page-hero"><h1>All use cases</h1><p class="uc-why-lead">Editorial Top 3 per use case. Paid placements are labeled separately.</p></div>\n    <section class="section"><ul>\n')
 for u, r in zip(ucs, rankings):
     idx.append(f'      <li><a href="{u["id"]}.html"><strong>{E(u["title"])}</strong></a> — ' + ", ".join(E(e["name"]) for e in r["editorial"][:3]) + '</li>\n')
@@ -161,7 +161,7 @@ open(P("best", "index.html"), "w", encoding="utf-8").write("".join(idx))
 sm = open(P("sitemap.xml"), encoding="utf-8").read()
 sm = re.sub(r"\s*<url>\s*<loc>[^<]*/best/[^<]*</loc>.*?</url>", "", sm, flags=re.S)
 add = "".join(f"\n  <url>\n    <loc>{BASE}/best/{p}</loc>\n    <lastmod>{TODAY}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>{pr}</priority>\n  </url>"
-              for p, pr in [("", "0.8")] + [(u["id"] + ".html", "0.8") for u in ucs])
+              for p, pr in [("index.html", "0.8")] + [(u["id"] + ".html", "0.8") for u in ucs])
 sm = sm.replace("</urlset>", add.lstrip("\n").join(["", ""]) + "\n</urlset>") if False else sm.replace("\n</urlset>", add + "\n</urlset>")
 open(P("sitemap.xml"), "w", encoding="utf-8").write(sm)
 print(f"built {len(ucs)} use-case pages, {len(tools)} tools, {len(act)} active featured")
