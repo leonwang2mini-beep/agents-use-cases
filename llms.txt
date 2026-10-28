@@ -13,14 +13,14 @@ Updated: 2026-10-26
 - /api/tools.json — tool catalog
 - /api/featured.json — paid placements only (demo placements currently inactive / active:false)
 - /api/newsletter.json — published newsletter index (drafts are private in-repo; not listed until sent)
-- /api/x-signals.json — X discussion signals (mixed: real daily-ops captures + labeled demo seeds)
+- /api/x-signals.json — X discussion signals (real public posts captured by daily ops; each links to its x.com source)
 
 ## Human pages
 
 - / — home: use cases, Featured, new tools, From X
 - /about.html — how rankings work; Featured vs editorial; agent API docs
 - /submit.html — apply for Featured or submit a new tool
-- /best/ — static index of all use cases (no JS needed)
+- /best/index.html — static index of all use cases (no JS needed)
 - /best/{useCaseId}.html — static, crawlable use case page (cite this URL)
 - /use-case.html?id={useCaseId} — interactive use case page (e.g. research, coding-agents, code-review-agents, browser-qa)
 - /tool.html?id={toolId} — tool detail

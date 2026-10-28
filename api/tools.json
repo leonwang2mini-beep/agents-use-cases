@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.0.7",
-    "updated": "2026-10-26",
+    "version": "1.0.8",
+    "updated": "2026-10-28",
     "note": "Seed catalog — public well-known tools; expand carefully"
   },
   "tools": [
@@ -773,6 +773,116 @@
       ],
       "added": "2026-02-11",
       "isNew": false,
+      "source": "editorial"
+    },
+    {
+      "id": "context7",
+      "name": "Context7",
+      "tagline": "MCP server that feeds coding agents current library docs so they stop writing last year's API",
+      "url": "https://github.com/upstash/context7",
+      "pricing": "Freemium",
+      "categories": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "added": "2026-10-27",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "chrome-devtools-mcp",
+      "name": "Chrome DevTools MCP",
+      "tagline": "Official Chrome DevTools for coding agents: console, network and perf traces from a real browser",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling",
+        "browser-qa"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "browser-qa",
+        "coding-agents"
+      ],
+      "added": "2026-10-27",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "codebase-memory-mcp",
+      "name": "codebase-memory-mcp",
+      "tagline": "Open-source MCP server that turns your repo into a queryable code graph for coding agents",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents",
+        "code-review-agents"
+      ],
+      "added": "2026-10-27",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "leanrea",
+      "name": "leanrea",
+      "tagline": "One 8 KB skill file that has your coding agent reverse-engineer apps with plain CLI tools instead of an MCP server",
+      "url": "https://github.com/aicodeking/leanrea",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "added": "2026-10-28",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "earshot",
+      "name": "earshot",
+      "tagline": "CPU-only CLI, Python API and MCP server that lets coding agents listen to, review and make sound",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents",
+        "ai-video"
+      ],
+      "added": "2026-10-28",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "tstack",
+      "name": "tstack",
+      "tagline": "Theo's everyday agent skills pack for Claude Code and Codex, ready to drop into your setup",
+      "url": "https://github.com/t3dotgg/tstack",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents",
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-10-28",
+      "isNew": true,
       "source": "editorial"
     }
   ]
