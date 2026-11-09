@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.0.8",
-    "updated": "2026-10-28",
+    "version": "1.0.10",
+    "updated": "2026-11-06",
     "note": "Seed catalog — public well-known tools; expand carefully"
   },
   "tools": [
@@ -882,6 +882,178 @@
         "mcp-agent-tooling"
       ],
       "added": "2026-10-28",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "directus",
+      "name": "Directus",
+      "tagline": "Turns an existing SQL database into a governed backend with instant REST/GraphQL APIs, an admin Studio, and an MCP server so agents can read and write your data safely",
+      "url": "https://github.com/directus/directus",
+      "pricing": "Freemium",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-10-29",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "agent-desktop",
+      "name": "agent-desktop",
+      "tagline": "Vercel Labs CLI that gives any coding agent computer use on macOS, Windows and Linux by reading the OS accessibility tree instead of guessing from pixels",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling",
+        "browser-qa"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "browser-qa",
+        "coding-agents"
+      ],
+      "added": "2026-11-03",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "security-audit-skill",
+      "name": "Cloudflare security-audit skill",
+      "tagline": "Coding-agent skill from Cloudflare that runs a six-phase security audit where fresh agents try to disprove every finding before it reaches the report",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "pricing": "Free",
+      "categories": [
+        "code-review-agents"
+      ],
+      "useCases": [
+        "code-review-agents",
+        "coding-agents"
+      ],
+      "added": "2026-11-03",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "dsh-superagent",
+      "name": "DeepSeek dsh-superagent",
+      "tagline": "DeepSeek's MIT research prototype of an always-on coding agent that watches one GitHub repo (and optionally Feishu), opens a work item per allowed request, works it in its own session, and replies with a pull request",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents",
+        "pr-changelog"
+      ],
+      "added": "2026-11-04",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "agent-autoloop",
+      "name": "Agent Autoloop",
+      "tagline": "Self-hosted MIT hub that hands cron jobs, GitHub issues and error reports to Claude Code, Codex or any CLI agent in the background, and only pings you on Feishu, Slack, DingTalk or desktop when a risky step needs your call; the agent exits while waiting, so no tokens burn",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents",
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-11-05",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "pixelfx",
+      "name": "pixelfx",
+      "tagline": "MIT library of 244 code-only pixel art effects (fire, magic, weather, UI, character moves) you can play, recolor and export as sprite sheets, plus a Claude Code skill that drafts, renders, looks and refines new effects",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "game-npc-prototyping",
+        "coding-agents"
+      ],
+      "added": "2026-11-05",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "octomind",
+      "name": "Octomind",
+      "tagline": "Apache-2.0 Rust coding-agent harness in one binary — any model, MCP-native tools, TOML guardrails instead of approval popups; runs as CLI, CI pipe, daemon, WebSocket or ACP in your editor",
+      "url": "https://github.com/Muvon/octomind",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents",
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "coding-agents",
+        "mcp-agent-tooling",
+        "pr-changelog"
+      ],
+      "added": "2026-11-06",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "mcpjungle",
+      "name": "MCPJungle",
+      "tagline": "Self-hosted MPL-2.0 MCP gateway: register servers once and point Claude, Cursor, Codex or your own agents at a single endpoint with unified discovery and optional tool groups",
+      "url": "https://github.com/mcpjungle/MCPJungle",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "coding-agents"
+      ],
+      "added": "2026-11-06",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "pinky",
+      "name": "Pinky",
+      "tagline": "Apache-2.0 desktop app (macOS, Windows, Linux) that lets Claude Code, Codex, Cursor or any MCP agent operate a real iPhone or Android phone while you watch, with a gateway that blocks finance apps and holds payments or other risky taps until you approve, plus a replay of every step",
+      "url": "https://github.com/DIYgod/pinky",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "browser-qa"
+      ],
+      "added": "2026-11-09",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "devvm",
+      "name": "devvm",
+      "tagline": "MIT CLI that gives each project folder its own isolated Lima VM with the project's toolchain, so Claude Code, Codex or opencode run inside it with an allowlisted network and host-side token proxy instead of loose on your machine",
+      "url": "https://github.com/devvmhq/devvm",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents"
+      ],
+      "added": "2026-11-09",
       "isNew": true,
       "source": "editorial"
     }

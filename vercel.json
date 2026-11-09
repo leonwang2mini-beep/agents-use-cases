@@ -21,5 +21,12 @@
   ],
   "rewrites": [
     { "source": "/404", "destination": "/404.html" }
+  ],
+  "redirects": [
+    {
+      "source": "/best",
+      "destination": "/best/index.html",
+      "permanent": true
+    }
   ]
 }
