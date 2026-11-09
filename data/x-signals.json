@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updated": "2026-10-28",
+    "updated": "2026-11-06",
     "note": "Mixed: demo seed cards + real X captures from daily ops scanner. Prefer real urls when present.",
     "scanner": {
       "status": "placeholder",
@@ -20,6 +20,98 @@
     }
   },
   "signals": [
+    {
+      "id": "x-real-dsh-superagent-gilles-ac-2026-11-03",
+      "handle": "@gilles_ac",
+      "displayName": "Gilles AC",
+      "text": "DeepSeek open-sourced dsh-superagent: it watches your GitHub, runs requests in parallel worker sessions and replies with a PR. Their own docs say it runs with full OS user access, isolate it first.",
+      "url": "https://x.com/gilles_ac/status/2117724143642890571",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "dsh-superagent"
+      ],
+      "engagement": {
+        "likes": 1,
+        "reposts": 1
+      },
+      "capturedAt": "2026-11-03T21:02:35Z"
+    },
+    {
+      "id": "x-real-dsh-superagent-cnemalek-2026-11-03",
+      "handle": "@cnemalek",
+      "displayName": "مالك بن حمود المالك",
+      "text": "DeepSeek released a new open-source agent, DSH SuperAgent: a coding agent that watches GitHub repo events and can open pull requests on its own, with docs explaining step by step how the system was built. (translated from Arabic)",
+      "url": "https://x.com/cnemalek/status/2117723909550154229",
+      "useCaseIds": [
+        "coding-agents",
+        "pr-changelog"
+      ],
+      "toolIds": [
+        "dsh-superagent"
+      ],
+      "engagement": {
+        "likes": 34,
+        "reposts": 3
+      },
+      "capturedAt": "2026-11-03T21:01:40Z"
+    },
+    {
+      "id": "x-real-agent-desktop-ctatedev-2026-10-31",
+      "handle": "@ctatedev",
+      "displayName": "Chris Tate",
+      "text": "Introducing agent-desktop: agent-browser, for your whole computer. Computer Use for any coding agent on macOS, Windows and Linux; runs in the background while you keep working; agents use your computer in parallel, each with its own cursor.",
+      "url": "https://x.com/ctatedev/status/2116323148706771302",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "browser-qa"
+      ],
+      "toolIds": [
+        "agent-desktop"
+      ],
+      "engagement": {
+        "likes": 9970,
+        "reposts": 764
+      },
+      "capturedAt": "2026-10-31T00:15:32Z"
+    },
+    {
+      "id": "x-real-security-audit-skill-obiryder-2026-10-31",
+      "handle": "@Obi_Ryder",
+      "displayName": "Obi Ryder",
+      "text": "One agent finds a bug. A fresh agent tries to prove it wrong. Cloudflare's Security Audit skill is MIT licensed. Model costs still apply; it isn't continuous security monitoring. Would you use this before shipping?",
+      "url": "https://x.com/Obi_Ryder/status/2116473170387509482",
+      "useCaseIds": [
+        "code-review-agents"
+      ],
+      "toolIds": [
+        "security-audit-skill"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-31T10:11:40Z"
+    },
+    {
+      "id": "x-real-directus-kliKrakelab-2026-10-28",
+      "handle": "@KLIKrakelab",
+      "displayName": "KLI - Krake labs India",
+      "text": "GitHub repo review: Directus turns an existing SQL database into a governed backend: instant REST + GraphQL APIs, a visual Studio and an MCP server for AI agents. Use cases: headless CMS, internal tools, data portals and AI-agent workflows.",
+      "url": "https://x.com/KLIKrakelab/status/2115237735812276290",
+      "useCaseIds": [
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "directus"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-10-28T00:22:30Z"
+    },
     {
       "id": "x-real-leanrea-0xasten-2026-10-27",
       "handle": "@0xasten",
@@ -390,6 +482,117 @@
         "reposts": 15
       },
       "capturedAt": "2026-10-19T12:20:00Z"
+    },
+    {
+      "id": "x-real-agent-autoloop-2026-11-04-llmpsycho",
+      "handle": "@LLMpsycho",
+      "displayName": "Bessi S",
+      "text": "Agent Autoloop lets Claude Code, Codex or any CLI agent pick up cron jobs, GitHub issues and errors in the background. Before deleting data or spending money it sends a Slack or Feishu card, exits while waiting, then resumes the same session.",
+      "url": "https://x.com/LLMpsycho/status/2117894100519448763",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "agent-autoloop",
+        "claude-code",
+        "openai-codex"
+      ],
+      "engagement": {
+        "likes": 3,
+        "reposts": 1
+      },
+      "capturedAt": "2026-11-04T08:17:56Z"
+    },
+    {
+      "id": "x-real-agent-autoloop-2026-11-04-deaglepc",
+      "handle": "@DeaglePc",
+      "displayName": "deaglepc",
+      "text": "卡兹克今天开源 Agent-Autoloop，把等人审批改成了“存档下班”：发完卡片，Agent退出；你点了再接着干。按作者介绍，等待期间不调用模型。",
+      "url": "https://x.com/DeaglePc/status/2117804336466309175",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "agent-autoloop"
+      ],
+      "engagement": {
+        "likes": 2,
+        "reposts": 0
+      },
+      "capturedAt": "2026-11-04T02:21:15Z"
+    },
+    {
+      "id": "x-real-octomind-2026-11-05-aisuperdomain",
+      "handle": "@AISuperDomain",
+      "displayName": "AI超元域",
+      "text": "发现一个值得关注的开源 AI 编程项目：Octomind！它基于 Rust 开发，将 AI Coding Agent 封装成单个二进制程序，支持 OpenAI、Anthropic、DeepSeek、Ollama 等多种模型。核心亮点：MCP 原生支持，可读写代码、执行命令、调用子 Agent；支持 CLI、CI/CD、后台 Daemon、WebSocket。",
+      "url": "https://x.com/AISuperDomain/status/2118351148835098986",
+      "useCaseIds": [
+        "coding-agents",
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "octomind"
+      ],
+      "engagement": {
+        "likes": 16,
+        "reposts": 2
+      },
+      "capturedAt": "2026-11-05T14:34:05Z"
+    },
+    {
+      "id": "x-real-mcpjungle-2026-11-01-dankornas",
+      "handle": "@DanKornas",
+      "displayName": "Dan Kornas",
+      "text": "Stop configuring every MCP server in every AI client. MCPJungle is a self-hosted MCP gateway for developers and teams managing multiple MCP servers. It helps you cut duplicated setup by registering servers once and connecting Claude, Cursor, Codex, or your own agents to a single endpoint.",
+      "url": "https://x.com/DanKornas/status/2116772873528328635",
+      "useCaseIds": [
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "mcpjungle"
+      ],
+      "engagement": {
+        "likes": 169,
+        "reposts": 19
+      },
+      "capturedAt": "2026-11-01T06:02:35Z"
+    },
+    {
+      "id": "x-real-pinky-2026-11-08-lanzhiai",
+      "handle": "@LanzhiAI",
+      "displayName": "澜知 AI",
+      "text": "给本地 Agent 放权操控真机，大家最怕的从来不是它点错，而是冷不丁在后台把钱给付了。DIYgod 刚开源了一个叫 Pinky 的工具，专门解决把 Claude Code、Codex、Cursor 这类 Agent 接入真实手机的问题。Mac、Windows、Linux 都能跑，开源免费。",
+      "url": "https://x.com/LanzhiAI/status/2119287634656948317",
+      "useCaseIds": [
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "pinky"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-11-08T04:35:21Z"
+    },
+    {
+      "id": "x-real-devvm-2026-11-07-khaled865412521",
+      "handle": "@Khaled865412521",
+      "displayName": "ふきゅう",
+      "text": "devvm 0.1.0 — one isolated VM per project folder, for you or a coding agent. Claude Code / Codex / opencode run inside the VM (settings, skills, MCP available; tokens stay on the host via a proxy). Default allowlist network; --clone gives the agent its own git clone",
+      "url": "https://x.com/Khaled865412521/status/2119068836397805603",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "devvm"
+      ],
+      "engagement": {
+        "likes": 3,
+        "reposts": 0
+      },
+      "capturedAt": "2026-11-07T14:05:55Z"
     }
   ]
 }
