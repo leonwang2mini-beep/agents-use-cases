@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/leanrea.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "leanrea",
+  "name": "leanrea",
+  "tagline": "One 8 KB skill file that has your coding agent reverse-engineer apps with plain CLI tools instead of an MCP server",
+  "url": "https://github.com/aicodeking/leanrea",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "coding-agents"
+  ],
+  "added": "2026-10-28",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@0xasten",
+      "text": "On the breakout board, leanrea (+304% this week) makes the opposite bet to rea: one small skill file that has the agent reverse-engineer with otool, nm and jadx instead of a server full of tools. Server or skill file, which would you run?",
+      "url": "https://x.com/0xasten/status/2114901572123873373",
+      "capturedAt": "2026-10-27T02:06:42Z"
+    }
+  ]
+}

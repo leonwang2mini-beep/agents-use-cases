@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/yogurt.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "yogurt",
+  "name": "Yogurt",
+  "tagline": "MIT desktop app from Frigade for private AI meeting notes on Mac, Windows and Linux: records calls locally with no bot joining the meeting, transcribes with Whisper and summarizes with a local llama.cpp model into next steps by person, and ships an MCP server",
+  "url": "https://yogurt.so",
+  "pricing": "Free",
+  "categories": [
+    "meeting-notes-to-tasks"
+  ],
+  "added": "2026-11-12",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "meeting-notes-to-tasks",
+      "title": "Best meeting notes → tasks",
+      "page": "/best/meeting-notes-to-tasks.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@codebubdotcom",
+      "text": "This app writes your meeting notes without a bot joining the call!\n\nYogurt records your calls on your own machine, so no bot shows up in the meeting.\n\nIt can replace a paid meeting-notes subscription like Granola, and your notes stay with you.",
+      "url": "https://x.com/codebubdotcom/status/2120589536476680587",
+      "capturedAt": "2026-11-11T18:48:38Z"
+    }
+  ]
+}

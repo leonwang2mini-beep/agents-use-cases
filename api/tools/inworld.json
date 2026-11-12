@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/inworld.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "inworld",
+  "name": "Inworld",
+  "tagline": "AI characters and NPC brains for games and prototypes",
+  "url": "https://www.inworld.ai",
+  "pricing": "Freemium",
+  "categories": [
+    "games"
+  ],
+  "added": "2026-10-17",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "game-npc-prototyping",
+      "title": "Best tools for game NPC prototyping",
+      "page": "/best/game-npc-prototyping.html",
+      "editorialRank": 1,
+      "why": "Purpose-built character brains with personality and memory hooks."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

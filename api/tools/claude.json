@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/claude.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "claude",
+  "name": "Claude",
+  "tagline": "Anthropic chat for long docs, careful edits, and code review",
+  "url": "https://claude.ai",
+  "pricing": "Freemium",
+  "categories": [
+    "ai-writing",
+    "coding-agents"
+  ],
+  "added": "2026-10-17",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "page": "/best/code-review-agents.html",
+      "editorialRank": 3,
+      "why": "Paste a diff or PR summary for careful, readable feedback."
+    },
+    {
+      "useCaseId": "seo-draft",
+      "title": "Best AI SEO draft tools",
+      "page": "/best/seo-draft.html",
+      "editorialRank": 2,
+      "why": "Stronger long-form tone control and fewer generic SEO clichés."
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "meeting-notes-to-tasks",
+      "title": "Best meeting notes → tasks",
+      "page": "/best/meeting-notes-to-tasks.html",
+      "editorialRank": 3,
+      "why": "Great at cleaning messy notes into owners, due dates, and next steps."
+    },
+    {
+      "useCaseId": "ai-writing",
+      "title": "Best AI writing for builders",
+      "page": "/best/ai-writing.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "game-npc-prototyping",
+      "title": "Best tools for game NPC prototyping",
+      "page": "/best/game-npc-prototyping.html",
+      "editorialRank": 3,
+      "why": "Good for longer character bibles and consistent voice guides."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

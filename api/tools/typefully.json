@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/typefully.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "typefully",
+  "name": "Typefully",
+  "tagline": "Draft and ship threads for builder audiences",
+  "url": "https://typefully.com",
+  "pricing": "Freemium",
+  "categories": [
+    "ai-writing"
+  ],
+  "added": "2026-06-01",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "ai-writing",
+      "title": "Best AI writing for builders",
+      "page": "/best/ai-writing.html",
+      "editorialRank": 2,
+      "why": "Purpose-built for shipping builder threads on X."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

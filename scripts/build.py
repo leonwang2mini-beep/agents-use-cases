@@ -8,6 +8,7 @@ Generates, from data/*.json:
   - best/<id>.html          crawlable pre-rendered use-case pages (no JS needed)
   - best/index.html         crawlable index of all use cases
   - adds best/* URLs to sitemap.xml (idempotent)
+  - then runs scripts/build_tools.py (tools/<id>.html, tools/index.html, api/tools/<id>.json)
 Run: python3 scripts/build.py   (from repo root)
 """
 import json, html, os, re, shutil, datetime
@@ -85,7 +86,7 @@ HEAD = """<!DOCTYPE html>
 <body>
   <header class="site-header"><div class="wrap nav">
     <a class="logo" href="../index.html"><span class="logo-mark">A</span> Agents Use Cases</a>
-    <ul class="nav-links"><li><a href="index.html">All use cases</a></li><li><a href="../about.html">About</a></li>
+    <ul class="nav-links"><li><a href="index.html">All use cases</a></li><li><a href="../tools/index.html">Tools</a></li><li><a href="../about.html">About</a></li>
     <li><a class="btn btn-primary" href="../submit.html">Feature your tool</a></li></ul>
   </div></header>
   <main class="wrap">
@@ -129,7 +130,7 @@ for u, r in zip(ucs, rankings):
         out.append('    </ol></section>\n')
     out.append('    <section class="section"><div class="panel-label"><span class="section-label">Editorial ranking</span><span class="badge badge-editorial">Not for sale</span></div>\n    <ol class="rank-list">\n')
     for e in r["editorial"]:
-        out.append(f'      <li><strong>#{e["rank"]} <a href="../tool.html?id={E(e["toolId"])}">{E(e["name"])}</a></strong> · {E(e["pricing"] or "")} · <a href="{E(e["url"] or "#")}" rel="noopener">site</a><br />{E(e["why"])}</li>\n')
+        out.append(f'      <li><strong>#{e["rank"]} <a href="../tools/{E(e["toolId"])}.html">{E(e["name"])}</a></strong> · {E(e["pricing"] or "")} · <a href="{E(e["url"] or "#")}" rel="noopener">site</a><br />{E(e["why"])}</li>\n')
     out.append('    </ol></section>\n')
     if uc_sigs:
         out.append('    <section class="section"><div class="section-label">Signals</div><h2>From X</h2><ul>\n')
@@ -165,3 +166,6 @@ add = "".join(f"\n  <url>\n    <loc>{BASE}/best/{p}</loc>\n    <lastmod>{TODAY}<
 sm = sm.replace("</urlset>", add.lstrip("\n").join(["", ""]) + "\n</urlset>") if False else sm.replace("\n</urlset>", add + "\n</urlset>")
 open(P("sitemap.xml"), "w", encoding="utf-8").write(sm)
 print(f"built {len(ucs)} use-case pages, {len(tools)} tools, {len(act)} active featured")
+
+import runpy  # crawlable tool pages + api/tools/<id>.json + sitemap swap
+runpy.run_path(P("scripts", "build_tools.py"), run_name="__main__")

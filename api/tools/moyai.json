@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/moyai.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "moyai",
+  "name": "Moyai",
+  "tagline": "Self-hosted cloud coding agent via Slack/browser — PR + tests through LiteLLM",
+  "url": "https://docs.litellm.ai/docs/self_hosted_coding_agents/moyai",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-10-22",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@benchsmoke",
+      "text": "LiteLLM open-sourced Moyai, the cloud coding agent its own team runs. You bring a Modal account and a LiteLLM gateway, then pick the agent, like Codex, Claude Code or OpenCode. Its 79% savings figure is LiteLLM's internal estimate, not a matched benchmark. News, not a test.",
+      "url": "https://x.com/benchsmoke/status/2113000866177536180",
+      "capturedAt": "2026-10-21T20:13:58Z"
+    },
+    {
+      "handle": "@TanveerDhool",
+      "text": "LiteLLM just open-sourced its escape from a $101,872 Devin bill. Moyai — a self-hosted cloud coding agent tasked from Slack — cost ~$21,700 for the same 31 days. ~79% less. The managed-agent markup is the real AI tax. Build or buy — what is your call?",
+      "url": "https://x.com/TanveerDhool/status/2110934200350072893",
+      "capturedAt": "2026-10-16T03:21:47Z"
+    }
+  ]
+}

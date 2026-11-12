@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/sandbox-mcp.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "sandbox-mcp",
+  "name": "sandbox-mcp",
+  "tagline": "MIT CLI (sbx) plus optional MCP server by Scott Hanselman that boots a fresh, network-off Windows Sandbox, deploys your app, drives it with UI Automation, keeps screenshots and crash evidence, then deletes the machine — catches \"works on my machine\" bugs in ~40-50 s (needs Windows Pro/Enterprise/Education)",
+  "url": "https://github.com/shanselman/sandbox-mcp",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-11-11",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@shanselman",
+      "text": "A lot of people don't realize that Windows has a built-in feature called Windows \"Sandbox\" that boots up a brand new virtual Windows machine in seconds. So I made an MCP server so you can test your apps inside a throwaway machine in seconds.",
+      "url": "https://x.com/shanselman/status/2118945554734723467",
+      "capturedAt": "2026-11-07T05:56:03Z"
+    }
+  ]
+}

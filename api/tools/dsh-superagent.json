@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/dsh-superagent.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "dsh-superagent",
+  "name": "DeepSeek dsh-superagent",
+  "tagline": "DeepSeek's MIT research prototype of an always-on coding agent that watches one GitHub repo (and optionally Feishu), opens a work item per allowed request, works it in its own session, and replies with a pull request",
+  "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-11-04",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@gilles_ac",
+      "text": "DeepSeek open-sourced dsh-superagent: it watches your GitHub, runs requests in parallel worker sessions and replies with a PR. Their own docs say it runs with full OS user access, isolate it first.",
+      "url": "https://x.com/gilles_ac/status/2117724143642890571",
+      "capturedAt": "2026-11-03T21:02:35Z"
+    },
+    {
+      "handle": "@cnemalek",
+      "text": "DeepSeek released a new open-source agent, DSH SuperAgent: a coding agent that watches GitHub repo events and can open pull requests on its own, with docs explaining step by step how the system was built. (translated from Arabic)",
+      "url": "https://x.com/cnemalek/status/2117723909550154229",
+      "capturedAt": "2026-11-03T21:01:40Z"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/chrome-devtools-mcp.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "chrome-devtools-mcp",
+  "name": "Chrome DevTools MCP",
+  "tagline": "Official Chrome DevTools for coding agents: console, network and perf traces from a real browser",
+  "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "browser-qa"
+  ],
+  "added": "2026-10-27",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@MohakBajaj5",
+      "text": "mcp servers i'd actually install for a coding agent: 1. context7 (current library docs) 2. chrome-devtools-mcp (console, network, perf traces) 3. github-mcp-server",
+      "url": "https://x.com/MohakBajaj5/status/2114673881273549068",
+      "capturedAt": "2026-10-26T11:01:56Z"
+    }
+  ]
+}

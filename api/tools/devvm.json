@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/devvm.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "devvm",
+  "name": "devvm",
+  "tagline": "MIT CLI that gives each project folder its own isolated Lima VM with the project's toolchain, so Claude Code, Codex or opencode run inside it with an allowlisted network and host-side token proxy instead of loose on your machine",
+  "url": "https://github.com/devvmhq/devvm",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-11-09",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@Khaled865412521",
+      "text": "devvm 0.1.0 — one isolated VM per project folder, for you or a coding agent. Claude Code / Codex / opencode run inside the VM (settings, skills, MCP available; tokens stay on the host via a proxy). Default allowlist network; --clone gives the agent its own git clone",
+      "url": "https://x.com/Khaled865412521/status/2119068836397805603",
+      "capturedAt": "2026-11-07T14:05:55Z"
+    }
+  ]
+}

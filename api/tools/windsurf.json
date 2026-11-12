@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/windsurf.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "windsurf",
+  "name": "Windsurf",
+  "tagline": "Cascade agent inside a full IDE",
+  "url": "https://windsurf.com",
+  "pricing": "Freemium",
+  "categories": [
+    "coding-editors",
+    "coding-agents"
+  ],
+  "added": "2025-09-20",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "page": "/best/coding-editors.html",
+      "editorialRank": 2,
+      "why": "Cascade agent feels like a teammate inside a full IDE."
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

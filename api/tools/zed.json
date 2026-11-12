@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/zed.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "zed",
+  "name": "Zed",
+  "tagline": "Fast collaborative editor with AI assistant",
+  "url": "https://zed.dev",
+  "pricing": "Free",
+  "categories": [
+    "coding-editors"
+  ],
+  "added": "2026-02-11",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "page": "/best/coding-editors.html",
+      "editorialRank": 3,
+      "why": "Blazing fast when you want AI without the bloat."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/directus.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "directus",
+  "name": "Directus",
+  "tagline": "Turns an existing SQL database into a governed backend with instant REST/GraphQL APIs, an admin Studio, and an MCP server so agents can read and write your data safely",
+  "url": "https://github.com/directus/directus",
+  "pricing": "Freemium",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-10-29",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@KLIKrakelab",
+      "text": "GitHub repo review: Directus turns an existing SQL database into a governed backend: instant REST + GraphQL APIs, a visual Studio and an MCP server for AI agents. Use cases: headless CMS, internal tools, data portals and AI-agent workflows.",
+      "url": "https://x.com/KLIKrakelab/status/2115237735812276290",
+      "capturedAt": "2026-10-28T00:22:30Z"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/freemilk.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "freemilk",
+  "name": "FreeMilk",
+  "tagline": "Free on-device coding agent for iPhone — Swift/web apps with a daily model allowance",
+  "url": "https://www.freemilk.ai",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-10-26",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@neeeel",
+      "text": "Introducing a free coding agent that runs locally on your iPhone - FreeMilk \n\n- Free daily allowance of coding models: DeepSeek V4.1 Flash, GPT 6 Luna, and GLM 5.3 Flash (will add more)\n\n- Reads and writes files on-device with local git support\n\n- GitHub integration to clone",
+      "url": "https://x.com/neeeel/status/2114425316135567634",
+      "capturedAt": "2026-10-25T18:34:14Z"
+    }
+  ]
+}

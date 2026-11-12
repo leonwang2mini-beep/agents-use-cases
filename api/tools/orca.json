@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/orca.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "orca",
+  "name": "Orca",
+  "tagline": "Run a fleet of coding agents in parallel worktrees on your own subs",
+  "url": "https://orca.dev",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents",
+    "coding-editors"
+  ],
+  "added": "2026-10-20",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "page": "/best/coding-editors.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@VT_zero1",
+      "text": "Top AI repos: stablyai/orca — one app for running a team of coding agents (Claude Code, Codex) on your own subscriptions, desktop + mobile + remote.",
+      "url": "https://x.com/VT_zero1/status/2112317911381795143",
+      "capturedAt": "2026-10-19T23:00:09Z"
+    }
+  ]
+}

@@ -20,7 +20,8 @@ Do not open `index.html` via `file://` — fetch() needs HTTP.
 | `sitemap.xml` | Home, about, submit, use cases, tools, API, llms.txt |
 | `llms.txt` | LLM / agent entry map |
 | `favicon.svg` | Site icon |
-| `api/*.json` | Stable agent JSON (prefer `/api/rankings.json`) |
+| `api/*.json` | Stable agent JSON (prefer `/api/rankings.json`; per-tool `/api/tools/<id>.json`) |
+| `tools/*.html` | Crawlable per-tool pages, built by `scripts/build_tools.py` |
 
 Canonical host: `https://agents-use-cases.vercel.app`
 

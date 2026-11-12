@@ -3,7 +3,7 @@
 > Editorial Top picks include a one-line "why". Featured/Sponsored placements are paid and always labeled separately — never sold as editorial rank.
 
 Site: https://agents-use-cases.vercel.app
-Updated: 2026-11-09
+Updated: 2026-11-12
 
 ## Prefer JSON (do not scrape HTML for rankings)
 
@@ -23,7 +23,10 @@ Updated: 2026-11-09
 - /best/index.html — static index of all use cases (no JS needed)
 - /best/{useCaseId}.html — static, crawlable use case page (cite this URL)
 - /use-case.html?id={useCaseId} — interactive use case page (e.g. research, coding-agents, code-review-agents, browser-qa)
-- /tool.html?id={toolId} — tool detail
+- /tools/{toolId}.html — crawlable tool page (use cases, editorial rank + why, X signals; no JS)
+- /tools/index.html — all tools A–Z
+- /api/tools/{toolId}.json — per-tool resolved JSON for agents
+- /tool.html?id={toolId} — interactive tool detail (JS)
 
 ## Use case ids
 
@@ -43,28 +46,33 @@ Updated: 2026-11-09
 - browser-qa — Best browser QA for agents
 ## Recently added tools (newest first, last ~2 weeks)
 
-- Pinky (2026-11-09; mcp-agent-tooling, browser-qa) — Apache-2.0 desktop app (macOS, Windows, Linux) that lets Claude Code, Codex, Cursor or any MCP agent operate a real iPhone or Android phone while you watch, with a gateway that blocks finance apps and holds payments or other risky taps until you approve, plus a replay of every step. https://agents-use-cases.vercel.app/tool.html?id=pinky
-- devvm (2026-11-09; coding-agents) — MIT CLI that gives each project folder its own isolated Lima VM with the project's toolchain, so Claude Code, Codex or opencode run inside it with an allowlisted network and host-side token proxy instead of loose on your machine. https://agents-use-cases.vercel.app/tool.html?id=devvm
-- Octomind (2026-11-06; coding-agents, mcp-agent-tooling, pr-changelog) — Apache-2.0 Rust coding-agent harness in one binary — any model, MCP-native tools, TOML guardrails instead of approval popups; runs as CLI, CI pipe, daemon, WebSocket or ACP in your editor. https://agents-use-cases.vercel.app/tool.html?id=octomind
-- MCPJungle (2026-11-06; mcp-agent-tooling, coding-agents) — Self-hosted MPL-2.0 MCP gateway: register servers once and point Claude, Cursor, Codex or your own agents at a single endpoint with unified discovery and optional tool groups. https://agents-use-cases.vercel.app/tool.html?id=mcpjungle
-- Agent Autoloop (2026-11-05; coding-agents, mcp-agent-tooling) — Self-hosted MIT hub that hands cron jobs, GitHub issues and error reports to Claude Code, Codex or any CLI agent in the background, and only pings you on Feishu, Slack, DingTalk or desktop when a risky step needs your call; the agent exits while waiting, so no tokens burn. https://agents-use-cases.vercel.app/tool.html?id=agent-autoloop
-- pixelfx (2026-11-05; game-npc-prototyping, coding-agents) — MIT library of 244 code-only pixel art effects (fire, magic, weather, UI, character moves) you can play, recolor and export as sprite sheets, plus a Claude Code skill that drafts, renders, looks and refines new effects. https://agents-use-cases.vercel.app/tool.html?id=pixelfx
-- DeepSeek dsh-superagent (2026-11-04; coding-agents, pr-changelog) — DeepSeek's MIT research prototype of an always-on coding agent that watches one GitHub repo (and optionally Feishu), opens a work item per allowed request, works it in its own session, and replies with a pull request. https://agents-use-cases.vercel.app/tool.html?id=dsh-superagent
-- agent-desktop (2026-11-03; mcp-agent-tooling, browser-qa, coding-agents) — Vercel Labs CLI that gives any coding agent computer use on macOS, Windows and Linux by reading the OS accessibility tree instead of guessing from pixels. https://agents-use-cases.vercel.app/tool.html?id=agent-desktop
-- Cloudflare security-audit skill (2026-11-03; code-review-agents, coding-agents) — Coding-agent skill from Cloudflare that runs a six-phase security audit where fresh agents try to disprove every finding before it reaches the report. https://agents-use-cases.vercel.app/tool.html?id=security-audit-skill
-- Directus (2026-10-29; mcp-agent-tooling) — Turns an existing SQL database into a governed backend with instant REST/GraphQL APIs, an admin Studio, and an MCP server so agents can read and write your data safely. https://agents-use-cases.vercel.app/tool.html?id=directus
-- leanrea (2026-10-28; mcp-agent-tooling, coding-agents) — One 8 KB skill file that has your coding agent reverse-engineer apps with plain CLI tools instead of an MCP server. https://agents-use-cases.vercel.app/tool.html?id=leanrea
-- earshot (2026-10-28; mcp-agent-tooling, coding-agents, ai-video) — CPU-only CLI, Python API and MCP server that lets coding agents listen to, review and make sound. https://agents-use-cases.vercel.app/tool.html?id=earshot
-- tstack (2026-10-28; coding-agents, mcp-agent-tooling) — Theo's everyday agent skills pack for Claude Code and Codex, ready to drop into your setup. https://agents-use-cases.vercel.app/tool.html?id=tstack
-- Context7 (2026-10-27; mcp-agent-tooling, coding-agents) — MCP server that feeds coding agents current library docs so they stop writing last year's API. https://agents-use-cases.vercel.app/tool.html?id=context7
-- Chrome DevTools MCP (2026-10-27; mcp-agent-tooling, browser-qa, coding-agents) — Official Chrome DevTools for coding agents: console, network and perf traces from a real browser. https://agents-use-cases.vercel.app/tool.html?id=chrome-devtools-mcp
-- codebase-memory-mcp (2026-10-27; mcp-agent-tooling, coding-agents, code-review-agents) — Open-source MCP server that turns your repo into a queryable code graph for coding agents. https://agents-use-cases.vercel.app/tool.html?id=codebase-memory-mcp
-- Cusp (2026-10-26; coding-agents, coding-editors, pr-changelog) — Model-agnostic coding agent workspace — any provider, CLI + desktop, session rewind. https://agents-use-cases.vercel.app/tool.html?id=cusp
-- FreeMilk (2026-10-26; coding-agents) — Free on-device coding agent for iPhone — Swift/web apps with a daily model allowance. https://agents-use-cases.vercel.app/tool.html?id=freemilk
-- REA (2026-10-26; mcp-agent-tooling, coding-agents, code-review-agents) — Open-source MCP/CLI so Claude Code, Codex & Cursor can reverse-engineer apps without source. https://agents-use-cases.vercel.app/tool.html?id=rea
-- HumanLayer (2026-10-24; coding-agents, pr-changelog, mcp-agent-tooling) — Open-source (Apache 2.0) agent control plane: desktop/web UI, daemon, API, and Postgres sync for human-in-the-loop coding agents. https://agents-use-cases.vercel.app/tool.html?id=humanlayer
-- BAND for Developers (2026-10-23; coding-agents, coding-editors, pr-changelog) — Desktop control room so Claude Code, Codex, Copilot & friends share context and hand off work. https://agents-use-cases.vercel.app/tool.html?id=band
-- fx (2026-10-23; coding-agents, mcp-agent-tooling, pr-changelog) — Tiny Zig coding agent from Vercel Labs — CLI, scripts, or embed via libfx/Wasm. https://agents-use-cases.vercel.app/tool.html?id=fx
+- Yogurt (2026-11-12; meeting-notes-to-tasks) — MIT desktop app for private AI meeting notes on Mac, Windows and Linux: records calls locally with no bot in the meeting, transcribes and summarizes on-device into next steps by person, with an MCP server. https://agents-use-cases.vercel.app/tools/yogurt.html
+- ovnfs (2026-11-12; coding-agents, mcp-agent-tooling) — MIT CLI that gives each coding agent its own copy-on-write checkout of any folder without copying it; review with diff, merge back with a three-way apply. https://agents-use-cases.vercel.app/tools/ovnfs.html
+- sandbox-mcp (2026-11-11; browser-qa, coding-agents, mcp-agent-tooling) — MIT CLI (sbx) plus optional MCP server by Scott Hanselman that boots a fresh, network-off Windows Sandbox, deploys your app, drives it with UI Automation, keeps screenshots and crash evidence, then deletes the machine. https://agents-use-cases.vercel.app/tools/sandbox-mcp.html
+- Poki (2026-11-11; mcp-agent-tooling, browser-qa) — AGPL-3.0 local MCP server and terminal agent that lets Claude Code, Codex or any MCP client operate a real iPhone over USB, no jailbreak or extra hardware; it really sends and pays, so use a test device for risky flows. https://agents-use-cases.vercel.app/tools/poki.html
+- 67js (2026-11-10; mcp-agent-tooling, ai-video, game-npc-prototyping) — MIT WebGL2 3D engine with a 23-tool MCP server, so Claude Code, Codex or any MCP agent can build a scene as JSON, render real-time or path-traced frames, PNG sequences or MP4, then review labeled views and fix what looks wrong. https://agents-use-cases.vercel.app/tools/67js.html
+- Pinky (2026-11-09; mcp-agent-tooling, browser-qa) — Apache-2.0 desktop app (macOS, Windows, Linux) that lets Claude Code, Codex, Cursor or any MCP agent operate a real iPhone or Android phone while you watch, with a gateway that blocks finance apps and holds payments or other risky taps until you approve, plus a replay of every step. https://agents-use-cases.vercel.app/tools/pinky.html
+- devvm (2026-11-09; coding-agents) — MIT CLI that gives each project folder its own isolated Lima VM with the project's toolchain, so Claude Code, Codex or opencode run inside it with an allowlisted network and host-side token proxy instead of loose on your machine. https://agents-use-cases.vercel.app/tools/devvm.html
+- Octomind (2026-11-06; coding-agents, mcp-agent-tooling, pr-changelog) — Apache-2.0 Rust coding-agent harness in one binary — any model, MCP-native tools, TOML guardrails instead of approval popups; runs as CLI, CI pipe, daemon, WebSocket or ACP in your editor. https://agents-use-cases.vercel.app/tools/octomind.html
+- MCPJungle (2026-11-06; mcp-agent-tooling, coding-agents) — Self-hosted MPL-2.0 MCP gateway: register servers once and point Claude, Cursor, Codex or your own agents at a single endpoint with unified discovery and optional tool groups. https://agents-use-cases.vercel.app/tools/mcpjungle.html
+- Agent Autoloop (2026-11-05; coding-agents, mcp-agent-tooling) — Self-hosted MIT hub that hands cron jobs, GitHub issues and error reports to Claude Code, Codex or any CLI agent in the background, and only pings you on Feishu, Slack, DingTalk or desktop when a risky step needs your call; the agent exits while waiting, so no tokens burn. https://agents-use-cases.vercel.app/tools/agent-autoloop.html
+- pixelfx (2026-11-05; game-npc-prototyping, coding-agents) — MIT library of 244 code-only pixel art effects (fire, magic, weather, UI, character moves) you can play, recolor and export as sprite sheets, plus a Claude Code skill that drafts, renders, looks and refines new effects. https://agents-use-cases.vercel.app/tools/pixelfx.html
+- DeepSeek dsh-superagent (2026-11-04; coding-agents, pr-changelog) — DeepSeek's MIT research prototype of an always-on coding agent that watches one GitHub repo (and optionally Feishu), opens a work item per allowed request, works it in its own session, and replies with a pull request. https://agents-use-cases.vercel.app/tools/dsh-superagent.html
+- agent-desktop (2026-11-03; mcp-agent-tooling, browser-qa, coding-agents) — Vercel Labs CLI that gives any coding agent computer use on macOS, Windows and Linux by reading the OS accessibility tree instead of guessing from pixels. https://agents-use-cases.vercel.app/tools/agent-desktop.html
+- Cloudflare security-audit skill (2026-11-03; code-review-agents, coding-agents) — Coding-agent skill from Cloudflare that runs a six-phase security audit where fresh agents try to disprove every finding before it reaches the report. https://agents-use-cases.vercel.app/tools/security-audit-skill.html
+- Directus (2026-10-29; mcp-agent-tooling) — Turns an existing SQL database into a governed backend with instant REST/GraphQL APIs, an admin Studio, and an MCP server so agents can read and write your data safely. https://agents-use-cases.vercel.app/tools/directus.html
+- leanrea (2026-10-28; mcp-agent-tooling, coding-agents) — One 8 KB skill file that has your coding agent reverse-engineer apps with plain CLI tools instead of an MCP server. https://agents-use-cases.vercel.app/tools/leanrea.html
+- earshot (2026-10-28; mcp-agent-tooling, coding-agents, ai-video) — CPU-only CLI, Python API and MCP server that lets coding agents listen to, review and make sound. https://agents-use-cases.vercel.app/tools/earshot.html
+- tstack (2026-10-28; coding-agents, mcp-agent-tooling) — Theo's everyday agent skills pack for Claude Code and Codex, ready to drop into your setup. https://agents-use-cases.vercel.app/tools/tstack.html
+- Context7 (2026-10-27; mcp-agent-tooling, coding-agents) — MCP server that feeds coding agents current library docs so they stop writing last year's API. https://agents-use-cases.vercel.app/tools/context7.html
+- Chrome DevTools MCP (2026-10-27; mcp-agent-tooling, browser-qa, coding-agents) — Official Chrome DevTools for coding agents: console, network and perf traces from a real browser. https://agents-use-cases.vercel.app/tools/chrome-devtools-mcp.html
+- codebase-memory-mcp (2026-10-27; mcp-agent-tooling, coding-agents, code-review-agents) — Open-source MCP server that turns your repo into a queryable code graph for coding agents. https://agents-use-cases.vercel.app/tools/codebase-memory-mcp.html
+- Cusp (2026-10-26; coding-agents, coding-editors, pr-changelog) — Model-agnostic coding agent workspace — any provider, CLI + desktop, session rewind. https://agents-use-cases.vercel.app/tools/cusp.html
+- FreeMilk (2026-10-26; coding-agents) — Free on-device coding agent for iPhone — Swift/web apps with a daily model allowance. https://agents-use-cases.vercel.app/tools/freemilk.html
+- REA (2026-10-26; mcp-agent-tooling, coding-agents, code-review-agents) — Open-source MCP/CLI so Claude Code, Codex & Cursor can reverse-engineer apps without source. https://agents-use-cases.vercel.app/tools/rea.html
+- HumanLayer (2026-10-24; coding-agents, pr-changelog, mcp-agent-tooling) — Open-source (Apache 2.0) agent control plane: desktop/web UI, daemon, API, and Postgres sync for human-in-the-loop coding agents. https://agents-use-cases.vercel.app/tools/humanlayer.html
+- BAND for Developers (2026-10-23; coding-agents, coding-editors, pr-changelog) — Desktop control room so Claude Code, Codex, Copilot & friends share context and hand off work. https://agents-use-cases.vercel.app/tools/band.html
+- fx (2026-10-23; coding-agents, mcp-agent-tooling, pr-changelog) — Tiny Zig coding agent from Vercel Labs — CLI, scripts, or embed via libfx/Wasm. https://agents-use-cases.vercel.app/tools/fx.html
 
 
 Full catalog: /api/tools.json

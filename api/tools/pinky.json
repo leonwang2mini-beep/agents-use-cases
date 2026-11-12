@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/pinky.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "pinky",
+  "name": "Pinky",
+  "tagline": "Apache-2.0 desktop app (macOS, Windows, Linux) that lets Claude Code, Codex, Cursor or any MCP agent operate a real iPhone or Android phone while you watch, with a gateway that blocks finance apps and holds payments or other risky taps until you approve, plus a replay of every step",
+  "url": "https://github.com/DIYgod/pinky",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-11-09",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@LanzhiAI",
+      "text": "给本地 Agent 放权操控真机，大家最怕的从来不是它点错，而是冷不丁在后台把钱给付了。DIYgod 刚开源了一个叫 Pinky 的工具，专门解决把 Claude Code、Codex、Cursor 这类 Agent 接入真实手机的问题。Mac、Windows、Linux 都能跑，开源免费。",
+      "url": "https://x.com/LanzhiAI/status/2119287634656948317",
+      "capturedAt": "2026-11-08T04:35:21Z"
+    }
+  ]
+}

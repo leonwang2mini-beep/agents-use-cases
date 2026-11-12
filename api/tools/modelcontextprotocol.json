@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/modelcontextprotocol.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "modelcontextprotocol",
+  "name": "Model Context Protocol",
+  "tagline": "Open standard for connecting tools to agents",
+  "url": "https://modelcontextprotocol.io",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2025-11-25",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": 1,
+      "why": "The open standard — start here before picking vendors."
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@nitrostackai",
+      "text": "NitroStack is LIVE on Product Hunt today! Build, test, and deploy MCP servers in one place, from first tool definition to production.",
+      "url": "https://x.com/nitrostackai/status/2111352780879188423",
+      "capturedAt": "2026-10-17T07:05:04Z"
+    }
+  ]
+}

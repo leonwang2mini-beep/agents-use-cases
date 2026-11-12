@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/claude-code.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "claude-code",
+  "name": "Claude Code",
+  "tagline": "Anthropic's terminal coding agent",
+  "url": "https://docs.anthropic.com/en/docs/claude-code",
+  "pricing": "Paid",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-02-28",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": 1,
+      "why": "Strongest terminal agent for real repos and long sessions."
+    },
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "page": "/best/code-review-agents.html",
+      "editorialRank": 2,
+      "why": "Strong on multi-file context and repo-aware critique."
+    },
+    {
+      "useCaseId": "discord-bot-ops",
+      "title": "Best Discord bot ops with agents",
+      "page": "/best/discord-bot-ops.html",
+      "editorialRank": 3,
+      "why": "Handy for longer bot refactors and test passes in the terminal."
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": 1,
+      "why": "Reads the repo and git history, then drafts release-ready notes."
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@ReignSwords",
+      "text": "I spent the morning kicking the tires on BAND for Developers — the desktop app that gives your AI coding agents a shared room to work in.\n\nLaunched 4 days ago (Oct 15) by Thenvoi AI. The pitch: you stop being the middleware between your agents.\n\nHere's how it actually works:\n\n1.",
+      "url": "https://x.com/ReignSwords/status/2111898545288888534",
+      "capturedAt": "2026-10-18T19:13:45Z"
+    },
+    {
+      "handle": "@gittrend_io",
+      "text": "A command center for running coding agents across all your machines. Run Claude Code, Codex, Cursor and more side by side. Link machines with a password, no SSH keys or port forwarding. On GitHub → autonomous-ai/openharness",
+      "url": "https://x.com/gittrend_io/status/2106589753697317133",
+      "capturedAt": "2026-10-04T03:38:30Z"
+    },
+    {
+      "handle": "@benchsmoke",
+      "text": "LiteLLM open-sourced Moyai, the cloud coding agent its own team runs. You bring a Modal account and a LiteLLM gateway, then pick the agent, like Codex, Claude Code or OpenCode. Its 79% savings figure is LiteLLM's internal estimate, not a matched benchmark. News, not a test.",
+      "url": "https://x.com/benchsmoke/status/2113000866177536180",
+      "capturedAt": "2026-10-21T20:13:58Z"
+    },
+    {
+      "handle": "@ai_radar_",
+      "text": "Trending AI repo: headroomlabs-ai/headroom — compresses tool outputs and logs before they reach the LLM. ★76.5k, ~20% fewer tokens for coding agents; library, proxy or MCP server.",
+      "url": "https://x.com/ai_radar_/status/2112512931640529250",
+      "capturedAt": "2026-10-20T11:55:06Z"
+    },
+    {
+      "handle": "@VT_zero1",
+      "text": "Top AI repos: stablyai/orca — one app for running a team of coding agents (Claude Code, Codex) on your own subscriptions, desktop + mobile + remote.",
+      "url": "https://x.com/VT_zero1/status/2112317911381795143",
+      "capturedAt": "2026-10-19T23:00:09Z"
+    },
+    {
+      "handle": "@bibryam",
+      "text": "CLI-Anything is essentially a CLI generator that makes GUI-first applications accessible to AI agents — analyze source, generate CLI, integrate.",
+      "url": "https://x.com/bibryam/status/2112156811130552461",
+      "capturedAt": "2026-10-19T12:20:00Z"
+    }
+  ]
+}

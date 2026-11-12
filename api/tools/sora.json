@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/sora.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "sora",
+  "name": "Sora",
+  "tagline": "OpenAI's text-to-video model",
+  "url": "https://openai.com/sora",
+  "pricing": "Paid",
+  "categories": [
+    "ai-video"
+  ],
+  "added": "2026-10-10",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "ai-video",
+      "title": "Best AI video tools",
+      "page": "/best/ai-video.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

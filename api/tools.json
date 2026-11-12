@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.0.10",
-    "updated": "2026-11-06",
+    "version": "1.0.12",
+    "updated": "2026-11-12",
     "note": "Seed catalog — public well-known tools; expand carefully"
   },
   "tools": [
@@ -1054,6 +1054,92 @@
         "coding-agents"
       ],
       "added": "2026-11-09",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "67js",
+      "name": "67js",
+      "tagline": "MIT WebGL2 3D engine with a 23-tool MCP server, so Claude Code, Codex or any MCP agent can build a scene as JSON, render real-time or path-traced frames, PNG sequences or MP4, then review labeled views and fix what looks wrong",
+      "url": "https://github.com/codepawl/67.js",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "ai-video",
+        "game-npc-prototyping"
+      ],
+      "added": "2026-11-10",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "sandbox-mcp",
+      "name": "sandbox-mcp",
+      "tagline": "MIT CLI (sbx) plus optional MCP server by Scott Hanselman that boots a fresh, network-off Windows Sandbox, deploys your app, drives it with UI Automation, keeps screenshots and crash evidence, then deletes the machine — catches \"works on my machine\" bugs in ~40-50 s (needs Windows Pro/Enterprise/Education)",
+      "url": "https://github.com/shanselman/sandbox-mcp",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "browser-qa",
+        "coding-agents",
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-11-11",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "poki",
+      "name": "Poki",
+      "tagline": "AGPL-3.0 local MCP server and terminal agent that lets Claude Code, Codex or any MCP client operate a real iPhone over USB — no jailbreak, no extra hardware — and remembers past tasks to replay them faster; it really sends and pays, so use a test device for risky flows",
+      "url": "https://github.com/JosssphZhou/poki",
+      "pricing": "Free",
+      "categories": [
+        "mcp-agent-tooling"
+      ],
+      "useCases": [
+        "mcp-agent-tooling",
+        "browser-qa"
+      ],
+      "added": "2026-11-11",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogurt",
+      "tagline": "MIT desktop app from Frigade for private AI meeting notes on Mac, Windows and Linux: records calls locally with no bot joining the meeting, transcribes with Whisper and summarizes with a local llama.cpp model into next steps by person, and ships an MCP server",
+      "url": "https://yogurt.so",
+      "pricing": "Free",
+      "categories": [
+        "meeting-notes-to-tasks"
+      ],
+      "useCases": [
+        "meeting-notes-to-tasks"
+      ],
+      "added": "2026-11-12",
+      "isNew": true,
+      "source": "editorial"
+    },
+    {
+      "id": "ovnfs",
+      "name": "ovnfs",
+      "tagline": "MIT CLI by Stencil that gives each coding agent its own copy-on-write checkout of any folder, git repo or not, without copying it; review with ovnfs diff, merge back with a three-way apply, and snapshot or fork checkouts — FUSE on Linux, NFS on macOS, no root",
+      "url": "https://github.com/stencil-hq/ovnfs",
+      "pricing": "Free",
+      "categories": [
+        "coding-agents"
+      ],
+      "useCases": [
+        "coding-agents",
+        "mcp-agent-tooling"
+      ],
+      "added": "2026-11-12",
       "isNew": true,
       "source": "editorial"
     }

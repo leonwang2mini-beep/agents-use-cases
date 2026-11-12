@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/parallel.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "parallel",
+  "name": "Parallel",
+  "tagline": "Web research agents for deep investigations",
+  "url": "https://parallel.ai",
+  "pricing": "Freemium",
+  "categories": [
+    "research"
+  ],
+  "added": "2026-10-12",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "research",
+      "title": "Best research tools",
+      "page": "/best/research.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/67js.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "67js",
+  "name": "67js",
+  "tagline": "MIT WebGL2 3D engine with a 23-tool MCP server, so Claude Code, Codex or any MCP agent can build a scene as JSON, render real-time or path-traced frames, PNG sequences or MP4, then review labeled views and fix what looks wrong",
+  "url": "https://github.com/codepawl/67.js",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-11-10",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "ai-video",
+      "title": "Best AI video tools",
+      "page": "/best/ai-video.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "game-npc-prototyping",
+      "title": "Best tools for game NPC prototyping",
+      "page": "/best/game-npc-prototyping.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@anxuanng",
+      "text": "Introducing 67js\n\nA 3D engine that any AI agent can drive, through 23 MCP tools (and counting)\n\nIt's open source, so you can use it right away",
+      "url": "https://x.com/anxuanng/status/2119480946340835771",
+      "capturedAt": "2026-11-08T17:23:30Z"
+    }
+  ]
+}

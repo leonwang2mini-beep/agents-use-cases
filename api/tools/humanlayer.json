@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/humanlayer.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "humanlayer",
+  "name": "HumanLayer",
+  "tagline": "Open-source (Apache 2.0) agent control plane: desktop/web UI, daemon, API, and Postgres sync for human-in-the-loop coding agents",
+  "url": "https://www.humanlayer.dev/",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-10-24",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@dexhorthy",
+      "text": "its time. (Open Sourcing HumanLayer)",
+      "url": "https://x.com/dexhorthy/status/2113750268043210767",
+      "capturedAt": "2026-10-23T21:51:50Z"
+    }
+  ]
+}

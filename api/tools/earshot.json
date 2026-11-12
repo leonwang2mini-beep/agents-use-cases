@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/earshot.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "earshot",
+  "name": "earshot",
+  "tagline": "CPU-only CLI, Python API and MCP server that lets coding agents listen to, review and make sound",
+  "url": "https://github.com/Leonxlnx/earshot",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "coding-agents"
+  ],
+  "added": "2026-10-28",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "ai-video",
+      "title": "Best AI video tools",
+      "page": "/best/ai-video.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@ReadmeRadar",
+      "text": "Your coding agent can't hear. earshot (3,016★ in 12 days) gives it ears: CLI, Python API and MCP server that turn audio into evidence an agent can reason about. CPU only. The catch: most CLI calls spend 20-40 s loading models.",
+      "url": "https://x.com/ReadmeRadar/status/2115120655335125355",
+      "capturedAt": "2026-10-27T16:37:15Z"
+    }
+  ]
+}

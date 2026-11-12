@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/chatgpt.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "tagline": "OpenAI chat for drafts, briefs, and everyday agent workflows",
+  "url": "https://chatgpt.com",
+  "pricing": "Freemium",
+  "categories": [
+    "ai-writing",
+    "research"
+  ],
+  "added": "2026-10-17",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "seo-draft",
+      "title": "Best AI SEO draft tools",
+      "page": "/best/seo-draft.html",
+      "editorialRank": 1,
+      "why": "Fast outlines and drafts when you already know the keyword intent."
+    },
+    {
+      "useCaseId": "scrape-to-brief",
+      "title": "Best scrape-to-brief workflows",
+      "page": "/best/scrape-to-brief.html",
+      "editorialRank": 3,
+      "why": "Fast at turning scraped notes into a structured brief."
+    },
+    {
+      "useCaseId": "meeting-notes-to-tasks",
+      "title": "Best meeting notes → tasks",
+      "page": "/best/meeting-notes-to-tasks.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": 3,
+      "why": "Paste commit messages and get a clean user-facing summary fast."
+    },
+    {
+      "useCaseId": "ai-writing",
+      "title": "Best AI writing for builders",
+      "page": "/best/ai-writing.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "game-npc-prototyping",
+      "title": "Best tools for game NPC prototyping",
+      "page": "/best/game-npc-prototyping.html",
+      "editorialRank": 2,
+      "why": "Quickest way to try dialogue loops before wiring a game engine."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

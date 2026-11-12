@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/firecrawl.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "tagline": "Turn websites into clean markdown for agents",
+  "url": "https://www.firecrawl.dev",
+  "pricing": "Freemium",
+  "categories": [
+    "research",
+    "agent-tooling"
+  ],
+  "added": "2026-10-17",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "scrape-to-brief",
+      "title": "Best scrape-to-brief workflows",
+      "page": "/best/scrape-to-brief.html",
+      "editorialRank": 1,
+      "why": "Best default when you need agent-ready markdown from messy sites."
+    },
+    {
+      "useCaseId": "research",
+      "title": "Best research tools",
+      "page": "/best/research.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "seo-draft",
+      "title": "Best AI SEO draft tools",
+      "page": "/best/seo-draft.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

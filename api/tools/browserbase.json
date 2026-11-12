@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/browserbase.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "browserbase",
+  "name": "Browserbase",
+  "tagline": "Headless browsers as a service for agents",
+  "url": "https://www.browserbase.com",
+  "pricing": "Freemium",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-05-18",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": 3,
+      "why": "Reliable headless browsers when agents need to click the web."
+    },
+    {
+      "useCaseId": "scrape-to-brief",
+      "title": "Best scrape-to-brief workflows",
+      "page": "/best/scrape-to-brief.html",
+      "editorialRank": 2,
+      "why": "Use when the page needs a real browser before you can extract."
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": 2,
+      "why": "Hosted browsers when your agent needs cloud sessions, not local Chrome."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

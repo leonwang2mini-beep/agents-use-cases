@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/luma-dream-machine.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "luma-dream-machine",
+  "name": "Luma Dream Machine",
+  "tagline": "Fast text-to-video with Ray2 models",
+  "url": "https://lumalabs.ai/dream-machine",
+  "pricing": "Freemium",
+  "categories": [
+    "ai-video"
+  ],
+  "added": "2025-10-22",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "ai-video",
+      "title": "Best AI video tools",
+      "page": "/best/ai-video.html",
+      "editorialRank": 3,
+      "why": "Fast iterations when you need volume over perfection."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/composio.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "composio",
+  "name": "Composio",
+  "tagline": "Managed tool integrations for agents",
+  "url": "https://composio.dev",
+  "pricing": "Freemium",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-04-02",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": 2,
+      "why": "Hundreds of managed integrations so you skip OAuth hell."
+    },
+    {
+      "useCaseId": "discord-bot-ops",
+      "title": "Best Discord bot ops with agents",
+      "page": "/best/discord-bot-ops.html",
+      "editorialRank": 1,
+      "why": "Skip OAuth glue — connect Discord actions into your agent stack."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

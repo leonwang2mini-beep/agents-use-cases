@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/grammarly.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "grammarly",
+  "name": "Grammarly",
+  "tagline": "Polish product copy and docs fast",
+  "url": "https://www.grammarly.com",
+  "pricing": "Freemium",
+  "categories": [
+    "ai-writing"
+  ],
+  "added": "2025-04-12",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "ai-writing",
+      "title": "Best AI writing for builders",
+      "page": "/best/ai-writing.html",
+      "editorialRank": 3,
+      "why": "Quick polish for READMEs, emails, and landing pages."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

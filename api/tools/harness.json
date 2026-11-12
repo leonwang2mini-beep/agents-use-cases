@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/harness.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "harness",
+  "name": "Harness",
+  "tagline": "Open-source command center for coding agents across every machine",
+  "url": "https://www.autonomous.ai/harness",
+  "pricing": "Freemium",
+  "categories": [
+    "coding-agents",
+    "coding-editors"
+  ],
+  "added": "2026-10-22",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "page": "/best/coding-editors.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@gittrend_io",
+      "text": "A command center for running coding agents across all your machines. Run Claude Code, Codex, Cursor and more side by side. Link machines with a password, no SSH keys or port forwarding. On GitHub → autonomous-ai/openharness",
+      "url": "https://x.com/gittrend_io/status/2106589753697317133",
+      "capturedAt": "2026-10-04T03:38:30Z"
+    }
+  ]
+}

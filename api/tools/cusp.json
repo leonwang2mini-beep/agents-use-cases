@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/cusp.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "cusp",
+  "name": "Cusp",
+  "tagline": "Model-agnostic coding agent workspace — any provider, CLI + desktop, session rewind",
+  "url": "https://cusp.run",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents",
+    "coding-editors"
+  ],
+  "added": "2026-10-26",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "page": "/best/coding-editors.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@DiuRA15WSdE6zVp",
+      "text": "どのモデルでも使えるコーディングエージェント「Cusp 0.1」のプレビューが公開。GPTにはapply_patch、Claudeには文字列置換とモデルごとに慣れた編集方法を渡し、崩れたツール呼び出しも修復する。CLAUDE.mdやMCP設定もそのまま読む。",
+      "url": "https://x.com/DiuRA15WSdE6zVp/status/2114493948106608810",
+      "capturedAt": "2026-10-25T23:06:57Z"
+    }
+  ]
+}

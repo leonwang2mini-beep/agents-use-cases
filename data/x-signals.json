@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updated": "2026-11-06",
+    "updated": "2026-11-12",
     "note": "Mixed: demo seed cards + real X captures from daily ops scanner. Prefer real urls when present.",
     "scanner": {
       "status": "placeholder",
@@ -593,6 +593,98 @@
         "reposts": 0
       },
       "capturedAt": "2026-11-07T14:05:55Z"
+    },
+    {
+      "id": "x-real-67js-2026-11-08-anxuanng",
+      "handle": "@anxuanng",
+      "displayName": "An Xuan",
+      "text": "Introducing 67js\n\nA 3D engine that any AI agent can drive, through 23 MCP tools (and counting)\n\nIt's open source, so you can use it right away",
+      "url": "https://x.com/anxuanng/status/2119480946340835771",
+      "useCaseIds": [
+        "mcp-agent-tooling",
+        "ai-video"
+      ],
+      "toolIds": [
+        "67js"
+      ],
+      "engagement": {
+        "likes": 1376,
+        "reposts": 98
+      },
+      "capturedAt": "2026-11-08T17:23:30Z"
+    },
+    {
+      "id": "x-real-sandbox-mcp-2026-11-07-shanselman",
+      "handle": "@shanselman",
+      "displayName": "Scott Hanselman 🌮",
+      "text": "A lot of people don't realize that Windows has a built-in feature called Windows \"Sandbox\" that boots up a brand new virtual Windows machine in seconds. So I made an MCP server so you can test your apps inside a throwaway machine in seconds.",
+      "url": "https://x.com/shanselman/status/2118945554734723467",
+      "useCaseIds": [
+        "browser-qa",
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "sandbox-mcp"
+      ],
+      "engagement": {
+        "likes": 1912,
+        "reposts": 298
+      },
+      "capturedAt": "2026-11-07T05:56:03Z"
+    },
+    {
+      "id": "x-real-poki-2026-11-04-openmys",
+      "handle": "@openmys",
+      "displayName": "JosephZhou",
+      "text": "向大家介绍 POKI —— 一个能够真正接管并操控你 iPhone 的 iOS Agent\n\n它可以运行在任何地方，支持通过多种方式随时调用：\n• 信息 (iMessage)\n• Telegram\n• 终端 (Terminal)\n• 原生 iOS App",
+      "url": "https://x.com/openmys/status/2118031928352006420",
+      "useCaseIds": [
+        "mcp-agent-tooling"
+      ],
+      "toolIds": [
+        "poki"
+      ],
+      "engagement": {
+        "likes": 1661,
+        "reposts": 172
+      },
+      "capturedAt": "2026-11-04T17:25:37Z"
+    },
+    {
+      "id": "x-real-yogurt-2026-11-11-codebubdotcom",
+      "handle": "@codebubdotcom",
+      "displayName": "CodeBub",
+      "text": "This app writes your meeting notes without a bot joining the call!\n\nYogurt records your calls on your own machine, so no bot shows up in the meeting.\n\nIt can replace a paid meeting-notes subscription like Granola, and your notes stay with you.",
+      "url": "https://x.com/codebubdotcom/status/2120589536476680587",
+      "useCaseIds": [
+        "meeting-notes-to-tasks"
+      ],
+      "toolIds": [
+        "yogurt"
+      ],
+      "engagement": {
+        "likes": 1,
+        "reposts": 0
+      },
+      "capturedAt": "2026-11-11T18:48:38Z"
+    },
+    {
+      "id": "x-real-ovnfs-2026-11-11-everydevai",
+      "handle": "@EveryDevAi",
+      "displayName": "EveryDev.ai",
+      "text": "Letting an agent loose in your working folder means cleaning up half-finished edits afterward. ovnfs from @stencil_labs gives each agent an isolated copy-on-write checkout of any folder, git repo or not. You review changes with diff and merge back with three-way apply.",
+      "url": "https://x.com/EveryDevAi/status/2120305756704796736",
+      "useCaseIds": [
+        "coding-agents"
+      ],
+      "toolIds": [
+        "ovnfs"
+      ],
+      "engagement": {
+        "likes": 0,
+        "reposts": 0
+      },
+      "capturedAt": "2026-11-11T00:01:00Z"
     }
   ]
 }

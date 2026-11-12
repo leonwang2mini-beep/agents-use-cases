@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/pixelfx.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "pixelfx",
+  "name": "pixelfx",
+  "tagline": "MIT library of 244 code-only pixel art effects (fire, magic, weather, UI, character moves) you can play, recolor and export as sprite sheets, plus a Claude Code skill that drafts, renders, looks and refines new effects",
+  "url": "https://github.com/patch-gg/pixelfx",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-11-05",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "game-npc-prototyping",
+      "title": "Best tools for game NPC prototyping",
+      "page": "/best/game-npc-prototyping.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

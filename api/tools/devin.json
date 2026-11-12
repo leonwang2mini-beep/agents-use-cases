@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/devin.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "devin",
+  "name": "Devin",
+  "tagline": "Autonomous software engineering agent",
+  "url": "https://devin.ai",
+  "pricing": "Paid",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2025-12-01",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@TanveerDhool",
+      "text": "LiteLLM just open-sourced its escape from a $101,872 Devin bill. Moyai — a self-hosted cloud coding agent tasked from Slack — cost ~$21,700 for the same 31 days. ~79% less. The managed-agent markup is the real AI tax. Build or buy — what is your call?",
+      "url": "https://x.com/TanveerDhool/status/2110934200350072893",
+      "capturedAt": "2026-10-16T03:21:47Z"
+    }
+  ]
+}
