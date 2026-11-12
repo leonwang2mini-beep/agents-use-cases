@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/agent-desktop.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "agent-desktop",
+  "name": "agent-desktop",
+  "tagline": "Vercel Labs CLI that gives any coding agent computer use on macOS, Windows and Linux by reading the OS accessibility tree instead of guessing from pixels",
+  "url": "https://github.com/vercel-labs/agent-desktop",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "browser-qa"
+  ],
+  "added": "2026-11-03",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@ctatedev",
+      "text": "Introducing agent-desktop: agent-browser, for your whole computer. Computer Use for any coding agent on macOS, Windows and Linux; runs in the background while you keep working; agents use your computer in parallel, each with its own cursor.",
+      "url": "https://x.com/ctatedev/status/2116323148706771302",
+      "capturedAt": "2026-10-31T00:15:32Z"
+    }
+  ]
+}

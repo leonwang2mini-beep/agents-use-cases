@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/cli-anything.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "cli-anything",
+  "name": "CLI-Anything",
+  "tagline": "Turn GUI apps into agent-native CLIs (JSON output + skill hub)",
+  "url": "https://clianything.cc/",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "coding-agents"
+  ],
+  "added": "2026-10-20",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@bibryam",
+      "text": "CLI-Anything is essentially a CLI generator that makes GUI-first applications accessible to AI agents — analyze source, generate CLI, integrate.",
+      "url": "https://x.com/bibryam/status/2112156811130552461",
+      "capturedAt": "2026-10-19T12:20:00Z"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/exa.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "exa",
+  "name": "Exa",
+  "tagline": "Neural search API built for AI agents",
+  "url": "https://exa.ai",
+  "pricing": "Freemium",
+  "categories": [
+    "research",
+    "agent-tooling"
+  ],
+  "added": "2026-01-14",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "research",
+      "title": "Best research tools",
+      "page": "/best/research.html",
+      "editorialRank": 2,
+      "why": "Neural search that returns pages agents can actually use."
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

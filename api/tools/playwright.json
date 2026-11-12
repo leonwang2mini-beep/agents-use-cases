@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/playwright.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "playwright",
+  "name": "Playwright",
+  "tagline": "Reliable browser automation and end-to-end tests",
+  "url": "https://playwright.dev",
+  "pricing": "Free",
+  "categories": [
+    "agent-tooling",
+    "qa"
+  ],
+  "added": "2026-10-17",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": 1,
+      "why": "Industry default for stable e2e tests agents can generate and run."
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

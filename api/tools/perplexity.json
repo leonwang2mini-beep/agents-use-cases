@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/perplexity.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "perplexity",
+  "name": "Perplexity",
+  "tagline": "Answer engine with live web citations",
+  "url": "https://www.perplexity.ai",
+  "pricing": "Freemium",
+  "categories": [
+    "research"
+  ],
+  "added": "2025-11-02",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "research",
+      "title": "Best research tools",
+      "page": "/best/research.html",
+      "editorialRank": 1,
+      "why": "Best default for fast, cited answers without leaving the browser."
+    },
+    {
+      "useCaseId": "seo-draft",
+      "title": "Best AI SEO draft tools",
+      "page": "/best/seo-draft.html",
+      "editorialRank": 3,
+      "why": "Cite live sources while you map angles and competing pages."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

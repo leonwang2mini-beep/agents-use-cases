@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/nitrostack.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "nitrostack",
+  "name": "NitroStack",
+  "tagline": "Full-stack MCP platform — open-source SDK, Studio, and managed hosting",
+  "url": "https://nitrostack.ai/",
+  "pricing": "Freemium",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-10-21",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@nitrostackai",
+      "text": "NitroStack is LIVE on Product Hunt today! Build, test, and deploy MCP servers in one place, from first tool definition to production.",
+      "url": "https://x.com/nitrostackai/status/2111352780879188423",
+      "capturedAt": "2026-10-17T07:05:04Z"
+    }
+  ]
+}

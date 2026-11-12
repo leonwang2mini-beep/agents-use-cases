@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/octomind.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "octomind",
+  "name": "Octomind",
+  "tagline": "Apache-2.0 Rust coding-agent harness in one binary — any model, MCP-native tools, TOML guardrails instead of approval popups; runs as CLI, CI pipe, daemon, WebSocket or ACP in your editor",
+  "url": "https://github.com/Muvon/octomind",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents",
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-11-06",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@AISuperDomain",
+      "text": "发现一个值得关注的开源 AI 编程项目：Octomind！它基于 Rust 开发，将 AI Coding Agent 封装成单个二进制程序，支持 OpenAI、Anthropic、DeepSeek、Ollama 等多种模型。核心亮点：MCP 原生支持，可读写代码、执行命令、调用子 Agent；支持 CLI、CI/CD、后台 Daemon、WebSocket。",
+      "url": "https://x.com/AISuperDomain/status/2118351148835098986",
+      "capturedAt": "2026-11-05T14:34:05Z"
+    }
+  ]
+}

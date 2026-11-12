@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/mcpjungle.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "mcpjungle",
+  "name": "MCPJungle",
+  "tagline": "Self-hosted MPL-2.0 MCP gateway: register servers once and point Claude, Cursor, Codex or your own agents at a single endpoint with unified discovery and optional tool groups",
+  "url": "https://github.com/mcpjungle/MCPJungle",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-11-06",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@DanKornas",
+      "text": "Stop configuring every MCP server in every AI client. MCPJungle is a self-hosted MCP gateway for developers and teams managing multiple MCP servers. It helps you cut duplicated setup by registering servers once and connecting Claude, Cursor, Codex, or your own agents to a single endpoint.",
+      "url": "https://x.com/DanKornas/status/2116772873528328635",
+      "capturedAt": "2026-11-01T06:02:35Z"
+    }
+  ]
+}

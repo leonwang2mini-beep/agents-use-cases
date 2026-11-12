@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/fx.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "fx",
+  "name": "fx",
+  "tagline": "Tiny Zig coding agent from Vercel Labs — CLI, scripts, or embed via libfx/Wasm",
+  "url": "https://fx.sh",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-10-23",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@InfoQ",
+      "text": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/ by Daniel Curtis",
+      "url": "https://x.com/InfoQ/status/2113205646468567254",
+      "capturedAt": "2026-10-22T09:47:42Z"
+    },
+    {
+      "handle": "@AverageAiBro",
+      "text": "You want a coding agent inside a CI job or a sandbox, and the first step is installing a whole runtime, waiting on a heavy startup, and watching it take over the terminal. Then it ignores your shell aliases and PATH and fails on the first command.\n\nfx is an experimental,",
+      "url": "https://x.com/AverageAiBro/status/2110578662479405229",
+      "capturedAt": "2026-10-15T03:49:00Z"
+    }
+  ]
+}

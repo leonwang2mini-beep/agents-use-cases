@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/headroom.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "headroom",
+  "name": "Headroom",
+  "tagline": "Local context compression for agents — fewer tokens, same answers (library/proxy/MCP)",
+  "url": "https://www.headroomlabs.ai/",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "coding-agents"
+  ],
+  "added": "2026-10-21",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@ai_radar_",
+      "text": "Trending AI repo: headroomlabs-ai/headroom — compresses tool outputs and logs before they reach the LLM. ★76.5k, ~20% fewer tokens for coding agents; library, proxy or MCP server.",
+      "url": "https://x.com/ai_radar_/status/2112512931640529250",
+      "capturedAt": "2026-10-20T11:55:06Z"
+    }
+  ]
+}

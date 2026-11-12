@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/cursor.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "cursor",
+  "name": "Cursor",
+  "tagline": "AI-native code editor for builders",
+  "url": "https://cursor.com",
+  "pricing": "Freemium",
+  "categories": [
+    "coding-editors"
+  ],
+  "added": "2025-06-01",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "page": "/best/coding-editors.html",
+      "editorialRank": 1,
+      "why": "Still the sweet spot for AI-native editing and multi-file changes."
+    },
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "page": "/best/code-review-agents.html",
+      "editorialRank": 1,
+      "why": "Inline review in the editor where the diff already lives."
+    },
+    {
+      "useCaseId": "discord-bot-ops",
+      "title": "Best Discord bot ops with agents",
+      "page": "/best/discord-bot-ops.html",
+      "editorialRank": 2,
+      "why": "Best place to ship bot code and iterate on handlers fast."
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": 2,
+      "why": "Great for editing changelog drafts beside the actual PR diff."
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": 3,
+      "why": "Write and fix Playwright specs in the same place you ship the app."
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@gittrend_io",
+      "text": "A command center for running coding agents across all your machines. Run Claude Code, Codex, Cursor and more side by side. Link machines with a password, no SSH keys or port forwarding. On GitHub → autonomous-ai/openharness",
+      "url": "https://x.com/gittrend_io/status/2106589753697317133",
+      "capturedAt": "2026-10-04T03:38:30Z"
+    }
+  ]
+}

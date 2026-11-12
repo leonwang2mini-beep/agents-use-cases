@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/fireflies.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "fireflies",
+  "name": "Fireflies.ai",
+  "tagline": "Meeting transcripts and action items for builder teams",
+  "url": "https://fireflies.ai",
+  "pricing": "Freemium",
+  "categories": [
+    "productivity"
+  ],
+  "added": "2026-10-17",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "meeting-notes-to-tasks",
+      "title": "Best meeting notes → tasks",
+      "page": "/best/meeting-notes-to-tasks.html",
+      "editorialRank": 1,
+      "why": "Reliable transcripts plus action items straight from the call."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

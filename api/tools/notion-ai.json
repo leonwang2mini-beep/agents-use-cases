@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/notion-ai.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "notion-ai",
+  "name": "Notion AI",
+  "tagline": "Writing and docs inside the builder workspace",
+  "url": "https://www.notion.so/product/ai",
+  "pricing": "Paid",
+  "categories": [
+    "ai-writing"
+  ],
+  "added": "2025-05-01",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "ai-writing",
+      "title": "Best AI writing for builders",
+      "page": "/best/ai-writing.html",
+      "editorialRank": 1,
+      "why": "Best when your docs already live in Notion."
+    },
+    {
+      "useCaseId": "meeting-notes-to-tasks",
+      "title": "Best meeting notes → tasks",
+      "page": "/best/meeting-notes-to-tasks.html",
+      "editorialRank": 2,
+      "why": "Best when tasks should land next to the rest of your docs."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

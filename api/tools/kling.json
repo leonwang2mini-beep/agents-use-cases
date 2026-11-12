@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/kling.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "kling",
+  "name": "Kling AI",
+  "tagline": "Long-form cinematic video generation",
+  "url": "https://klingai.com",
+  "pricing": "Freemium",
+  "categories": [
+    "ai-video"
+  ],
+  "added": "2026-01-05",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "ai-video",
+      "title": "Best AI video tools",
+      "page": "/best/ai-video.html",
+      "editorialRank": 2,
+      "why": "Strong motion and longer clips for cinematic demos."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

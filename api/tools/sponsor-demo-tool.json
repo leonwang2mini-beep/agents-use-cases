@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/sponsor-demo-tool.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "sponsor-demo-tool",
+  "name": "[DEMO] AgentStack Pro",
+  "tagline": "Inactive demo seed — not a real product or live sponsor",
+  "url": "https://example.com/agentstack-pro",
+  "pricing": "Paid",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-10-01",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

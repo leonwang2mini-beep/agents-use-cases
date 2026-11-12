@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/agent-autoloop.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "agent-autoloop",
+  "name": "Agent Autoloop",
+  "tagline": "Self-hosted MIT hub that hands cron jobs, GitHub issues and error reports to Claude Code, Codex or any CLI agent in the background, and only pings you on Feishu, Slack, DingTalk or desktop when a risky step needs your call; the agent exits while waiting, so no tokens burn",
+  "url": "https://github.com/KKKKhazix/agent-autoloop",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-11-05",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@LLMpsycho",
+      "text": "Agent Autoloop lets Claude Code, Codex or any CLI agent pick up cron jobs, GitHub issues and errors in the background. Before deleting data or spending money it sends a Slack or Feishu card, exits while waiting, then resumes the same session.",
+      "url": "https://x.com/LLMpsycho/status/2117894100519448763",
+      "capturedAt": "2026-11-04T08:17:56Z"
+    },
+    {
+      "handle": "@DeaglePc",
+      "text": "卡兹克今天开源 Agent-Autoloop，把等人审批改成了“存档下班”：发完卡片，Agent退出；你点了再接着干。按作者介绍，等待期间不调用模型。",
+      "url": "https://x.com/DeaglePc/status/2117804336466309175",
+      "capturedAt": "2026-11-04T02:21:15Z"
+    }
+  ]
+}

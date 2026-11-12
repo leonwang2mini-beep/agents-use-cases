@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/poki.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "poki",
+  "name": "Poki",
+  "tagline": "AGPL-3.0 local MCP server and terminal agent that lets Claude Code, Codex or any MCP client operate a real iPhone over USB — no jailbreak, no extra hardware — and remembers past tasks to replay them faster; it really sends and pays, so use a test device for risky flows",
+  "url": "https://github.com/JosssphZhou/poki",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling"
+  ],
+  "added": "2026-11-11",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "browser-qa",
+      "title": "Best browser QA for agents",
+      "page": "/best/browser-qa.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@openmys",
+      "text": "向大家介绍 POKI —— 一个能够真正接管并操控你 iPhone 的 iOS Agent\n\n它可以运行在任何地方，支持通过多种方式随时调用：\n• 信息 (iMessage)\n• Telegram\n• 终端 (Terminal)\n• 原生 iOS App",
+      "url": "https://x.com/openmys/status/2118031928352006420",
+      "capturedAt": "2026-11-04T17:25:37Z"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/ovnfs.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "ovnfs",
+  "name": "ovnfs",
+  "tagline": "MIT CLI by Stencil that gives each coding agent its own copy-on-write checkout of any folder, git repo or not, without copying it; review with ovnfs diff, merge back with a three-way apply, and snapshot or fork checkouts — FUSE on Linux, NFS on macOS, no root",
+  "url": "https://github.com/stencil-hq/ovnfs",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-11-12",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@EveryDevAi",
+      "text": "Letting an agent loose in your working folder means cleaning up half-finished edits afterward. ovnfs from @stencil_labs gives each agent an isolated copy-on-write checkout of any folder, git repo or not. You review changes with diff and merge back with three-way apply.",
+      "url": "https://x.com/EveryDevAi/status/2120305756704796736",
+      "capturedAt": "2026-11-11T00:01:00Z"
+    }
+  ]
+}

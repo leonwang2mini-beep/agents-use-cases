@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/devtools-aider.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "devtools-aider",
+  "name": "Aider",
+  "tagline": "Pair programming in your terminal with any LLM",
+  "url": "https://aider.chat",
+  "pricing": "Free",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2025-08-15",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/band.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "band",
+  "name": "BAND for Developers",
+  "tagline": "Desktop control room so Claude Code, Codex, Copilot & friends share context and hand off work",
+  "url": "https://www.band.ai/download",
+  "pricing": "Freemium",
+  "categories": [
+    "coding-agents",
+    "coding-editors"
+  ],
+  "added": "2026-10-23",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-editors",
+      "title": "Best AI coding editors",
+      "page": "/best/coding-editors.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@ReignSwords",
+      "text": "I spent the morning kicking the tires on BAND for Developers — the desktop app that gives your AI coding agents a shared room to work in.\n\nLaunched 4 days ago (Oct 15) by Thenvoi AI. The pitch: you stop being the middleware between your agents.\n\nHere's how it actually works:\n\n1.",
+      "url": "https://x.com/ReignSwords/status/2111898545288888534",
+      "capturedAt": "2026-10-18T19:13:45Z"
+    }
+  ]
+}

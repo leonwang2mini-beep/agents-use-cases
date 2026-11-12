@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/security-audit-skill.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "security-audit-skill",
+  "name": "Cloudflare security-audit skill",
+  "tagline": "Coding-agent skill from Cloudflare that runs a six-phase security audit where fresh agents try to disprove every finding before it reaches the report",
+  "url": "https://github.com/cloudflare/security-audit-skill",
+  "pricing": "Free",
+  "categories": [
+    "code-review-agents"
+  ],
+  "added": "2026-11-03",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "page": "/best/code-review-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@Obi_Ryder",
+      "text": "One agent finds a bug. A fresh agent tries to prove it wrong. Cloudflare's Security Audit skill is MIT licensed. Model costs still apply; it isn't continuous security monitoring. Would you use this before shipping?",
+      "url": "https://x.com/Obi_Ryder/status/2116473170387509482",
+      "capturedAt": "2026-10-31T10:11:40Z"
+    }
+  ]
+}

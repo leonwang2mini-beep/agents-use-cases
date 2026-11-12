@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/rea.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "rea",
+  "name": "REA",
+  "tagline": "Open-source MCP/CLI so Claude Code, Codex & Cursor can reverse-engineer apps without source",
+  "url": "https://rea.tools",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "coding-agents"
+  ],
+  "added": "2026-10-26",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "page": "/best/code-review-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@0xasten",
+      "text": "On the breakout board, leanrea (+304% this week) makes the opposite bet to rea: one small skill file that has the agent reverse-engineer with otool, nm and jadx instead of a server full of tools. Server or skill file, which would you run?",
+      "url": "https://x.com/0xasten/status/2114901572123873373",
+      "capturedAt": "2026-10-27T02:06:42Z"
+    },
+    {
+      "handle": "@vartekxx",
+      "text": "REA creator just released REA agents\n\nyour coding agent can now investigate how an app works, down to its native binaries\n\nconnect REA to Claude Code, Codex or Cursor and your agent can:\n\n→ inspect apps without their source code\n→ trace features through modules and function",
+      "url": "https://x.com/vartekxx/status/2114479423034462358",
+      "capturedAt": "2026-10-25T22:09:14Z"
+    }
+  ]
+}

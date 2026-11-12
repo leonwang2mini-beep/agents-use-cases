@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/codebase-memory-mcp.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "codebase-memory-mcp",
+  "name": "codebase-memory-mcp",
+  "tagline": "Open-source MCP server that turns your repo into a queryable code graph for coding agents",
+  "url": "https://github.com/DeusData/codebase-memory-mcp",
+  "pricing": "Free",
+  "categories": [
+    "mcp-agent-tooling",
+    "coding-agents"
+  ],
+  "added": "2026-10-27",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "mcp-agent-tooling",
+      "title": "Best MCP servers / agent tooling",
+      "page": "/best/mcp-agent-tooling.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "page": "/best/code-review-agents.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@techleadcorner",
+      "text": "codebase-memory-mcp is an open source MCP server that turns your codebase into a queryable knowledge graph, so your AI coding agent can answer structural questions without reading files one by one.",
+      "url": "https://x.com/techleadcorner/status/2114553190540820760",
+      "capturedAt": "2026-10-26T03:02:21Z"
+    }
+  ]
+}

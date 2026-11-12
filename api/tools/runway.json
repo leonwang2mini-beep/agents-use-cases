@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/runway.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "runway",
+  "name": "Runway",
+  "tagline": "Gen-3 / Gen-4 video generation for creators",
+  "url": "https://runwayml.com",
+  "pricing": "Freemium",
+  "categories": [
+    "ai-video"
+  ],
+  "added": "2025-07-10",
+  "isNew": false,
+  "useCases": [
+    {
+      "useCaseId": "ai-video",
+      "title": "Best AI video tools",
+      "page": "/best/ai-video.html",
+      "editorialRank": 1,
+      "why": "Most polished creator workflow from prompt to edit."
+    }
+  ],
+  "featured": [],
+  "xSignals": []
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "updated": "2026-11-12",
+    "baseUrl": "https://agents-use-cases.vercel.app",
+    "page": "https://agents-use-cases.vercel.app/tools/openai-codex.html",
+    "note": "useCases[].editorialRank is unpaid opinion; featured[] is paid and labeled."
+  },
+  "id": "openai-codex",
+  "name": "OpenAI Codex",
+  "tagline": "Local coding agent from OpenAI — CLI, IDE, and cloud handoff",
+  "url": "https://developers.openai.com/codex/",
+  "pricing": "Freemium",
+  "categories": [
+    "coding-agents"
+  ],
+  "added": "2026-10-19",
+  "isNew": true,
+  "useCases": [
+    {
+      "useCaseId": "coding-agents",
+      "title": "Best coding agents",
+      "page": "/best/coding-agents.html",
+      "editorialRank": 2,
+      "why": "Best ChatGPT-plan coding agent — CLI, IDE, review, and cloud tasks in one harness."
+    },
+    {
+      "useCaseId": "code-review-agents",
+      "title": "Best agents for code review",
+      "page": "/best/code-review-agents.html",
+      "editorialRank": null,
+      "why": null
+    },
+    {
+      "useCaseId": "pr-changelog",
+      "title": "Best PR → changelog agents",
+      "page": "/best/pr-changelog.html",
+      "editorialRank": null,
+      "why": null
+    }
+  ],
+  "featured": [],
+  "xSignals": [
+    {
+      "handle": "@ReignSwords",
+      "text": "I spent the morning kicking the tires on BAND for Developers — the desktop app that gives your AI coding agents a shared room to work in.\n\nLaunched 4 days ago (Oct 15) by Thenvoi AI. The pitch: you stop being the middleware between your agents.\n\nHere's how it actually works:\n\n1.",
+      "url": "https://x.com/ReignSwords/status/2111898545288888534",
+      "capturedAt": "2026-10-18T19:13:45Z"
+    },
+    {
+      "handle": "@gittrend_io",
+      "text": "A command center for running coding agents across all your machines. Run Claude Code, Codex, Cursor and more side by side. Link machines with a password, no SSH keys or port forwarding. On GitHub → autonomous-ai/openharness",
+      "url": "https://x.com/gittrend_io/status/2106589753697317133",
+      "capturedAt": "2026-10-04T03:38:30Z"
+    },
+    {
+      "handle": "@benchsmoke",
+      "text": "LiteLLM open-sourced Moyai, the cloud coding agent its own team runs. You bring a Modal account and a LiteLLM gateway, then pick the agent, like Codex, Claude Code or OpenCode. Its 79% savings figure is LiteLLM's internal estimate, not a matched benchmark. News, not a test.",
+      "url": "https://x.com/benchsmoke/status/2113000866177536180",
+      "capturedAt": "2026-10-21T20:13:58Z"
+    },
+    {
+      "handle": "@VT_zero1",
+      "text": "Top AI repos: stablyai/orca — one app for running a team of coding agents (Claude Code, Codex) on your own subscriptions, desktop + mobile + remote.",
+      "url": "https://x.com/VT_zero1/status/2112317911381795143",
+      "capturedAt": "2026-10-19T23:00:09Z"
+    },
+    {
+      "handle": "@LLMpsycho",
+      "text": "Agent Autoloop lets Claude Code, Codex or any CLI agent pick up cron jobs, GitHub issues and errors in the background. Before deleting data or spending money it sends a Slack or Feishu card, exits while waiting, then resumes the same session.",
+      "url": "https://x.com/LLMpsycho/status/2117894100519448763",
+      "capturedAt": "2026-11-04T08:17:56Z"
+    }
+  ]
+}
